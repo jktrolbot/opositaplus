@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { isDemoSlugSupported, seedDemoData } from '@/lib/demo-data';
+import { useAuth } from '@/lib/auth-context';
 
 interface DemoSeedActionsProps {
   slug: string;
@@ -11,6 +12,7 @@ interface DemoSeedActionsProps {
 
 export function DemoSeedActions({ slug }: DemoSeedActionsProps) {
   const router = useRouter();
+  const { isLoggedIn, login } = useAuth();
   const autoSeeded = useRef(false);
   const isSupported = isDemoSlugSupported(slug);
 
@@ -20,9 +22,12 @@ export function DemoSeedActions({ slug }: DemoSeedActionsProps) {
     if (params.get('demo') !== 'true') return;
 
     autoSeeded.current = true;
+    if (!isLoggedIn) {
+      login('demo@opositaplus.es', 'demo1234');
+    }
     seedDemoData(slug);
     router.replace(`/oposiciones/${slug}/dashboard`);
-  }, [isSupported, router, slug]);
+  }, [isSupported, isLoggedIn, login, router, slug]);
 
   if (!isSupported) return null;
 

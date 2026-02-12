@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { SiteNav } from '@/components/site-nav';
+import { AuthProvider } from '@/lib/auth-context';
 
 export const metadata: Metadata = {
   title: 'Oposita+ | Preparación por oposiciones',
@@ -16,8 +17,10 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="min-h-screen bg-[#F8FAFC] text-slate-900 antialiased">
-        <SiteNav />
-        {children}
+        <AuthProvider>
+          <SiteNav />
+          {children}
+        </AuthProvider>
       </body>
     </html>
   );

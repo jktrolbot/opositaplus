@@ -21,6 +21,7 @@ import { oposiciones } from '@/data/oposiciones';
 import { storage } from '@/lib/storage';
 import { OposicionNotFound } from '@/components/oposiciones/not-found';
 import { OposicionPageHeader } from '@/components/oposiciones/page-header';
+import { AuthGuard } from '@/components/auth-guard';
 
 export default function OposicionDashboardPage() {
   const params = useParams<{ slug: string }>();
@@ -36,7 +37,11 @@ export default function OposicionDashboardPage() {
   );
 
   if (!oposicion) {
-    return <OposicionNotFound />;
+    return (
+      <AuthGuard>
+        <OposicionNotFound />
+      </AuthGuard>
+    );
   }
 
   const safeProgress = progress ?? {
@@ -67,11 +72,12 @@ export default function OposicionDashboardPage() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-50">
-      <OposicionPageHeader oposicion={oposicion} current="Dashboard" />
+    <AuthGuard>
+      <main className="min-h-screen bg-slate-50">
+        <OposicionPageHeader oposicion={oposicion} current="Dashboard" />
 
-      <section className="mx-auto max-w-6xl px-4 py-6">
-        <h2 className="mb-5 text-2xl font-bold text-slate-900">Panel de progreso</h2>
+        <section className="mx-auto max-w-6xl px-4 py-6">
+          <h2 className="mb-5 text-2xl font-bold text-slate-900">Panel de progreso</h2>
 
         <div className="mb-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <Card>
@@ -220,7 +226,8 @@ export default function OposicionDashboardPage() {
             </CardContent>
           </Card>
         )}
-      </section>
-    </main>
+        </section>
+      </main>
+    </AuthGuard>
   );
 }

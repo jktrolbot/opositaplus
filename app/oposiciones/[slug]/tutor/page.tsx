@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { oposiciones } from '@/data/oposiciones';
 import { OposicionNotFound } from '@/components/oposiciones/not-found';
 import { OposicionPageHeader } from '@/components/oposiciones/page-header';
+import { AuthGuard } from '@/components/auth-guard';
 
 type Message = {
   role: 'user' | 'assistant';
@@ -32,7 +33,11 @@ export default function OposicionTutorPage() {
   const [loading, setLoading] = useState(false);
 
   if (!oposicion) {
-    return <OposicionNotFound />;
+    return (
+      <AuthGuard>
+        <OposicionNotFound />
+      </AuthGuard>
+    );
   }
 
   const suggestedQuestions = [
@@ -125,8 +130,9 @@ export default function OposicionTutorPage() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-50">
-      <OposicionPageHeader oposicion={oposicion} current="Preparador personal" />
+    <AuthGuard>
+      <main className="min-h-screen bg-slate-50">
+        <OposicionPageHeader oposicion={oposicion} current="Preparador personal" />
 
       <section className="mx-auto flex h-[calc(100vh-165px)] max-w-5xl flex-col px-4 py-5">
         <div className="mb-3 flex flex-wrap gap-2">
@@ -199,6 +205,7 @@ export default function OposicionTutorPage() {
           <p className="mt-2 text-xs text-slate-500">Enter para enviar · Shift + Enter para salto de linea.</p>
         </Card>
       </section>
-    </main>
+      </main>
+    </AuthGuard>
   );
 }
