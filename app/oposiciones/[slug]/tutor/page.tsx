@@ -67,36 +67,49 @@ export default function OposicionTutorPage() {
       const reader = response.body.getReader();
       const decoder = new TextDecoder();
       let assistantMessage = '';
+      let pendingBuffer = '';
 
       setMessages((prev) => [...prev, { role: 'assistant', content: '' }]);
 
+      const appendAssistantChunk = (line: string) => {
+        if (!line.startsWith('data:')) return;
+        const data = line.replace(/^data:\s*/, '');
+        if (!data || data === '[DONE]') return;
+
+        try {
+          const parsed = JSON.parse(data);
+          const content = parsed.choices?.[0]?.delta?.content ?? '';
+          if (!content) return;
+
+          assistantMessage += content;
+          setMessages((prev) => {
+            const updated = [...prev];
+            updated[updated.length - 1] = { role: 'assistant', content: assistantMessage };
+            return updated;
+          });
+        } catch {
+          // ignore malformed chunks
+        }
+      };
+
       while (true) {
         const { done, value } = await reader.read();
-        if (done) break;
+        pendingBuffer += decoder.decode(value ?? new Uint8Array(), { stream: !done });
 
-        const chunk = decoder.decode(value);
-        const lines = chunk.split('\n');
-
-        for (const line of lines) {
-          if (!line.startsWith('data: ')) continue;
-          const data = line.slice(6);
-          if (data === '[DONE]') continue;
-
-          try {
-            const parsed = JSON.parse(data);
-            const content = parsed.choices?.[0]?.delta?.content ?? '';
-            if (!content) continue;
-
-            assistantMessage += content;
-            setMessages((prev) => {
-              const updated = [...prev];
-              updated[updated.length - 1] = { role: 'assistant', content: assistantMessage };
-              return updated;
-            });
-          } catch {
-            // ignore malformed chunks
-          }
+        let newlineIndex = pendingBuffer.indexOf('\n');
+        while (newlineIndex !== -1) {
+          const line = pendingBuffer.slice(0, newlineIndex).trim();
+          pendingBuffer = pendingBuffer.slice(newlineIndex + 1);
+          appendAssistantChunk(line);
+          newlineIndex = pendingBuffer.indexOf('\n');
         }
+
+        if (done) break;
+      }
+
+      const remainingLine = pendingBuffer.trim();
+      if (remainingLine) {
+        appendAssistantChunk(remainingLine);
       }
     } catch {
       setMessages((prev) => [

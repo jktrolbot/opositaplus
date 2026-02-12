@@ -229,7 +229,10 @@ export default function OposicionTestPage() {
                 <CardHeader>
                   <CardTitle className="text-lg">{topic.name}</CardTitle>
                   <CardDescription>
-                    {allQuestions.filter((question) => question.topic === topic.id).length} preguntas disponibles
+                    {loadingQuestions
+                      ? topic.questionCount
+                      : allQuestions.filter((question) => question.topic === topic.id).length}{' '}
+                    preguntas disponibles
                   </CardDescription>
                 </CardHeader>
               </Card>
