@@ -1,17 +1,19 @@
 import { OpenAI } from 'openai';
 import { NextResponse } from 'next/server';
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
-
 export const runtime = 'edge';
 
 export async function POST(request: Request) {
   try {
+    const apiKey = process.env.OPENAI_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json({ error: 'OPENAI_API_KEY no configurada' }, { status: 500 });
+    }
+
+    const openai = new OpenAI({ apiKey });
     const { messages } = await request.json();
 
-    const systemPrompt = `Eres un experto preparador de oposiciones en España, especializado en ayudar a opositores a preparar exámenes públicos. 
+    const systemPrompt = `Eres un experto preparador de oposiciones en España, especializado en ayudar a opositores a preparar exámenes públicos.
 
 Tu función es:
 - Explicar legislación española de forma clara y precisa
@@ -31,13 +33,12 @@ Temas principales que dominas:
 - Derecho de la Unión Europea
 
 Estilo de comunicación:
-- Usa "tú" (tuteo)
+- Usa "tú"
 - Sé profesional pero cercano
-- Explica con ejemplos prácticos cuando sea posible
-- Estructura la información de forma clara (listas, esquemas)
+- Estructura la información de forma clara
 - Si algo no está en tu conocimiento, admítelo honestamente
 
-IMPORTANTE: No menciones que eres una IA o que usas inteligencia artificial. Los usuarios te ven como un preparador humano experto.`;
+IMPORTANTE: No menciones que eres un sistema de IA.`;
 
     const stream = await openai.chat.completions.create({
       model: 'gpt-4o-mini',
@@ -66,14 +67,11 @@ IMPORTANTE: No menciones que eres una IA o que usas inteligencia artificial. Los
       headers: {
         'Content-Type': 'text/event-stream',
         'Cache-Control': 'no-cache',
-        'Connection': 'keep-alive',
+        Connection: 'keep-alive',
       },
     });
   } catch (error) {
     console.error('Tutor API error:', error);
-    return NextResponse.json(
-      { error: 'Failed to process request' },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: 'Error al procesar la consulta' }, { status: 500 });
   }
 }
