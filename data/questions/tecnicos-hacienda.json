@@ -158,5 +158,645 @@
     "correct": 2,
     "explanation": "El art. 95 LGT establece el carácter reservado de la información con trascendencia tributaria.",
     "lawReference": "Art. 95 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-11",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "medium",
+    "question": "La reserva de ley en materia tributaria se recoge en la LGT en:",
+    "options": [
+      "Artículo 8 LGT",
+      "Artículo 17 LGT",
+      "Artículo 34 LGT",
+      "Artículo 66 LGT"
+    ],
+    "correct": 0,
+    "explanation": "El art. 8 LGT enumera las materias que deben regularse por ley en el ámbito tributario.",
+    "lawReference": "Art. 8 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-12",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "medium",
+    "question": "El concepto de relación jurídico-tributaria se regula en:",
+    "options": [
+      "Artículo 8 LGT",
+      "Artículo 17 LGT",
+      "Artículo 29 LGT",
+      "Artículo 95 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 17 LGT define la relación jurídico-tributaria y su contenido.",
+    "lawReference": "Art. 17 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-13",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "easy",
+    "question": "Las obligaciones tributarias formales se regulan en:",
+    "options": [
+      "Artículo 29 LGT",
+      "Artículo 34 LGT",
+      "Artículo 66 LGT",
+      "Artículo 120 LGT"
+    ],
+    "correct": 0,
+    "explanation": "El art. 29 LGT regula las obligaciones tributarias formales de los obligados tributarios.",
+    "lawReference": "Art. 29 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-14",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "easy",
+    "question": "Los derechos y garantías de los obligados tributarios se recogen en:",
+    "options": [
+      "Artículo 17 LGT",
+      "Artículo 34 LGT",
+      "Artículo 99 LGT",
+      "Artículo 141 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 34 LGT contiene el catálogo de derechos y garantías de los obligados tributarios.",
+    "lawReference": "Art. 34 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-15",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "easy",
+    "question": "El plazo general de prescripción de los derechos de la Administración tributaria es de:",
+    "options": [
+      "1 año",
+      "3 años",
+      "4 años",
+      "5 años"
+    ],
+    "correct": 2,
+    "explanation": "El art. 66 LGT fija con carácter general un plazo de prescripción de cuatro años.",
+    "lawReference": "Art. 66 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-16",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "hard",
+    "question": "El cómputo de los plazos de prescripción tributaria se regula en:",
+    "options": [
+      "Artículo 66 LGT",
+      "Artículo 67 LGT",
+      "Artículo 68 LGT",
+      "Artículo 104 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 67 LGT determina el inicio del cómputo de la prescripción para cada derecho.",
+    "lawReference": "Art. 67 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-17",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "hard",
+    "question": "Las causas de interrupción de la prescripción en materia tributaria se recogen en:",
+    "options": [
+      "Artículo 67 LGT",
+      "Artículo 68 LGT",
+      "Artículo 95 LGT",
+      "Artículo 120 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 68 LGT regula expresamente las causas de interrupción de la prescripción.",
+    "lawReference": "Art. 68 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-18",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "medium",
+    "question": "El carácter reservado de los datos con trascendencia tributaria se establece en:",
+    "options": [
+      "Artículo 34 LGT",
+      "Artículo 95 LGT",
+      "Artículo 99 LGT",
+      "Artículo 104 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 95 LGT establece la reserva de datos, informes y antecedentes obtenidos por la Administración tributaria.",
+    "lawReference": "Art. 95 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-19",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "medium",
+    "question": "Los principios generales y derechos en la aplicación de los tributos se recogen en:",
+    "options": [
+      "Artículo 99 LGT",
+      "Artículo 101 LGT",
+      "Artículo 120 LGT",
+      "Artículo 136 LGT"
+    ],
+    "correct": 0,
+    "explanation": "El art. 99 LGT regula principios y derechos en los procedimientos de aplicación de los tributos.",
+    "lawReference": "Art. 99 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-20",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "medium",
+    "question": "La distinción entre liquidaciones provisionales y definitivas se regula en:",
+    "options": [
+      "Artículo 95 LGT",
+      "Artículo 101 LGT",
+      "Artículo 102 LGT",
+      "Artículo 120 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 101 LGT define y diferencia las liquidaciones provisionales y definitivas.",
+    "lawReference": "Art. 101 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-21",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "easy",
+    "question": "La notificación de las liquidaciones tributarias se regula en:",
+    "options": [
+      "Artículo 101 LGT",
+      "Artículo 102 LGT",
+      "Artículo 104 LGT",
+      "Artículo 122 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 102 LGT regula la notificación de las liquidaciones tributarias.",
+    "lawReference": "Art. 102 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-22",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "hard",
+    "question": "El plazo máximo de resolución de los procedimientos tributarios y sus efectos se contempla en:",
+    "options": [
+      "Artículo 102 LGT",
+      "Artículo 104 LGT",
+      "Artículo 105 LGT",
+      "Artículo 150 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 104 LGT regula plazos máximos de resolución en procedimientos tributarios y consecuencias de su incumplimiento.",
+    "lawReference": "Art. 104 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-23",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "medium",
+    "question": "En los procedimientos de aplicación de los tributos, la carga de la prueba se regula en:",
+    "options": [
+      "Artículo 99 LGT",
+      "Artículo 104 LGT",
+      "Artículo 105 LGT",
+      "Artículo 106 LGT"
+    ],
+    "correct": 2,
+    "explanation": "El art. 105 LGT establece las reglas de carga de la prueba en materia tributaria.",
+    "lawReference": "Art. 105 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-24",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "easy",
+    "question": "La autoliquidación tributaria se regula en:",
+    "options": [
+      "Artículo 102 LGT",
+      "Artículo 120 LGT",
+      "Artículo 122 LGT",
+      "Artículo 136 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 120 LGT regula la declaración tributaria y la autoliquidación.",
+    "lawReference": "Art. 120 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-25",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "medium",
+    "question": "La declaración complementaria se regula específicamente en:",
+    "options": [
+      "Artículo 120 LGT",
+      "Artículo 122 LGT",
+      "Artículo 136 LGT",
+      "Artículo 141 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 122 LGT regula las declaraciones, autoliquidaciones y comunicaciones complementarias.",
+    "lawReference": "Art. 122 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-26",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "medium",
+    "question": "El procedimiento de verificación de datos se regula en:",
+    "options": [
+      "Artículo 120 LGT",
+      "Artículo 122 LGT",
+      "Artículo 136 LGT",
+      "Artículo 150 LGT"
+    ],
+    "correct": 2,
+    "explanation": "El art. 136 LGT regula el procedimiento de verificación de datos.",
+    "lawReference": "Art. 136 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-27",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "medium",
+    "question": "Las funciones de la Inspección de los Tributos se recogen en:",
+    "options": [
+      "Artículo 136 LGT",
+      "Artículo 141 LGT",
+      "Artículo 145 LGT",
+      "Artículo 150 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 141 LGT enumera las funciones de la Inspección de los Tributos.",
+    "lawReference": "Art. 141 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-28",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "hard",
+    "question": "La duración de las actuaciones del procedimiento inspector se regula en:",
+    "options": [
+      "Artículo 141 LGT",
+      "Artículo 145 LGT",
+      "Artículo 150 LGT",
+      "Artículo 178 LGT"
+    ],
+    "correct": 2,
+    "explanation": "El art. 150 LGT regula el plazo de duración del procedimiento inspector y sus efectos.",
+    "lawReference": "Art. 150 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-29",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "hard",
+    "question": "Los principios de la potestad sancionadora en materia tributaria se regulan en:",
+    "options": [
+      "Artículo 178 LGT",
+      "Artículo 183 LGT",
+      "Artículo 191 LGT",
+      "Artículo 203 LGT"
+    ],
+    "correct": 0,
+    "explanation": "El art. 178 LGT recoge los principios de la potestad sancionadora tributaria.",
+    "lawReference": "Art. 178 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-30",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "easy",
+    "question": "La definición de infracciones tributarias se encuentra en:",
+    "options": [
+      "Artículo 178 LGT",
+      "Artículo 183 LGT",
+      "Artículo 191 LGT",
+      "Artículo 222 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 183 LGT define las infracciones tributarias y su clasificación básica.",
+    "lawReference": "Art. 183 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-31",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "medium",
+    "question": "La infracción consistente en dejar de ingresar la deuda tributaria resultante de una autoliquidación se regula en:",
+    "options": [
+      "Artículo 183 LGT",
+      "Artículo 191 LGT",
+      "Artículo 198 LGT",
+      "Artículo 203 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 191 LGT tipifica la infracción por dejar de ingresar la deuda tributaria.",
+    "lawReference": "Art. 191 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-32",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "easy",
+    "question": "En el IRPF, el hecho imponible consiste en:",
+    "options": [
+      "La titularidad de bienes inmuebles",
+      "La obtención de renta por el contribuyente",
+      "La residencia fiscal en la UE",
+      "La realización de cualquier actividad económica"
+    ],
+    "correct": 1,
+    "explanation": "El art. 6 Ley 35/2006 define el hecho imponible del IRPF como la obtención de renta por el contribuyente.",
+    "lawReference": "Art. 6 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-33",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "medium",
+    "question": "Las rentas exentas en el IRPF se regulan en:",
+    "options": [
+      "Artículo 6 Ley 35/2006",
+      "Artículo 7 Ley 35/2006",
+      "Artículo 9 Ley 35/2006",
+      "Artículo 14 Ley 35/2006"
+    ],
+    "correct": 1,
+    "explanation": "El art. 7 Ley 35/2006 contiene el listado de rentas exentas en el IRPF.",
+    "lawReference": "Art. 7 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-34",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "medium",
+    "question": "La residencia habitual en territorio español a efectos del IRPF se regula en:",
+    "options": [
+      "Artículo 8 Ley 35/2006",
+      "Artículo 9 Ley 35/2006",
+      "Artículo 17 Ley 35/2006",
+      "Artículo 27 Ley 35/2006"
+    ],
+    "correct": 1,
+    "explanation": "El art. 9 Ley 35/2006 regula los criterios de residencia habitual en España.",
+    "lawReference": "Art. 9 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-35",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "hard",
+    "question": "La regla general de imputación temporal de rentas en el IRPF se contiene en:",
+    "options": [
+      "Artículo 9 Ley 35/2006",
+      "Artículo 14 Ley 35/2006",
+      "Artículo 17 Ley 35/2006",
+      "Artículo 33 Ley 35/2006"
+    ],
+    "correct": 1,
+    "explanation": "El art. 14 Ley 35/2006 regula la imputación temporal de rentas en el IRPF.",
+    "lawReference": "Art. 14 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-36",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "easy",
+    "question": "Los sueldos y salarios se califican en el IRPF como:",
+    "options": [
+      "Rendimientos del trabajo",
+      "Rendimientos del capital mobiliario",
+      "Rendimientos de actividades económicas",
+      "Ganancias patrimoniales"
+    ],
+    "correct": 0,
+    "explanation": "El art. 17 Ley 35/2006 califica sueldos y salarios como rendimientos del trabajo.",
+    "lawReference": "Art. 17 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-37",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "medium",
+    "question": "Los rendimientos de actividades económicas se regulan en:",
+    "options": [
+      "Artículo 17 Ley 35/2006",
+      "Artículo 27 Ley 35/2006",
+      "Artículo 33 Ley 35/2006",
+      "Artículo 35 Ley 35/2006"
+    ],
+    "correct": 1,
+    "explanation": "El art. 27 Ley 35/2006 regula el concepto y alcance de los rendimientos de actividades económicas.",
+    "lawReference": "Art. 27 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-38",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "medium",
+    "question": "Las ganancias y pérdidas patrimoniales en IRPF se regulan con carácter general en:",
+    "options": [
+      "Artículo 27 Ley 35/2006",
+      "Artículo 30 Ley 35/2006",
+      "Artículo 33 Ley 35/2006",
+      "Artículo 41 Ley 35/2006"
+    ],
+    "correct": 2,
+    "explanation": "El art. 33 Ley 35/2006 regula el concepto de ganancias y pérdidas patrimoniales.",
+    "lawReference": "Art. 33 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-39",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "iva",
+    "difficulty": "easy",
+    "question": "El hecho imponible general del IVA se regula en:",
+    "options": [
+      "Artículo 4 Ley 37/1992",
+      "Artículo 20 Ley 37/1992",
+      "Artículo 75 Ley 37/1992",
+      "Artículo 90 Ley 37/1992"
+    ],
+    "correct": 0,
+    "explanation": "El art. 4 Ley 37/1992 regula las operaciones sujetas al IVA con carácter general.",
+    "lawReference": "Art. 4 Ley 37/1992"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-40",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "iva",
+    "difficulty": "medium",
+    "question": "La condición de empresario o profesional a efectos del IVA se regula en:",
+    "options": [
+      "Artículo 4 Ley 37/1992",
+      "Artículo 5 Ley 37/1992",
+      "Artículo 20 Ley 37/1992",
+      "Artículo 84 Ley 37/1992"
+    ],
+    "correct": 1,
+    "explanation": "El art. 5 Ley 37/1992 define quiénes tienen la consideración de empresarios o profesionales.",
+    "lawReference": "Art. 5 Ley 37/1992"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-41",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "iva",
+    "difficulty": "medium",
+    "question": "Las exenciones en operaciones interiores del IVA se recogen principalmente en:",
+    "options": [
+      "Artículo 4 Ley 37/1992",
+      "Artículo 20 Ley 37/1992",
+      "Artículo 75 Ley 37/1992",
+      "Artículo 92 Ley 37/1992"
+    ],
+    "correct": 1,
+    "explanation": "El art. 20 Ley 37/1992 regula un amplio catálogo de exenciones en operaciones interiores.",
+    "lawReference": "Art. 20 Ley 37/1992"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-42",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "iva",
+    "difficulty": "medium",
+    "question": "El devengo del IVA, con carácter general, se regula en:",
+    "options": [
+      "Artículo 20 Ley 37/1992",
+      "Artículo 75 Ley 37/1992",
+      "Artículo 84 Ley 37/1992",
+      "Artículo 90 Ley 37/1992"
+    ],
+    "correct": 1,
+    "explanation": "El art. 75 Ley 37/1992 regula las reglas de devengo del impuesto.",
+    "lawReference": "Art. 75 Ley 37/1992"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-43",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "iva",
+    "difficulty": "easy",
+    "question": "La regla general del sujeto pasivo del IVA se establece en:",
+    "options": [
+      "Artículo 5 Ley 37/1992",
+      "Artículo 75 Ley 37/1992",
+      "Artículo 84 Ley 37/1992",
+      "Artículo 92 Ley 37/1992"
+    ],
+    "correct": 2,
+    "explanation": "El art. 84 Ley 37/1992 regula la condición de sujeto pasivo del IVA.",
+    "lawReference": "Art. 84 Ley 37/1992"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-44",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "iva",
+    "difficulty": "easy",
+    "question": "El tipo impositivo general del IVA en España es del 21%, regulado en:",
+    "options": [
+      "Artículo 88 Ley 37/1992",
+      "Artículo 90 Ley 37/1992",
+      "Artículo 91 Ley 37/1992",
+      "Artículo 92 Ley 37/1992"
+    ],
+    "correct": 1,
+    "explanation": "El art. 90 Ley 37/1992 fija el tipo general del IVA en el 21%.",
+    "lawReference": "Art. 90 Ley 37/1992"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-45",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "impuesto-sociedades",
+    "difficulty": "easy",
+    "question": "Los contribuyentes del Impuesto sobre Sociedades se regulan en:",
+    "options": [
+      "Artículo 7 Ley 27/2014",
+      "Artículo 10 Ley 27/2014",
+      "Artículo 15 Ley 27/2014",
+      "Artículo 29 Ley 27/2014"
+    ],
+    "correct": 0,
+    "explanation": "El art. 7 Ley 27/2014 define quiénes son contribuyentes del Impuesto sobre Sociedades.",
+    "lawReference": "Art. 7 Ley 27/2014"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-46",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "impuesto-sociedades",
+    "difficulty": "medium",
+    "question": "Con carácter general, la base imponible del Impuesto sobre Sociedades se determina a partir de:",
+    "options": [
+      "El patrimonio neto corregido",
+      "La cifra de negocios",
+      "El resultado contable corregido por la normativa fiscal",
+      "Los flujos de efectivo"
+    ],
+    "correct": 2,
+    "explanation": "El art. 10 Ley 27/2014 establece que la base imponible se calcula corrigiendo el resultado contable conforme a la ley.",
+    "lawReference": "Art. 10 Ley 27/2014"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-47",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "impuesto-sociedades",
+    "difficulty": "hard",
+    "question": "La imputación temporal de ingresos y gastos en el Impuesto sobre Sociedades se regula en:",
+    "options": [
+      "Artículo 10 Ley 27/2014",
+      "Artículo 11 Ley 27/2014",
+      "Artículo 15 Ley 27/2014",
+      "Artículo 16 Ley 27/2014"
+    ],
+    "correct": 1,
+    "explanation": "El art. 11 Ley 27/2014 regula las reglas de imputación temporal en el impuesto.",
+    "lawReference": "Art. 11 Ley 27/2014"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-48",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "impuesto-sociedades",
+    "difficulty": "medium",
+    "question": "Las liberalidades tienen, con carácter general, la consideración de gasto:",
+    "options": [
+      "Deducible en todo caso",
+      "No deducible, salvo excepciones legales",
+      "Deducible solo si supera 3.000 euros",
+      "No computable contablemente"
+    ],
+    "correct": 1,
+    "explanation": "El art. 15 Ley 27/2014 regula los gastos no deducibles y, entre ellos, las liberalidades con excepciones.",
+    "lawReference": "Art. 15 Ley 27/2014"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-49",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "impuesto-sociedades",
+    "difficulty": "hard",
+    "question": "La limitación en la deducibilidad de gastos financieros en el Impuesto sobre Sociedades se regula en:",
+    "options": [
+      "Artículo 15 Ley 27/2014",
+      "Artículo 16 Ley 27/2014",
+      "Artículo 29 Ley 27/2014",
+      "Artículo 10 Ley 27/2014"
+    ],
+    "correct": 1,
+    "explanation": "El art. 16 Ley 27/2014 establece el régimen de limitación a la deducibilidad de gastos financieros.",
+    "lawReference": "Art. 16 Ley 27/2014"
+  },
+  {
+    "id": "tecnicos-hacienda-extra-50",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "impuesto-sociedades",
+    "difficulty": "easy",
+    "question": "El tipo general de gravamen del Impuesto sobre Sociedades es del 25%, según:",
+    "options": [
+      "Artículo 10 Ley 27/2014",
+      "Artículo 15 Ley 27/2014",
+      "Artículo 29 Ley 27/2014",
+      "Artículo 31 Ley 27/2014"
+    ],
+    "correct": 2,
+    "explanation": "El art. 29 Ley 27/2014 fija con carácter general el tipo de gravamen del 25%.",
+    "lawReference": "Art. 29 Ley 27/2014"
   }
 ]

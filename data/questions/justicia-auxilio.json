@@ -158,5 +158,645 @@
     "correct": 0,
     "explanation": "El art. 299 LECrim define la finalidad del sumario dentro del proceso penal.",
     "lawReference": "Art. 299 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-11",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "easy",
+    "question": "El derecho a la tutela judicial efectiva se reconoce en:",
+    "options": [
+      "Artículo 14 CE",
+      "Artículo 24.1 CE",
+      "Artículo 117.1 CE",
+      "Artículo 122.1 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 24.1 CE reconoce el derecho a obtener tutela judicial efectiva de jueces y tribunales.",
+    "lawReference": "Art. 24.1 CE"
+  },
+  {
+    "id": "justicia-auxilio-extra-12",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "medium",
+    "question": "El derecho al juez ordinario predeterminado por la ley y a la defensa se recoge en:",
+    "options": [
+      "Artículo 24.2 CE",
+      "Artículo 53.1 CE",
+      "Artículo 117.3 CE",
+      "Artículo 120.1 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 24.2 CE recoge garantías procesales como juez ordinario predeterminado, defensa y asistencia letrada.",
+    "lawReference": "Art. 24.2 CE"
+  },
+  {
+    "id": "justicia-auxilio-extra-13",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "easy",
+    "question": "La justicia emana del pueblo y se administra por jueces y magistrados según:",
+    "options": [
+      "Artículo 24.1 CE",
+      "Artículo 117.1 CE",
+      "Artículo 118 CE",
+      "Artículo 122.1 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 117.1 CE proclama el origen popular de la justicia y la independencia judicial.",
+    "lawReference": "Art. 117.1 CE"
+  },
+  {
+    "id": "justicia-auxilio-extra-14",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "medium",
+    "question": "El ejercicio de la potestad jurisdiccional corresponde exclusivamente a juzgados y tribunales en virtud de:",
+    "options": [
+      "Artículo 117.3 CE",
+      "Artículo 118 CE",
+      "Artículo 120.1 CE",
+      "Artículo 122.1 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 117.3 CE atribuye en exclusiva la potestad jurisdiccional a juzgados y tribunales.",
+    "lawReference": "Art. 117.3 CE"
+  },
+  {
+    "id": "justicia-auxilio-extra-15",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "medium",
+    "question": "Es obligado cumplir las sentencias y demás resoluciones firmes de jueces y tribunales según:",
+    "options": [
+      "Artículo 117.1 CE",
+      "Artículo 118 CE",
+      "Artículo 120.3 CE",
+      "Artículo 122.1 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 118 CE establece la obligación de cumplir las sentencias y resoluciones judiciales firmes.",
+    "lawReference": "Art. 118 CE"
+  },
+  {
+    "id": "justicia-auxilio-extra-16",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "easy",
+    "question": "Como regla general, las actuaciones judiciales serán públicas conforme a:",
+    "options": [
+      "Artículo 24.2 CE",
+      "Artículo 117.3 CE",
+      "Artículo 120.1 CE",
+      "Artículo 122.1 CE"
+    ],
+    "correct": 2,
+    "explanation": "El art. 120.1 CE establece la publicidad de las actuaciones judiciales, con excepciones legales.",
+    "lawReference": "Art. 120.1 CE"
+  },
+  {
+    "id": "justicia-auxilio-extra-17",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "medium",
+    "question": "Las sentencias serán siempre motivadas y se pronunciarán en audiencia pública según:",
+    "options": [
+      "Artículo 120.3 CE",
+      "Artículo 122.1 CE",
+      "Artículo 24.1 CE",
+      "Artículo 117.1 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 120.3 CE exige motivación y publicidad en las sentencias.",
+    "lawReference": "Art. 120.3 CE"
+  },
+  {
+    "id": "justicia-auxilio-extra-18",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "hard",
+    "question": "La Ley Orgánica del Poder Judicial desarrolla el mandato constitucional previsto en:",
+    "options": [
+      "Artículo 117.1 CE",
+      "Artículo 120.1 CE",
+      "Artículo 122.1 CE",
+      "Artículo 149.1.18 CE"
+    ],
+    "correct": 2,
+    "explanation": "El art. 122.1 CE remite a la LOPJ para la constitución, funcionamiento y gobierno de juzgados y tribunales.",
+    "lawReference": "Art. 122.1 CE"
+  },
+  {
+    "id": "justicia-auxilio-extra-19",
+    "oposicion": "justicia-auxilio",
+    "topic": "organizacion-judicial",
+    "difficulty": "medium",
+    "question": "La enumeración de los órganos jurisdiccionales se contiene en:",
+    "options": [
+      "Artículo 26 LOPJ",
+      "Artículo 478 LOPJ",
+      "Artículo 399 LEC",
+      "Artículo 520 LECrim"
+    ],
+    "correct": 0,
+    "explanation": "El art. 26 LOPJ enumera los juzgados y tribunales que ejercen la potestad jurisdiccional.",
+    "lawReference": "Art. 26 LOPJ"
+  },
+  {
+    "id": "justicia-auxilio-extra-20",
+    "oposicion": "justicia-auxilio",
+    "topic": "organizacion-judicial",
+    "difficulty": "medium",
+    "question": "El uso de medios técnicos, electrónicos, informáticos y telemáticos en la Administración de Justicia se regula en:",
+    "options": [
+      "Artículo 230 LOPJ",
+      "Artículo 231 LOPJ",
+      "Artículo 26 LOPJ",
+      "Artículo 478 LOPJ"
+    ],
+    "correct": 0,
+    "explanation": "El art. 230 LOPJ regula el empleo de medios técnicos y telemáticos en la Administración de Justicia.",
+    "lawReference": "Art. 230 LOPJ"
+  },
+  {
+    "id": "justicia-auxilio-extra-21",
+    "oposicion": "justicia-auxilio",
+    "topic": "organizacion-judicial",
+    "difficulty": "easy",
+    "question": "La regulación del uso de las lenguas oficiales en las actuaciones judiciales se encuentra en:",
+    "options": [
+      "Artículo 230 LOPJ",
+      "Artículo 231 LOPJ",
+      "Artículo 232 LOPJ",
+      "Artículo 26 LOPJ"
+    ],
+    "correct": 1,
+    "explanation": "El art. 231 LOPJ regula el uso del castellano y, en su caso, de las lenguas cooficiales en actuaciones judiciales.",
+    "lawReference": "Art. 231 LOPJ"
+  },
+  {
+    "id": "justicia-auxilio-extra-22",
+    "oposicion": "justicia-auxilio",
+    "topic": "organizacion-judicial",
+    "difficulty": "medium",
+    "question": "Las funciones del Cuerpo de Auxilio Judicial se regulan en:",
+    "options": [
+      "Artículo 470 LOPJ",
+      "Artículo 478 LOPJ",
+      "Artículo 440 LOPJ",
+      "Artículo 520 LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 478 LOPJ regula las funciones atribuidas al Cuerpo de Auxilio Judicial.",
+    "lawReference": "Art. 478 LOPJ"
+  },
+  {
+    "id": "justicia-auxilio-extra-23",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "Las materias que se tramitan por juicio ordinario se regulan en:",
+    "options": [
+      "Artículo 249 LEC",
+      "Artículo 250 LEC",
+      "Artículo 399 LEC",
+      "Artículo 437 LEC"
+    ],
+    "correct": 0,
+    "explanation": "El art. 249 LEC determina el ámbito objetivo del juicio ordinario.",
+    "lawReference": "Art. 249 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-24",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "easy",
+    "question": "Las materias que se sustancian por juicio verbal se recogen en:",
+    "options": [
+      "Artículo 249 LEC",
+      "Artículo 250 LEC",
+      "Artículo 437 LEC",
+      "Artículo 812 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 250 LEC regula el ámbito del juicio verbal.",
+    "lawReference": "Art. 250 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-25",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "hard",
+    "question": "Los documentos que deben acompañar a la demanda civil se regulan en:",
+    "options": [
+      "Artículo 264 LEC",
+      "Artículo 399 LEC",
+      "Artículo 437 LEC",
+      "Artículo 517 LEC"
+    ],
+    "correct": 0,
+    "explanation": "El art. 264 LEC regula los documentos que deben acompañarse a la demanda.",
+    "lawReference": "Art. 264 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-26",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "easy",
+    "question": "El contenido de la demanda en el juicio ordinario se regula en:",
+    "options": [
+      "Artículo 399 LEC",
+      "Artículo 437 LEC",
+      "Artículo 440 LEC",
+      "Artículo 443 LEC"
+    ],
+    "correct": 0,
+    "explanation": "El art. 399 LEC establece los requisitos de la demanda del juicio ordinario.",
+    "lawReference": "Art. 399 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-27",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "easy",
+    "question": "La demanda del juicio verbal se regula en:",
+    "options": [
+      "Artículo 399 LEC",
+      "Artículo 437 LEC",
+      "Artículo 440 LEC",
+      "Artículo 812 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 437 LEC regula la demanda del juicio verbal.",
+    "lawReference": "Art. 437 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-28",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "La citación para la vista en el juicio verbal se regula en:",
+    "options": [
+      "Artículo 437 LEC",
+      "Artículo 440 LEC",
+      "Artículo 443 LEC",
+      "Artículo 517 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 440 LEC regula la citación para la vista en el juicio verbal.",
+    "lawReference": "Art. 440 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-29",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "El desarrollo de la vista en el juicio verbal se regula en:",
+    "options": [
+      "Artículo 440 LEC",
+      "Artículo 443 LEC",
+      "Artículo 517 LEC",
+      "Artículo 550 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 443 LEC contiene las reglas de desarrollo de la vista del juicio verbal.",
+    "lawReference": "Art. 443 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-30",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "Los títulos que llevan aparejada ejecución se recogen en:",
+    "options": [
+      "Artículo 517 LEC",
+      "Artículo 548 LEC",
+      "Artículo 550 LEC",
+      "Artículo 556 LEC"
+    ],
+    "correct": 0,
+    "explanation": "El art. 517 LEC enumera los títulos ejecutivos.",
+    "lawReference": "Art. 517 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-31",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "hard",
+    "question": "La ejecución forzosa de resoluciones judiciales no puede despacharse hasta transcurridos:",
+    "options": [
+      "10 días",
+      "15 días",
+      "20 días",
+      "30 días"
+    ],
+    "correct": 2,
+    "explanation": "El art. 548 LEC establece un plazo de espera de 20 días desde la notificación de la resolución.",
+    "lawReference": "Art. 548 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-32",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "La demanda ejecutiva y su contenido básico se regulan en:",
+    "options": [
+      "Artículo 517 LEC",
+      "Artículo 548 LEC",
+      "Artículo 550 LEC",
+      "Artículo 556 LEC"
+    ],
+    "correct": 2,
+    "explanation": "El art. 550 LEC regula la demanda ejecutiva y su contenido.",
+    "lawReference": "Art. 550 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-33",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "hard",
+    "question": "La oposición a la ejecución de títulos judiciales o arbitrales se regula en:",
+    "options": [
+      "Artículo 550 LEC",
+      "Artículo 556 LEC",
+      "Artículo 557 LEC",
+      "Artículo 812 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 556 LEC regula la oposición a la ejecución basada en títulos judiciales o arbitrales.",
+    "lawReference": "Art. 556 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-34",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "hard",
+    "question": "La oposición a la ejecución fundada en títulos no judiciales se regula en:",
+    "options": [
+      "Artículo 556 LEC",
+      "Artículo 557 LEC",
+      "Artículo 812 LEC",
+      "Artículo 815 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 557 LEC regula la oposición a la ejecución cuando el título no es judicial ni arbitral.",
+    "lawReference": "Art. 557 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-35",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "easy",
+    "question": "El proceso monitorio se regula a partir de:",
+    "options": [
+      "Artículo 812 LEC",
+      "Artículo 814 LEC",
+      "Artículo 815 LEC",
+      "Artículo 818 LEC"
+    ],
+    "correct": 0,
+    "explanation": "El art. 812 LEC establece el ámbito y presupuestos del proceso monitorio.",
+    "lawReference": "Art. 812 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-36",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "La admisión de la petición inicial del monitorio y el requerimiento de pago se regulan en:",
+    "options": [
+      "Artículo 812 LEC",
+      "Artículo 814 LEC",
+      "Artículo 815 LEC",
+      "Artículo 818 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 814 LEC regula la admisión de la petición monitoria y el requerimiento al deudor.",
+    "lawReference": "Art. 814 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-37",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "La actuación procesal cuando el deudor atiende o se opone al requerimiento monitorio se regula en:",
+    "options": [
+      "Artículo 814 LEC",
+      "Artículo 815 LEC",
+      "Artículo 818 LEC",
+      "Artículo 399 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 815 LEC regula el pago y la oposición en el procedimiento monitorio.",
+    "lawReference": "Art. 815 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-38",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "Cuando en el monitorio el deudor formula oposición, la continuación del proceso en juicio declarativo se regula en:",
+    "options": [
+      "Artículo 814 LEC",
+      "Artículo 815 LEC",
+      "Artículo 818 LEC",
+      "Artículo 437 LEC"
+    ],
+    "correct": 2,
+    "explanation": "El art. 818 LEC regula la transformación del monitorio en el declarativo correspondiente cuando existe oposición.",
+    "lawReference": "Art. 818 LEC"
+  },
+  {
+    "id": "justicia-auxilio-extra-39",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "easy",
+    "question": "Los derechos de la persona investigada en el proceso penal se recogen en:",
+    "options": [
+      "Artículo 118 LECrim",
+      "Artículo 299 LECrim",
+      "Artículo 520 LECrim",
+      "Artículo 770 LECrim"
+    ],
+    "correct": 0,
+    "explanation": "El art. 118 LECrim regula los derechos de la persona investigada.",
+    "lawReference": "Art. 118 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-40",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "medium",
+    "question": "La finalidad del sumario se regula en:",
+    "options": [
+      "Artículo 118 LECrim",
+      "Artículo 299 LECrim",
+      "Artículo 301 LECrim",
+      "Artículo 520 LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 299 LECrim define el objeto del sumario en el proceso penal.",
+    "lawReference": "Art. 299 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-41",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "hard",
+    "question": "El carácter reservado del sumario se regula en:",
+    "options": [
+      "Artículo 299 LECrim",
+      "Artículo 301 LECrim",
+      "Artículo 384 LECrim",
+      "Artículo 520 LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 301 LECrim regula el secreto de las actuaciones sumariales con los límites legales.",
+    "lawReference": "Art. 301 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-42",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "hard",
+    "question": "El auto de procesamiento en el procedimiento ordinario se regula en:",
+    "options": [
+      "Artículo 301 LECrim",
+      "Artículo 384 LECrim",
+      "Artículo 520 LECrim",
+      "Artículo 770 LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 384 LECrim regula el auto de procesamiento.",
+    "lawReference": "Art. 384 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-43",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "easy",
+    "question": "Los derechos del detenido o preso se regulan específicamente en:",
+    "options": [
+      "Artículo 118 LECrim",
+      "Artículo 299 LECrim",
+      "Artículo 520 LECrim",
+      "Artículo 770 LECrim"
+    ],
+    "correct": 2,
+    "explanation": "El art. 520 LECrim contiene la regulación de los derechos del detenido o preso.",
+    "lawReference": "Art. 520 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-44",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "medium",
+    "question": "La orden de protección de las víctimas de violencia doméstica o de género se regula en:",
+    "options": [
+      "Artículo 520 LECrim",
+      "Artículo 544 ter LECrim",
+      "Artículo 770 LECrim",
+      "Artículo 964 LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 544 ter LECrim regula la orden de protección.",
+    "lawReference": "Art. 544 ter LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-45",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "medium",
+    "question": "En el procedimiento abreviado, las diligencias policiales y judiciales iniciales se recogen en:",
+    "options": [
+      "Artículo 770 LECrim",
+      "Artículo 779 LECrim",
+      "Artículo 795 LECrim",
+      "Artículo 962 LECrim"
+    ],
+    "correct": 0,
+    "explanation": "El art. 770 LECrim regula diligencias propias del procedimiento abreviado.",
+    "lawReference": "Art. 770 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-46",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "hard",
+    "question": "Las resoluciones posibles al finalizar las diligencias previas del procedimiento abreviado se regulan en:",
+    "options": [
+      "Artículo 770 LECrim",
+      "Artículo 779 LECrim",
+      "Artículo 795 LECrim",
+      "Artículo 797 LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 779 LECrim contempla las resoluciones de conclusión de diligencias previas.",
+    "lawReference": "Art. 779 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-47",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "medium",
+    "question": "El ámbito de aplicación del procedimiento para el enjuiciamiento rápido de determinados delitos se regula en:",
+    "options": [
+      "Artículo 779 LECrim",
+      "Artículo 795 LECrim",
+      "Artículo 797 LECrim",
+      "Artículo 962 LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 795 LECrim define el ámbito de los juicios rápidos.",
+    "lawReference": "Art. 795 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-48",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "hard",
+    "question": "Las diligencias urgentes en el procedimiento de juicio rápido se regulan en:",
+    "options": [
+      "Artículo 795 LECrim",
+      "Artículo 797 LECrim",
+      "Artículo 962 LECrim",
+      "Artículo 964 LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 797 LECrim regula la práctica de diligencias urgentes en juicios rápidos.",
+    "lawReference": "Art. 797 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-49",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "easy",
+    "question": "La citación para el juicio sobre delitos leves se regula en:",
+    "options": [
+      "Artículo 795 LECrim",
+      "Artículo 797 LECrim",
+      "Artículo 962 LECrim",
+      "Artículo 964 LECrim"
+    ],
+    "correct": 2,
+    "explanation": "El art. 962 LECrim regula la citación para la celebración del juicio por delito leve.",
+    "lawReference": "Art. 962 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-extra-50",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "medium",
+    "question": "La celebración del juicio por delito leve y reglas básicas de su práctica se regula en:",
+    "options": [
+      "Artículo 962 LECrim",
+      "Artículo 964 LECrim",
+      "Artículo 520 LECrim",
+      "Artículo 544 ter LECrim"
+    ],
+    "correct": 1,
+    "explanation": "El art. 964 LECrim regula la celebración del juicio por delito leve.",
+    "lawReference": "Art. 964 LECrim"
   }
 ]

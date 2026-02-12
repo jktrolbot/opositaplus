@@ -158,5 +158,645 @@
     "correct": 1,
     "explanation": "El art. 149.1.18 CE atribuye al Estado competencia exclusiva sobre las bases del régimen jurídico de las Administraciones Públicas y el procedimiento administrativo común.",
     "lawReference": "Art. 149.1.18 CE"
+  },
+  {
+    "id": "age-a1-extra-11",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "medium",
+    "question": "Los valores superiores del ordenamiento jurídico se establecen en:",
+    "options": [
+      "Artículo 1.1 CE",
+      "Artículo 9.3 CE",
+      "Artículo 10.1 CE",
+      "Artículo 14 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 1.1 CE fija los valores superiores del ordenamiento jurídico español.",
+    "lawReference": "Art. 1.1 CE"
+  },
+  {
+    "id": "age-a1-extra-12",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "hard",
+    "question": "Entre los principios garantizados por la Constitución en su artículo 9.3 se encuentra:",
+    "options": [
+      "La seguridad jurídica",
+      "La autonomía universitaria",
+      "La suficiencia financiera autonómica",
+      "La iniciativa pública en la economía"
+    ],
+    "correct": 0,
+    "explanation": "El art. 9.3 CE incluye expresamente la seguridad jurídica, entre otros principios.",
+    "lawReference": "Art. 9.3 CE"
+  },
+  {
+    "id": "age-a1-extra-13",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "easy",
+    "question": "El derecho de acceso en condiciones de igualdad a funciones y cargos públicos se reconoce en:",
+    "options": [
+      "Artículo 14 CE",
+      "Artículo 23.2 CE",
+      "Artículo 31.1 CE",
+      "Artículo 103.1 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 23.2 CE reconoce el derecho de acceso en condiciones de igualdad a funciones y cargos públicos.",
+    "lawReference": "Art. 23.2 CE"
+  },
+  {
+    "id": "age-a1-extra-14",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "medium",
+    "question": "La Constitución establece que la programación y ejecución del gasto público responderán a criterios de eficiencia y economía en:",
+    "options": [
+      "Artículo 31.2 CE",
+      "Artículo 103.1 CE",
+      "Artículo 106.1 CE",
+      "Artículo 149.1.18 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 31.2 CE contiene estos principios de buena gestión del gasto público.",
+    "lawReference": "Art. 31.2 CE"
+  },
+  {
+    "id": "age-a1-extra-15",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "hard",
+    "question": "El carácter vinculante para todos los poderes públicos de los derechos del Capítulo II del Título I se regula en:",
+    "options": [
+      "Artículo 23.2 CE",
+      "Artículo 53.1 CE",
+      "Artículo 54 CE",
+      "Artículo 103.3 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 53.1 CE establece la vinculación de todos los poderes públicos a los derechos y libertades del Capítulo II.",
+    "lawReference": "Art. 53.1 CE"
+  },
+  {
+    "id": "age-a1-extra-16",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "medium",
+    "question": "La institución del Defensor del Pueblo se regula en:",
+    "options": [
+      "Artículo 53 CE",
+      "Artículo 54 CE",
+      "Artículo 97 CE",
+      "Artículo 122 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 54 CE regula el Defensor del Pueblo como alto comisionado de las Cortes Generales.",
+    "lawReference": "Art. 54 CE"
+  },
+  {
+    "id": "age-a1-extra-17",
+    "oposicion": "age-a1",
+    "topic": "ue",
+    "difficulty": "hard",
+    "question": "La atribución a una organización internacional del ejercicio de competencias derivadas de la CE requiere:",
+    "options": [
+      "Ley ordinaria",
+      "Ley orgánica",
+      "Real decreto",
+      "Acuerdo de Consejo de Ministros"
+    ],
+    "correct": 1,
+    "explanation": "El art. 93 CE exige ley orgánica para autorizar tratados que atribuyan competencias derivadas de la Constitución.",
+    "lawReference": "Art. 93 CE"
+  },
+  {
+    "id": "age-a1-extra-18",
+    "oposicion": "age-a1",
+    "topic": "ue",
+    "difficulty": "medium",
+    "question": "Los tratados internacionales válidamente celebrados pasan a formar parte del ordenamiento interno español desde:",
+    "options": [
+      "Su firma",
+      "Su ratificación por el Congreso",
+      "Su publicación oficial en España",
+      "Su inscripción en el BOE autonómico"
+    ],
+    "correct": 2,
+    "explanation": "El art. 96.1 CE establece que forman parte del ordenamiento interno una vez publicados oficialmente en España.",
+    "lawReference": "Art. 96.1 CE"
+  },
+  {
+    "id": "age-a1-extra-19",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "medium",
+    "question": "La dirección de la política interior y exterior corresponde a:",
+    "options": [
+      "El Rey",
+      "Las Cortes Generales",
+      "El Gobierno",
+      "El Tribunal Constitucional"
+    ],
+    "correct": 2,
+    "explanation": "El art. 97 CE atribuye al Gobierno la dirección de la política interior y exterior.",
+    "lawReference": "Art. 97 CE"
+  },
+  {
+    "id": "age-a1-extra-20",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "easy",
+    "question": "La Administración Pública sirve con objetividad los intereses generales según:",
+    "options": [
+      "Artículo 31.2 CE",
+      "Artículo 53.1 CE",
+      "Artículo 103.1 CE",
+      "Artículo 149.1.18 CE"
+    ],
+    "correct": 2,
+    "explanation": "El art. 103.1 CE regula los principios de actuación de la Administración Pública.",
+    "lawReference": "Art. 103.1 CE"
+  },
+  {
+    "id": "age-a1-extra-21",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "medium",
+    "question": "La reserva de ley para regular el estatuto de los funcionarios públicos se establece en:",
+    "options": [
+      "Artículo 23.2 CE",
+      "Artículo 103.3 CE",
+      "Artículo 106.1 CE",
+      "Artículo 149.1.14 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 103.3 CE dispone que la ley regulará el estatuto de los funcionarios públicos.",
+    "lawReference": "Art. 103.3 CE"
+  },
+  {
+    "id": "age-a1-extra-22",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "hard",
+    "question": "El control jurisdiccional de la potestad reglamentaria y de la actuación administrativa se reconoce en:",
+    "options": [
+      "Artículo 97 CE",
+      "Artículo 103.1 CE",
+      "Artículo 106.1 CE",
+      "Artículo 117.1 CE"
+    ],
+    "correct": 2,
+    "explanation": "El art. 106.1 CE atribuye a los tribunales el control de la potestad reglamentaria y la legalidad administrativa.",
+    "lawReference": "Art. 106.1 CE"
+  },
+  {
+    "id": "age-a1-extra-23",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "easy",
+    "question": "La organización territorial del Estado en municipios, provincias y comunidades autónomas se regula en:",
+    "options": [
+      "Artículo 137 CE",
+      "Artículo 140 CE",
+      "Artículo 148 CE",
+      "Artículo 149 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 137 CE define la organización territorial del Estado.",
+    "lawReference": "Art. 137 CE"
+  },
+  {
+    "id": "age-a1-extra-24",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "hard",
+    "question": "La competencia exclusiva del Estado sobre bases del régimen jurídico de las Administraciones Públicas se recoge en:",
+    "options": [
+      "Artículo 149.1.14 CE",
+      "Artículo 149.1.18 CE",
+      "Artículo 150.2 CE",
+      "Artículo 153 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 149.1.18 CE atribuye esa competencia exclusiva al Estado.",
+    "lawReference": "Art. 149.1.18 CE"
+  },
+  {
+    "id": "age-a1-extra-25",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "medium",
+    "question": "La competencia exclusiva del Estado sobre Hacienda general y Deuda del Estado se regula en:",
+    "options": [
+      "Artículo 31.1 CE",
+      "Artículo 103.1 CE",
+      "Artículo 149.1.14 CE",
+      "Artículo 156.1 CE"
+    ],
+    "correct": 2,
+    "explanation": "El art. 149.1.14 CE recoge la competencia estatal sobre Hacienda general y Deuda del Estado.",
+    "lawReference": "Art. 149.1.14 CE"
+  },
+  {
+    "id": "age-a1-extra-26",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "easy",
+    "question": "Los derechos de las personas en sus relaciones con las Administraciones se recogen en:",
+    "options": [
+      "Artículo 13 Ley 39/2015",
+      "Artículo 14 Ley 39/2015",
+      "Artículo 16 Ley 39/2015",
+      "Artículo 21 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 13 Ley 39/2015 recoge los derechos de las personas frente a las Administraciones Públicas.",
+    "lawReference": "Art. 13 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-27",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "medium",
+    "question": "La obligación de relacionarse electrónicamente para determinados sujetos se regula en:",
+    "options": [
+      "Artículo 13 Ley 39/2015",
+      "Artículo 14 Ley 39/2015",
+      "Artículo 35 Ley 39/2015",
+      "Artículo 40 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 14 Ley 39/2015 establece los sujetos obligados a relacionarse por medios electrónicos.",
+    "lawReference": "Art. 14 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-28",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "medium",
+    "question": "El registro electrónico general se regula en:",
+    "options": [
+      "Artículo 16 Ley 39/2015",
+      "Artículo 21 Ley 39/2015",
+      "Artículo 24 Ley 39/2015",
+      "Artículo 66 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 16 Ley 39/2015 regula los registros administrativos y electrónicos.",
+    "lawReference": "Art. 16 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-29",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "easy",
+    "question": "La obligación de resolver expresamente todos los procedimientos se establece en:",
+    "options": [
+      "Artículo 21 Ley 39/2015",
+      "Artículo 24 Ley 39/2015",
+      "Artículo 82 Ley 39/2015",
+      "Artículo 112 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 21 Ley 39/2015 impone la obligación de resolución expresa.",
+    "lawReference": "Art. 21 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-30",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "medium",
+    "question": "Con carácter general, el silencio en procedimientos iniciados a solicitud de interesado es:",
+    "options": [
+      "Negativo",
+      "Positivo",
+      "Caducidad",
+      "Nulidad"
+    ],
+    "correct": 1,
+    "explanation": "El art. 24.1 Ley 39/2015 establece como regla general el silencio estimatorio.",
+    "lawReference": "Art. 24.1 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-31",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "medium",
+    "question": "La motivación de los actos administrativos en los supuestos previstos legalmente se regula en:",
+    "options": [
+      "Artículo 21 Ley 39/2015",
+      "Artículo 35 Ley 39/2015",
+      "Artículo 40 Ley 39/2015",
+      "Artículo 53 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 35 Ley 39/2015 regula los supuestos y contenido de la motivación de actos administrativos.",
+    "lawReference": "Art. 35 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-32",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "medium",
+    "question": "El contenido mínimo de las notificaciones administrativas se regula en:",
+    "options": [
+      "Artículo 35 Ley 39/2015",
+      "Artículo 40 Ley 39/2015",
+      "Artículo 43 Ley 39/2015",
+      "Artículo 48 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 40 Ley 39/2015 determina el contenido mínimo de las notificaciones.",
+    "lawReference": "Art. 40 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-33",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "hard",
+    "question": "En notificaciones electrónicas, el rechazo se produce cuando transcurren sin acceso al contenido:",
+    "options": [
+      "5 días hábiles",
+      "10 días naturales",
+      "10 días hábiles",
+      "15 días naturales"
+    ],
+    "correct": 1,
+    "explanation": "El art. 43.2 Ley 39/2015 establece el plazo de diez días naturales para entender rechazada una notificación electrónica.",
+    "lawReference": "Art. 43.2 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-34",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "hard",
+    "question": "La nulidad de pleno derecho de actos administrativos se regula en:",
+    "options": [
+      "Artículo 47 Ley 39/2015",
+      "Artículo 48 Ley 39/2015",
+      "Artículo 53 Ley 39/2015",
+      "Artículo 112 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 47 Ley 39/2015 establece los supuestos de nulidad de pleno derecho.",
+    "lawReference": "Art. 47 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-35",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "medium",
+    "question": "La anulabilidad de los actos administrativos se regula en:",
+    "options": [
+      "Artículo 47 Ley 39/2015",
+      "Artículo 48 Ley 39/2015",
+      "Artículo 53 Ley 39/2015",
+      "Artículo 88 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 48 Ley 39/2015 regula la anulabilidad por infracción del ordenamiento jurídico.",
+    "lawReference": "Art. 48 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-36",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "easy",
+    "question": "Los derechos de las personas interesadas en el procedimiento se recogen en:",
+    "options": [
+      "Artículo 13 Ley 39/2015",
+      "Artículo 16 Ley 39/2015",
+      "Artículo 53 Ley 39/2015",
+      "Artículo 66 Ley 39/2015"
+    ],
+    "correct": 2,
+    "explanation": "El art. 53 Ley 39/2015 regula los derechos de quienes tienen la condición de interesados.",
+    "lawReference": "Art. 53 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-37",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "medium",
+    "question": "El régimen general de recursos administrativos se inicia en:",
+    "options": [
+      "Artículo 109 Ley 39/2015",
+      "Artículo 112 Ley 39/2015",
+      "Artículo 121 Ley 39/2015",
+      "Artículo 123 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 112 Ley 39/2015 inicia la regulación de los recursos administrativos.",
+    "lawReference": "Art. 112 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-38",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "easy",
+    "question": "El recurso de alzada se regula en:",
+    "options": [
+      "Artículo 112 Ley 39/2015",
+      "Artículo 121 Ley 39/2015",
+      "Artículo 123 Ley 39/2015",
+      "Artículo 124 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 121 Ley 39/2015 regula el recurso de alzada.",
+    "lawReference": "Art. 121 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-39",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "easy",
+    "question": "El recurso potestativo de reposición se regula en:",
+    "options": [
+      "Artículo 121 Ley 39/2015",
+      "Artículo 122 Ley 39/2015",
+      "Artículo 123 Ley 39/2015",
+      "Artículo 124 Ley 39/2015"
+    ],
+    "correct": 2,
+    "explanation": "El art. 123 Ley 39/2015 regula el recurso potestativo de reposición.",
+    "lawReference": "Art. 123 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-40",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "hard",
+    "question": "El plazo para interponer recurso de reposición frente a acto expreso es de:",
+    "options": [
+      "10 días",
+      "15 días",
+      "1 mes",
+      "3 meses"
+    ],
+    "correct": 2,
+    "explanation": "El art. 124 Ley 39/2015 fija un mes para interponer reposición contra acto expreso.",
+    "lawReference": "Art. 124 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-extra-41",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "easy",
+    "question": "Los principios generales de actuación y funcionamiento del sector público se recogen en:",
+    "options": [
+      "Artículo 3 Ley 40/2015",
+      "Artículo 21 Ley 39/2015",
+      "Artículo 47 Ley 39/2015",
+      "Artículo 103.3 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 3 Ley 40/2015 recoge los principios de actuación y funcionamiento del sector público.",
+    "lawReference": "Art. 3 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-42",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "medium",
+    "question": "La abstención de autoridades y personal al servicio de las Administraciones se regula en:",
+    "options": [
+      "Artículo 23 Ley 40/2015",
+      "Artículo 24 Ley 40/2015",
+      "Artículo 32 Ley 40/2015",
+      "Artículo 47 Ley 40/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 23 Ley 40/2015 regula los supuestos de abstención.",
+    "lawReference": "Art. 23 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-43",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "medium",
+    "question": "La recusación en el ámbito administrativo se regula en:",
+    "options": [
+      "Artículo 23 Ley 40/2015",
+      "Artículo 24 Ley 40/2015",
+      "Artículo 35 Ley 39/2015",
+      "Artículo 53 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 24 Ley 40/2015 regula el derecho de recusación.",
+    "lawReference": "Art. 24 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-44",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "hard",
+    "question": "El régimen general de responsabilidad patrimonial de las Administraciones Públicas se regula en:",
+    "options": [
+      "Artículo 23 Ley 40/2015",
+      "Artículo 32 Ley 40/2015",
+      "Artículo 34 Ley 40/2015",
+      "Artículo 106.1 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 32 Ley 40/2015 regula los requisitos generales de la responsabilidad patrimonial.",
+    "lawReference": "Art. 32 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-45",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "hard",
+    "question": "Los criterios para cuantificar la indemnización en responsabilidad patrimonial se regulan en:",
+    "options": [
+      "Artículo 32 Ley 40/2015",
+      "Artículo 34 Ley 40/2015",
+      "Artículo 47 Ley 40/2015",
+      "Artículo 51 Ley 40/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 34 Ley 40/2015 regula la indemnización en responsabilidad patrimonial.",
+    "lawReference": "Art. 34 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-46",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "medium",
+    "question": "La definición y régimen básico de convenios administrativos se recoge en:",
+    "options": [
+      "Artículo 47 Ley 40/2015",
+      "Artículo 48 Ley 40/2015",
+      "Artículo 49 Ley 40/2015",
+      "Artículo 50 Ley 40/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 47 Ley 40/2015 define los convenios y su marco general.",
+    "lawReference": "Art. 47 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-47",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "hard",
+    "question": "Los requisitos de validez y eficacia de los convenios se regulan en:",
+    "options": [
+      "Artículo 48 Ley 40/2015",
+      "Artículo 49 Ley 40/2015",
+      "Artículo 50 Ley 40/2015",
+      "Artículo 51 Ley 40/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 48 Ley 40/2015 regula requisitos de validez y eficacia de los convenios.",
+    "lawReference": "Art. 48 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-48",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "hard",
+    "question": "El contenido mínimo obligatorio de los convenios administrativos se recoge en:",
+    "options": [
+      "Artículo 48 Ley 40/2015",
+      "Artículo 49 Ley 40/2015",
+      "Artículo 50 Ley 40/2015",
+      "Artículo 52 Ley 40/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 49 Ley 40/2015 establece el contenido mínimo de los convenios.",
+    "lawReference": "Art. 49 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-49",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "hard",
+    "question": "Los trámites preceptivos para la suscripción de convenios se regulan en:",
+    "options": [
+      "Artículo 49 Ley 40/2015",
+      "Artículo 50 Ley 40/2015",
+      "Artículo 51 Ley 40/2015",
+      "Artículo 140 Ley 40/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 50 Ley 40/2015 regula los trámites preceptivos para suscribir convenios.",
+    "lawReference": "Art. 50 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-extra-50",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "medium",
+    "question": "Las causas de extinción de los convenios administrativos se recogen en:",
+    "options": [
+      "Artículo 49 Ley 40/2015",
+      "Artículo 50 Ley 40/2015",
+      "Artículo 51 Ley 40/2015",
+      "Artículo 52 Ley 40/2015"
+    ],
+    "correct": 2,
+    "explanation": "El art. 51 Ley 40/2015 regula la extinción de los convenios.",
+    "lawReference": "Art. 51 Ley 40/2015"
   }
 ]

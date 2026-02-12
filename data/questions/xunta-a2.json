@@ -158,5 +158,645 @@
     "correct": 0,
     "explanation": "El art. 23.2 CE reconoce el derecho de acceso en condiciones de igualdad a funciones y cargos públicos.",
     "lawReference": "Art. 23.2 CE"
+  },
+  {
+    "id": "xunta-a2-extra-11",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "easy",
+    "question": "Los valores superiores del ordenamiento jurídico español se recogen en:",
+    "options": [
+      "Artículo 1.1 CE",
+      "Artículo 9.3 CE",
+      "Artículo 14 CE",
+      "Artículo 103.1 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 1.1 CE proclama como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.",
+    "lawReference": "Art. 1.1 CE"
+  },
+  {
+    "id": "xunta-a2-extra-12",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "easy",
+    "question": "La igualdad de los españoles ante la ley se reconoce en:",
+    "options": [
+      "Artículo 9.2 CE",
+      "Artículo 14 CE",
+      "Artículo 23.2 CE",
+      "Artículo 31.1 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 14 CE reconoce el derecho a la igualdad y a la no discriminación.",
+    "lawReference": "Art. 14 CE"
+  },
+  {
+    "id": "xunta-a2-extra-13",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "easy",
+    "question": "El derecho de acceso a funciones y cargos públicos en condiciones de igualdad se regula en:",
+    "options": [
+      "Artículo 14 CE",
+      "Artículo 23.2 CE",
+      "Artículo 103.1 CE",
+      "Artículo 149.1.18 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 23.2 CE garantiza el acceso a funciones y cargos públicos en condiciones de igualdad.",
+    "lawReference": "Art. 23.2 CE"
+  },
+  {
+    "id": "xunta-a2-extra-14",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "medium",
+    "question": "La programación y ejecución del gasto público responderán a criterios de eficiencia y economía según:",
+    "options": [
+      "Artículo 31.1 CE",
+      "Artículo 31.2 CE",
+      "Artículo 103.3 CE",
+      "Artículo 149.1.14 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 31.2 CE establece que el gasto público realizará una asignación equitativa de los recursos y su programación y ejecución responderán a criterios de eficiencia y economía.",
+    "lawReference": "Art. 31.2 CE"
+  },
+  {
+    "id": "xunta-a2-extra-15",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "easy",
+    "question": "La Administración Pública sirve con objetividad los intereses generales conforme a:",
+    "options": [
+      "Artículo 9.3 CE",
+      "Artículo 14 CE",
+      "Artículo 103.1 CE",
+      "Artículo 106.1 CE"
+    ],
+    "correct": 2,
+    "explanation": "El art. 103.1 CE recoge los principios de actuación de la Administración Pública.",
+    "lawReference": "Art. 103.1 CE"
+  },
+  {
+    "id": "xunta-a2-extra-16",
+    "oposicion": "xunta-a2",
+    "topic": "funcion-publica",
+    "difficulty": "medium",
+    "question": "La Constitución remite a la ley la regulación del estatuto de los funcionarios públicos en:",
+    "options": [
+      "Artículo 23.2 CE",
+      "Artículo 103.3 CE",
+      "Artículo 137 CE",
+      "Artículo 149.1.18 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 103.3 CE establece que la ley regulará el estatuto de los funcionarios públicos.",
+    "lawReference": "Art. 103.3 CE"
+  },
+  {
+    "id": "xunta-a2-extra-17",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "medium",
+    "question": "La competencia exclusiva del Estado sobre el procedimiento administrativo común se recoge en:",
+    "options": [
+      "Artículo 148.1 CE",
+      "Artículo 149.1.14 CE",
+      "Artículo 149.1.18 CE",
+      "Artículo 150 CE"
+    ],
+    "correct": 2,
+    "explanation": "El art. 149.1.18 CE atribuye al Estado la competencia sobre las bases del régimen jurídico y procedimiento administrativo común.",
+    "lawReference": "Art. 149.1.18 CE"
+  },
+  {
+    "id": "xunta-a2-extra-18",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "medium",
+    "question": "Entre los principios garantizados por la Constitución en el artículo 9.3 se encuentra:",
+    "options": [
+      "La seguridad jurídica",
+      "El derecho al trabajo",
+      "La libertad de empresa",
+      "La autonomía financiera local"
+    ],
+    "correct": 0,
+    "explanation": "El art. 9.3 CE garantiza, entre otros, la seguridad jurídica y la interdicción de la arbitrariedad.",
+    "lawReference": "Art. 9.3 CE"
+  },
+  {
+    "id": "xunta-a2-extra-19",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "hard",
+    "question": "El carácter vinculante para todos los poderes públicos de los derechos del Capítulo II del Título I se establece en:",
+    "options": [
+      "Artículo 10.1 CE",
+      "Artículo 23.2 CE",
+      "Artículo 53.1 CE",
+      "Artículo 103.1 CE"
+    ],
+    "correct": 2,
+    "explanation": "El art. 53.1 CE dispone que los derechos y libertades del Capítulo II vinculan a todos los poderes públicos.",
+    "lawReference": "Art. 53.1 CE"
+  },
+  {
+    "id": "xunta-a2-extra-20",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "easy",
+    "question": "La organización territorial del Estado en municipios, provincias y comunidades autónomas se regula en:",
+    "options": [
+      "Artículo 137 CE",
+      "Artículo 140 CE",
+      "Artículo 143 CE",
+      "Artículo 149.1 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 137 CE define la organización territorial del Estado.",
+    "lawReference": "Art. 137 CE"
+  },
+  {
+    "id": "xunta-a2-extra-21",
+    "oposicion": "xunta-a2",
+    "topic": "estatuto-galicia",
+    "difficulty": "easy",
+    "question": "El Estatuto de Autonomía de Galicia define a Galicia como nacionalidad histórica en:",
+    "options": [
+      "Artículo 1 LO 1/1981",
+      "Artículo 2 LO 1/1981",
+      "Artículo 5 LO 1/1981",
+      "Artículo 27 LO 1/1981"
+    ],
+    "correct": 0,
+    "explanation": "El art. 1 LO 1/1981 configura a Galicia como nacionalidad histórica y Comunidad Autónoma.",
+    "lawReference": "Art. 1 LO 1/1981"
+  },
+  {
+    "id": "xunta-a2-extra-22",
+    "oposicion": "xunta-a2",
+    "topic": "estatuto-galicia",
+    "difficulty": "easy",
+    "question": "El territorio de la Comunidad Autónoma de Galicia se define en:",
+    "options": [
+      "Artículo 1 LO 1/1981",
+      "Artículo 2 LO 1/1981",
+      "Artículo 5 LO 1/1981",
+      "Artículo 29 LO 1/1981"
+    ],
+    "correct": 1,
+    "explanation": "El art. 2 LO 1/1981 delimita el territorio gallego por sus cuatro provincias.",
+    "lawReference": "Art. 2 LO 1/1981"
+  },
+  {
+    "id": "xunta-a2-extra-23",
+    "oposicion": "xunta-a2",
+    "topic": "estatuto-galicia",
+    "difficulty": "easy",
+    "question": "La lengua propia de Galicia, según su Estatuto, es:",
+    "options": [
+      "El castellano",
+      "El gallego",
+      "El gallego y el portugués",
+      "El castellano con uso preferente"
+    ],
+    "correct": 1,
+    "explanation": "El art. 5 LO 1/1981 establece que la lengua propia de Galicia es el gallego.",
+    "lawReference": "Art. 5 LO 1/1981"
+  },
+  {
+    "id": "xunta-a2-extra-24",
+    "oposicion": "xunta-a2",
+    "topic": "estatuto-galicia",
+    "difficulty": "medium",
+    "question": "Las competencias exclusivas de Galicia se recogen de forma principal en:",
+    "options": [
+      "Artículo 5 LO 1/1981",
+      "Artículo 27 LO 1/1981",
+      "Artículo 28 LO 1/1981",
+      "Artículo 57 LO 1/1981"
+    ],
+    "correct": 1,
+    "explanation": "El art. 27 LO 1/1981 enumera las competencias exclusivas de la Comunidad Autónoma.",
+    "lawReference": "Art. 27 LO 1/1981"
+  },
+  {
+    "id": "xunta-a2-extra-25",
+    "oposicion": "xunta-a2",
+    "topic": "estatuto-galicia",
+    "difficulty": "hard",
+    "question": "El desarrollo legislativo y ejecución de la legislación básica estatal en materias asumidas por Galicia se encuadra en:",
+    "options": [
+      "Artículo 27 LO 1/1981",
+      "Artículo 28 LO 1/1981",
+      "Artículo 29 LO 1/1981",
+      "Artículo 2 LO 1/1981"
+    ],
+    "correct": 1,
+    "explanation": "El art. 28 LO 1/1981 regula competencias de desarrollo legislativo y ejecución sobre legislación básica estatal.",
+    "lawReference": "Art. 28 LO 1/1981"
+  },
+  {
+    "id": "xunta-a2-extra-26",
+    "oposicion": "xunta-a2",
+    "topic": "estatuto-galicia",
+    "difficulty": "hard",
+    "question": "La ejecución por Galicia de la legislación del Estado en determinadas materias está prevista en:",
+    "options": [
+      "Artículo 27 LO 1/1981",
+      "Artículo 28 LO 1/1981",
+      "Artículo 29 LO 1/1981",
+      "Artículo 5 LO 1/1981"
+    ],
+    "correct": 2,
+    "explanation": "El art. 29 LO 1/1981 contempla competencias de ejecución de la legislación estatal.",
+    "lawReference": "Art. 29 LO 1/1981"
+  },
+  {
+    "id": "xunta-a2-extra-27",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "easy",
+    "question": "Los derechos de las personas en sus relaciones con las Administraciones se regulan en:",
+    "options": [
+      "Artículo 13 Ley 39/2015",
+      "Artículo 14 Ley 39/2015",
+      "Artículo 16 Ley 39/2015",
+      "Artículo 53 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 13 Ley 39/2015 recoge los derechos de las personas en sus relaciones con las Administraciones Públicas.",
+    "lawReference": "Art. 13 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-28",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "easy",
+    "question": "La obligación de relacionarse electrónicamente para determinados sujetos se regula en:",
+    "options": [
+      "Artículo 13 Ley 39/2015",
+      "Artículo 14 Ley 39/2015",
+      "Artículo 21 Ley 39/2015",
+      "Artículo 40 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 14 Ley 39/2015 determina quiénes están obligados a relacionarse por medios electrónicos.",
+    "lawReference": "Art. 14 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-29",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "El registro electrónico general de cada Administración se contempla en:",
+    "options": [
+      "Artículo 16 Ley 39/2015",
+      "Artículo 24 Ley 39/2015",
+      "Artículo 41 Ley 39/2015",
+      "Artículo 66 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 16 Ley 39/2015 regula los registros administrativos y el registro electrónico general.",
+    "lawReference": "Art. 16 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-30",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "easy",
+    "question": "La obligación de dictar resolución expresa en todos los procedimientos se regula en:",
+    "options": [
+      "Artículo 21 Ley 39/2015",
+      "Artículo 24 Ley 39/2015",
+      "Artículo 82 Ley 39/2015",
+      "Artículo 112 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 21 Ley 39/2015 impone a la Administración la obligación de resolver expresamente.",
+    "lawReference": "Art. 21 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-31",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "Con carácter general, el silencio administrativo en procedimientos iniciados a solicitud del interesado es:",
+    "options": [
+      "Desestimatorio",
+      "Estimatorio",
+      "Nulo",
+      "Inexistente"
+    ],
+    "correct": 1,
+    "explanation": "El art. 24.1 Ley 39/2015 establece como regla general el silencio positivo, salvo excepciones.",
+    "lawReference": "Art. 24.1 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-32",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "El contenido mínimo de la notificación de un acto administrativo se regula en:",
+    "options": [
+      "Artículo 35 Ley 39/2015",
+      "Artículo 40 Ley 39/2015",
+      "Artículo 43 Ley 39/2015",
+      "Artículo 53 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 40 Ley 39/2015 fija los requisitos de contenido de las notificaciones.",
+    "lawReference": "Art. 40 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-33",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "Las condiciones generales para practicar notificaciones administrativas están en:",
+    "options": [
+      "Artículo 41 Ley 39/2015",
+      "Artículo 43 Ley 39/2015",
+      "Artículo 47 Ley 39/2015",
+      "Artículo 94 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 41 Ley 39/2015 regula las condiciones generales de práctica de notificaciones.",
+    "lawReference": "Art. 41 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-34",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "hard",
+    "question": "En notificaciones electrónicas, si no se accede al contenido en el plazo legal, se entiende rechazada tras:",
+    "options": [
+      "5 días hábiles",
+      "10 días naturales",
+      "10 días hábiles",
+      "15 días naturales"
+    ],
+    "correct": 1,
+    "explanation": "El art. 43.2 Ley 39/2015 fija un plazo de diez días naturales para entender rechazada la notificación.",
+    "lawReference": "Art. 43.2 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-35",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "hard",
+    "question": "Los actos administrativos que lesionen derechos y libertades susceptibles de amparo constitucional son:",
+    "options": [
+      "Anulables",
+      "Convalidables",
+      "Nulos de pleno derecho",
+      "Meramente irregulares"
+    ],
+    "correct": 2,
+    "explanation": "Conforme al art. 47.1.a Ley 39/2015, esos actos son nulos de pleno derecho.",
+    "lawReference": "Art. 47.1.a Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-36",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "La anulabilidad de actos administrativos por infracción del ordenamiento jurídico se regula en:",
+    "options": [
+      "Artículo 47 Ley 39/2015",
+      "Artículo 48 Ley 39/2015",
+      "Artículo 53 Ley 39/2015",
+      "Artículo 88 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 48 Ley 39/2015 regula los supuestos de anulabilidad de los actos administrativos.",
+    "lawReference": "Art. 48 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-37",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "easy",
+    "question": "Los derechos de las personas interesadas en el procedimiento administrativo se recogen en:",
+    "options": [
+      "Artículo 53 Ley 39/2015",
+      "Artículo 66 Ley 39/2015",
+      "Artículo 68 Ley 39/2015",
+      "Artículo 76 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 53 Ley 39/2015 recoge el catálogo de derechos de las personas interesadas.",
+    "lawReference": "Art. 53 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-38",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "easy",
+    "question": "El contenido mínimo de las solicitudes de iniciación se regula en:",
+    "options": [
+      "Artículo 53 Ley 39/2015",
+      "Artículo 66 Ley 39/2015",
+      "Artículo 76 Ley 39/2015",
+      "Artículo 82 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 66 Ley 39/2015 establece los requisitos formales de las solicitudes.",
+    "lawReference": "Art. 66 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-39",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "easy",
+    "question": "Cuando una solicitud es incompleta, el plazo general de subsanación es de:",
+    "options": [
+      "5 días",
+      "10 días",
+      "15 días",
+      "20 días"
+    ],
+    "correct": 1,
+    "explanation": "El art. 68 Ley 39/2015 concede con carácter general un plazo de diez días para subsanar.",
+    "lawReference": "Art. 68 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-40",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "La formulación de alegaciones por los interesados durante la instrucción se regula en:",
+    "options": [
+      "Artículo 68 Ley 39/2015",
+      "Artículo 76 Ley 39/2015",
+      "Artículo 82 Ley 39/2015",
+      "Artículo 94 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 76 Ley 39/2015 regula el trámite de alegaciones.",
+    "lawReference": "Art. 76 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-41",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "El trámite de audiencia, con carácter general, se regula en:",
+    "options": [
+      "Artículo 76 Ley 39/2015",
+      "Artículo 82 Ley 39/2015",
+      "Artículo 88 Ley 39/2015",
+      "Artículo 112 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 82 Ley 39/2015 regula el trámite de audiencia de los interesados.",
+    "lawReference": "Art. 82 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-42",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "El desistimiento y la renuncia como formas de terminación del procedimiento se regulan en:",
+    "options": [
+      "Artículo 88 Ley 39/2015",
+      "Artículo 94 Ley 39/2015",
+      "Artículo 109 Ley 39/2015",
+      "Artículo 121 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 94 Ley 39/2015 regula desistimiento y renuncia de los interesados.",
+    "lawReference": "Art. 94 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-43",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "La regulación general de los recursos administrativos se inicia en:",
+    "options": [
+      "Artículo 109 Ley 39/2015",
+      "Artículo 112 Ley 39/2015",
+      "Artículo 121 Ley 39/2015",
+      "Artículo 123 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 112 Ley 39/2015 establece el régimen general de recursos administrativos.",
+    "lawReference": "Art. 112 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-44",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "easy",
+    "question": "El recurso de alzada se regula en:",
+    "options": [
+      "Artículo 112 Ley 39/2015",
+      "Artículo 121 Ley 39/2015",
+      "Artículo 123 Ley 39/2015",
+      "Artículo 124 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 121 Ley 39/2015 regula el recurso de alzada.",
+    "lawReference": "Art. 121 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-45",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "easy",
+    "question": "El recurso potestativo de reposición se regula en:",
+    "options": [
+      "Artículo 121 Ley 39/2015",
+      "Artículo 122 Ley 39/2015",
+      "Artículo 123 Ley 39/2015",
+      "Artículo 124 Ley 39/2015"
+    ],
+    "correct": 2,
+    "explanation": "El art. 123 Ley 39/2015 regula el recurso potestativo de reposición.",
+    "lawReference": "Art. 123 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-46",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "hard",
+    "question": "El plazo para interponer recurso de reposición contra acto expreso es de:",
+    "options": [
+      "10 días",
+      "15 días",
+      "1 mes",
+      "3 meses"
+    ],
+    "correct": 2,
+    "explanation": "El art. 124 Ley 39/2015 fija un plazo de un mes frente a acto expreso.",
+    "lawReference": "Art. 124 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-extra-47",
+    "oposicion": "xunta-a2",
+    "topic": "funcion-publica",
+    "difficulty": "easy",
+    "question": "Los principios generales de actuación y funcionamiento del sector público se recogen en:",
+    "options": [
+      "Artículo 3 Ley 40/2015",
+      "Artículo 21 Ley 39/2015",
+      "Artículo 53 Ley 39/2015",
+      "Artículo 103.3 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 3 Ley 40/2015 enumera los principios generales de actuación y funcionamiento del sector público.",
+    "lawReference": "Art. 3 Ley 40/2015"
+  },
+  {
+    "id": "xunta-a2-extra-48",
+    "oposicion": "xunta-a2",
+    "topic": "funcion-publica",
+    "difficulty": "medium",
+    "question": "La abstención de autoridades y personal al servicio de las Administraciones se regula en:",
+    "options": [
+      "Artículo 23 Ley 40/2015",
+      "Artículo 24 Ley 40/2015",
+      "Artículo 47 Ley 40/2015",
+      "Artículo 141 Ley 40/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 23 Ley 40/2015 regula los supuestos de abstención por conflicto de interés.",
+    "lawReference": "Art. 23 Ley 40/2015"
+  },
+  {
+    "id": "xunta-a2-extra-49",
+    "oposicion": "xunta-a2",
+    "topic": "contratos-publicos",
+    "difficulty": "medium",
+    "question": "El régimen general de convenios administrativos entre Administraciones y entidades se inicia en:",
+    "options": [
+      "Artículo 47 Ley 40/2015",
+      "Artículo 49 Ley 40/2015",
+      "Artículo 51 Ley 40/2015",
+      "Artículo 140 Ley 40/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 47 Ley 40/2015 establece la definición y régimen básico de los convenios.",
+    "lawReference": "Art. 47 Ley 40/2015"
+  },
+  {
+    "id": "xunta-a2-extra-50",
+    "oposicion": "xunta-a2",
+    "topic": "contratos-publicos",
+    "difficulty": "medium",
+    "question": "Los principios de las relaciones interadministrativas se recogen en:",
+    "options": [
+      "Artículo 140 Ley 40/2015",
+      "Artículo 141 Ley 40/2015",
+      "Artículo 47 Ley 40/2015",
+      "Artículo 103.1 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 140 Ley 40/2015 regula los principios que rigen las relaciones entre Administraciones Públicas.",
+    "lawReference": "Art. 140 Ley 40/2015"
   }
 ]
