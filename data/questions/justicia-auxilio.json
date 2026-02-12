@@ -1,0 +1,162 @@
+[
+  {
+    "id": "justicia-auxilio-const-1",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "medium",
+    "question": "El derecho a la tutela judicial efectiva se reconoce en:",
+    "options": [
+      "Artículo 14 CE",
+      "Artículo 24.1 CE",
+      "Artículo 117 CE",
+      "Artículo 53 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 24.1 CE reconoce el derecho a obtener tutela efectiva de jueces y tribunales.",
+    "lawReference": "Art. 24.1 CE"
+  },
+  {
+    "id": "justicia-auxilio-const-2",
+    "oposicion": "justicia-auxilio",
+    "topic": "derecho-constitucional",
+    "difficulty": "medium",
+    "question": "La justicia emana del pueblo y se administra por Jueces y Magistrados según:",
+    "options": [
+      "Artículo 117.1 CE",
+      "Artículo 103.1 CE",
+      "Artículo 9.3 CE",
+      "Artículo 122.1 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 117.1 CE recoge los principios básicos del poder judicial.",
+    "lawReference": "Art. 117.1 CE"
+  },
+  {
+    "id": "justicia-auxilio-org-1",
+    "oposicion": "justicia-auxilio",
+    "topic": "organizacion-judicial",
+    "difficulty": "hard",
+    "question": "La enumeración de Juzgados y Tribunales que ejercen la potestad jurisdiccional se contiene en:",
+    "options": [
+      "Artículo 26 LOPJ",
+      "Artículo 399 LEC",
+      "Artículo 520 LECrim",
+      "Artículo 53 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 26 LOPJ enumera los órganos jurisdiccionales que integran la organización judicial.",
+    "lawReference": "Art. 26 LOPJ"
+  },
+  {
+    "id": "justicia-auxilio-org-2",
+    "oposicion": "justicia-auxilio",
+    "topic": "organizacion-judicial",
+    "difficulty": "medium",
+    "question": "La Ley Orgánica del Poder Judicial desarrolla el mandato constitucional previsto en:",
+    "options": [
+      "Artículo 122.1 CE",
+      "Artículo 24.1 CE",
+      "Artículo 149.1.18 CE",
+      "Artículo 14 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 122.1 CE dispone que la Ley Orgánica del Poder Judicial determine la constitución, funcionamiento y gobierno de los juzgados y tribunales.",
+    "lawReference": "Art. 122.1 CE"
+  },
+  {
+    "id": "justicia-auxilio-civil-1",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "medium",
+    "question": "El contenido de la demanda en el juicio ordinario se regula en:",
+    "options": [
+      "Artículo 399 LEC",
+      "Artículo 437 LEC",
+      "Artículo 548 LEC",
+      "Artículo 250 LEC"
+    ],
+    "correct": 0,
+    "explanation": "El art. 399 LEC establece los requisitos de forma y contenido de la demanda en juicio ordinario.",
+    "lawReference": "Art. 399 LEC"
+  },
+  {
+    "id": "justicia-auxilio-civil-2",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "easy",
+    "question": "La regulación de la demanda en el juicio verbal se encuentra en:",
+    "options": [
+      "Artículo 399 LEC",
+      "Artículo 437 LEC",
+      "Artículo 517 LEC",
+      "Artículo 548 LEC"
+    ],
+    "correct": 1,
+    "explanation": "El art. 437 LEC contiene la regulación de la demanda del juicio verbal.",
+    "lawReference": "Art. 437 LEC"
+  },
+  {
+    "id": "justicia-auxilio-civil-3",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-civil",
+    "difficulty": "hard",
+    "question": "La ejecución forzosa de resoluciones procesales o arbitrales no puede despacharse hasta transcurridos:",
+    "options": [
+      "10 días",
+      "15 días",
+      "20 días",
+      "30 días"
+    ],
+    "correct": 2,
+    "explanation": "El art. 548 LEC fija un plazo de espera de 20 días desde la notificación de la resolución para despachar ejecución.",
+    "lawReference": "Art. 548 LEC"
+  },
+  {
+    "id": "justicia-auxilio-penal-1",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "medium",
+    "question": "Los derechos del investigado en el proceso penal se recogen en:",
+    "options": [
+      "Artículo 118 LECrim",
+      "Artículo 520 LECrim",
+      "Artículo 299 LECrim",
+      "Artículo 24 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 118 LECrim regula los derechos de la persona investigada en el procedimiento penal.",
+    "lawReference": "Art. 118 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-penal-2",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "medium",
+    "question": "Los derechos del detenido o preso se desarrollan específicamente en:",
+    "options": [
+      "Artículo 118 LECrim",
+      "Artículo 299 LECrim",
+      "Artículo 520 LECrim",
+      "Artículo 544 LECrim"
+    ],
+    "correct": 2,
+    "explanation": "El art. 520 LECrim detalla los derechos del detenido o preso, incluida la asistencia letrada.",
+    "lawReference": "Art. 520 LECrim"
+  },
+  {
+    "id": "justicia-auxilio-penal-3",
+    "oposicion": "justicia-auxilio",
+    "topic": "procedimiento-penal",
+    "difficulty": "hard",
+    "question": "El sumario tiene por objeto averiguar y hacer constar la perpetración de los delitos, conforme a:",
+    "options": [
+      "Artículo 299 LECrim",
+      "Artículo 118 LECrim",
+      "Artículo 520 LECrim",
+      "Artículo 24 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 299 LECrim define la finalidad del sumario dentro del proceso penal.",
+    "lawReference": "Art. 299 LECrim"
+  }
+]

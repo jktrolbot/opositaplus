@@ -1,0 +1,162 @@
+[
+  {
+    "id": "xunta-a2-const-1",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "easy",
+    "question": "El principio de igualdad ante la ley se reconoce en:",
+    "options": [
+      "Artículo 14 CE",
+      "Artículo 9 CE",
+      "Artículo 23 CE",
+      "Artículo 103 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 14 CE proclama la igualdad de los españoles ante la ley sin discriminación.",
+    "lawReference": "Art. 14 CE"
+  },
+  {
+    "id": "xunta-a2-const-2",
+    "oposicion": "xunta-a2",
+    "topic": "constitucion",
+    "difficulty": "medium",
+    "question": "Según la CE, la Administración Pública sirve con objetividad los intereses generales de acuerdo con:",
+    "options": [
+      "Artículo 1.1",
+      "Artículo 103.1",
+      "Artículo 9.2",
+      "Artículo 149.1"
+    ],
+    "correct": 1,
+    "explanation": "El art. 103.1 CE define los principios básicos de actuación de la Administración Pública.",
+    "lawReference": "Art. 103.1 CE"
+  },
+  {
+    "id": "xunta-a2-est-1",
+    "oposicion": "xunta-a2",
+    "topic": "estatuto-galicia",
+    "difficulty": "easy",
+    "question": "¿Qué establece el Estatuto de Galicia sobre el gallego?",
+    "options": [
+      "Es lengua cooficial pero no propia",
+      "Es la única lengua oficial",
+      "Es la lengua propia de Galicia",
+      "Solo puede usarse en el ámbito privado"
+    ],
+    "correct": 2,
+    "explanation": "El art. 5 del Estatuto de Autonomía de Galicia define el gallego como lengua propia de Galicia.",
+    "lawReference": "Art. 5 LO 1/1981"
+  },
+  {
+    "id": "xunta-a2-est-2",
+    "oposicion": "xunta-a2",
+    "topic": "estatuto-galicia",
+    "difficulty": "medium",
+    "question": "Las competencias exclusivas de Galicia se enumeran principalmente en:",
+    "options": [
+      "Artículo 2 del Estatuto",
+      "Artículo 27 del Estatuto",
+      "Artículo 5 del Estatuto",
+      "Artículo 57 del Estatuto"
+    ],
+    "correct": 1,
+    "explanation": "El art. 27 LO 1/1981 recoge el catálogo de competencias exclusivas de la Comunidad Autónoma.",
+    "lawReference": "Art. 27 LO 1/1981"
+  },
+  {
+    "id": "xunta-a2-pa-1",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "En la Ley 39/2015, los derechos de las personas interesadas en el procedimiento administrativo se regulan en:",
+    "options": [
+      "Artículo 14",
+      "Artículo 21",
+      "Artículo 53",
+      "Artículo 68"
+    ],
+    "correct": 2,
+    "explanation": "El art. 53 de la Ley 39/2015 contiene el catálogo de derechos de las personas interesadas.",
+    "lawReference": "Art. 53 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-pa-2",
+    "oposicion": "xunta-a2",
+    "topic": "procedimiento-admin",
+    "difficulty": "medium",
+    "question": "Cuando una solicitud no reúne los requisitos, la Administración requerirá subsanación conforme a:",
+    "options": [
+      "Artículo 24 Ley 39/2015",
+      "Artículo 68 Ley 39/2015",
+      "Artículo 121 Ley 39/2015",
+      "Artículo 47 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 68 de la Ley 39/2015 regula la subsanación y mejora de solicitudes.",
+    "lawReference": "Art. 68 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-cp-1",
+    "oposicion": "xunta-a2",
+    "topic": "contratos-publicos",
+    "difficulty": "hard",
+    "question": "El principio de eficiencia en la asignación y uso de recursos públicos en la actuación administrativa conecta con:",
+    "options": [
+      "Artículo 3 de la Ley 40/2015",
+      "Artículo 53 de la Ley 39/2015",
+      "Artículo 24 de la CE",
+      "Artículo 5 del Estatuto de Galicia"
+    ],
+    "correct": 0,
+    "explanation": "El art. 3 de la Ley 40/2015 incorpora, entre otros, los principios de eficacia y eficiencia en la actuación pública.",
+    "lawReference": "Art. 3 Ley 40/2015"
+  },
+  {
+    "id": "xunta-a2-cp-2",
+    "oposicion": "xunta-a2",
+    "topic": "contratos-publicos",
+    "difficulty": "medium",
+    "question": "La obligación de resolver expresamente los procedimientos administrativos también resulta exigible en expedientes contractuales por aplicación de:",
+    "options": [
+      "Artículo 21 de la Ley 39/2015",
+      "Artículo 14 de la CE",
+      "Artículo 2 del Estatuto de Galicia",
+      "Artículo 90 de la Ley 37/1992"
+    ],
+    "correct": 0,
+    "explanation": "El art. 21 de la Ley 39/2015 impone la obligación general de resolver, aplicable al procedimiento administrativo.",
+    "lawReference": "Art. 21 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a2-fp-1",
+    "oposicion": "xunta-a2",
+    "topic": "funcion-publica",
+    "difficulty": "medium",
+    "question": "La regulación del estatuto de los funcionarios públicos se remite en la CE a:",
+    "options": [
+      "Artículo 23.2 CE",
+      "Artículo 103.3 CE",
+      "Artículo 106.1 CE",
+      "Artículo 149.1.18 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 103.3 CE dispone que la ley regulará el estatuto de los funcionarios públicos.",
+    "lawReference": "Art. 103.3 CE"
+  },
+  {
+    "id": "xunta-a2-fp-2",
+    "oposicion": "xunta-a2",
+    "topic": "funcion-publica",
+    "difficulty": "medium",
+    "question": "El acceso a la función pública conforme a principios de mérito y capacidad se vincula constitucionalmente a:",
+    "options": [
+      "Artículo 23.2 CE",
+      "Artículo 9.3 CE",
+      "Artículo 1.2 CE",
+      "Artículo 45 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 23.2 CE reconoce el derecho de acceso en condiciones de igualdad a funciones y cargos públicos.",
+    "lawReference": "Art. 23.2 CE"
+  }
+]

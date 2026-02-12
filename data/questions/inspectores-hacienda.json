@@ -1,0 +1,162 @@
+[
+  {
+    "id": "inspectores-hacienda-lgt-1",
+    "oposicion": "inspectores-hacienda",
+    "topic": "derecho-tributario-avanzado",
+    "difficulty": "hard",
+    "question": "Las funciones de la inspección de los tributos se recogen en:",
+    "options": [
+      "Artículo 34 LGT",
+      "Artículo 68 LGT",
+      "Artículo 141 LGT",
+      "Artículo 191 LGT"
+    ],
+    "correct": 2,
+    "explanation": "El art. 141 LGT regula las funciones de la Inspección de los Tributos.",
+    "lawReference": "Art. 141 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "inspectores-hacienda-lgt-2",
+    "oposicion": "inspectores-hacienda",
+    "topic": "derecho-tributario-avanzado",
+    "difficulty": "hard",
+    "question": "La interrupción del plazo de prescripción tributaria está prevista en:",
+    "options": [
+      "Artículo 20 LGT",
+      "Artículo 68 LGT",
+      "Artículo 95 LGT",
+      "Artículo 150 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 68 LGT regula las causas de interrupción de la prescripción.",
+    "lawReference": "Art. 68 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "inspectores-hacienda-irpf-1",
+    "oposicion": "inspectores-hacienda",
+    "topic": "irpf-avanzado",
+    "difficulty": "medium",
+    "question": "La imputación temporal de rentas en el IRPF se regula con carácter general en:",
+    "options": [
+      "Artículo 9 Ley 35/2006",
+      "Artículo 14 Ley 35/2006",
+      "Artículo 17 Ley 35/2006",
+      "Artículo 27 Ley 35/2006"
+    ],
+    "correct": 1,
+    "explanation": "El art. 14 de la Ley 35/2006 contiene las reglas de imputación temporal.",
+    "lawReference": "Art. 14 Ley 35/2006"
+  },
+  {
+    "id": "inspectores-hacienda-irpf-2",
+    "oposicion": "inspectores-hacienda",
+    "topic": "irpf-avanzado",
+    "difficulty": "hard",
+    "question": "Según la Ley 35/2006, se consideran rendimientos de actividades económicas los que proceden de:",
+    "options": [
+      "La ordenación por cuenta propia de medios de producción y/o recursos humanos",
+      "Solo de actividades mercantiles societarias",
+      "Cualquier ganancia patrimonial",
+      "Únicamente del trabajo personal"
+    ],
+    "correct": 0,
+    "explanation": "El art. 27.1 de la Ley 35/2006 define los rendimientos de actividades económicas por la ordenación por cuenta propia.",
+    "lawReference": "Art. 27.1 Ley 35/2006"
+  },
+  {
+    "id": "inspectores-hacienda-iva-1",
+    "oposicion": "inspectores-hacienda",
+    "topic": "iva-avanzado",
+    "difficulty": "medium",
+    "question": "El devengo del IVA en entregas de bienes se regula, con carácter general, en:",
+    "options": [
+      "Artículo 20 Ley 37/1992",
+      "Artículo 75 Ley 37/1992",
+      "Artículo 84 Ley 37/1992",
+      "Artículo 92 Ley 37/1992"
+    ],
+    "correct": 1,
+    "explanation": "El art. 75 de la Ley 37/1992 regula el devengo del impuesto.",
+    "lawReference": "Art. 75 Ley 37/1992"
+  },
+  {
+    "id": "inspectores-hacienda-iva-2",
+    "oposicion": "inspectores-hacienda",
+    "topic": "iva-avanzado",
+    "difficulty": "hard",
+    "question": "La regla general del sujeto pasivo del IVA se encuentra en:",
+    "options": [
+      "Artículo 4 Ley 37/1992",
+      "Artículo 84 Ley 37/1992",
+      "Artículo 90 Ley 37/1992",
+      "Artículo 94 Ley 37/1992"
+    ],
+    "correct": 1,
+    "explanation": "El art. 84 de la Ley 37/1992 regula quiénes son sujetos pasivos del impuesto.",
+    "lawReference": "Art. 84 Ley 37/1992"
+  },
+  {
+    "id": "inspectores-hacienda-iva-3",
+    "oposicion": "inspectores-hacienda",
+    "topic": "iva-avanzado",
+    "difficulty": "hard",
+    "question": "El derecho a deducir cuotas soportadas en IVA se reconoce en:",
+    "options": [
+      "Artículo 75 Ley 37/1992",
+      "Artículo 84 Ley 37/1992",
+      "Artículo 92 Ley 37/1992",
+      "Artículo 164 Ley 37/1992"
+    ],
+    "correct": 2,
+    "explanation": "El art. 92 de la Ley 37/1992 establece el derecho a deducir cuotas soportadas bajo los requisitos legales.",
+    "lawReference": "Art. 92 Ley 37/1992"
+  },
+  {
+    "id": "inspectores-hacienda-merc-1",
+    "oposicion": "inspectores-hacienda",
+    "topic": "derecho-mercantil",
+    "difficulty": "medium",
+    "question": "En el Impuesto sobre Sociedades, son contribuyentes, entre otros, las personas jurídicas, según:",
+    "options": [
+      "Artículo 7 Ley 27/2014",
+      "Artículo 10 Ley 27/2014",
+      "Artículo 15 Ley 27/2014",
+      "Artículo 29 Ley 27/2014"
+    ],
+    "correct": 0,
+    "explanation": "El art. 7 de la Ley 27/2014 identifica los contribuyentes del Impuesto sobre Sociedades.",
+    "lawReference": "Art. 7 Ley 27/2014"
+  },
+  {
+    "id": "inspectores-hacienda-merc-2",
+    "oposicion": "inspectores-hacienda",
+    "topic": "derecho-mercantil",
+    "difficulty": "hard",
+    "question": "La base imponible en el Impuesto sobre Sociedades se determina, con carácter general, a partir de:",
+    "options": [
+      "La cifra de negocio",
+      "El resultado contable corregido por preceptos fiscales",
+      "El patrimonio neto",
+      "Los flujos de caja"
+    ],
+    "correct": 1,
+    "explanation": "El art. 10 de la Ley 27/2014 dispone que la base imponible se calcula corrigiendo el resultado contable según la ley fiscal.",
+    "lawReference": "Art. 10 Ley 27/2014"
+  },
+  {
+    "id": "inspectores-hacienda-lgt-3",
+    "oposicion": "inspectores-hacienda",
+    "topic": "derecho-tributario-avanzado",
+    "difficulty": "hard",
+    "question": "El plazo de duración de las actuaciones inspectoras se regula en:",
+    "options": [
+      "Artículo 120 LGT",
+      "Artículo 141 LGT",
+      "Artículo 150 LGT",
+      "Artículo 183 LGT"
+    ],
+    "correct": 2,
+    "explanation": "El art. 150 LGT establece el régimen temporal de las actuaciones y procedimientos de inspección.",
+    "lawReference": "Art. 150 Ley 58/2003 (LGT)"
+  }
+]

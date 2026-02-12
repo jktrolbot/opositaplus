@@ -1,0 +1,162 @@
+[
+  {
+    "id": "xunta-a1-const-1",
+    "oposicion": "xunta-a1",
+    "topic": "constitucion",
+    "difficulty": "medium",
+    "question": "Según el artículo 1.1 CE, los valores superiores del ordenamiento jurídico son:",
+    "options": [
+      "La libertad, la justicia, la igualdad y el pluralismo político",
+      "La libertad, la seguridad, la justicia y la solidaridad",
+      "La igualdad, la justicia, la paz y la solidaridad",
+      "La libertad, la igualdad, la fraternidad y la justicia"
+    ],
+    "correct": 0,
+    "explanation": "El art. 1.1 CE fija como valores superiores la libertad, la justicia, la igualdad y el pluralismo político.",
+    "lawReference": "Art. 1.1 CE"
+  },
+  {
+    "id": "xunta-a1-const-2",
+    "oposicion": "xunta-a1",
+    "topic": "constitucion",
+    "difficulty": "hard",
+    "question": "El artículo 9.3 CE garantiza, entre otros principios:",
+    "options": [
+      "Solo la jerarquía normativa y la publicidad de las normas",
+      "La irretroactividad de disposiciones sancionadoras no favorables y la seguridad jurídica",
+      "Únicamente la responsabilidad de los poderes públicos",
+      "Exclusivamente la interdicción de la arbitrariedad"
+    ],
+    "correct": 1,
+    "explanation": "El art. 9.3 CE enumera varios principios, incluyendo seguridad jurídica e irretroactividad de disposiciones sancionadoras no favorables.",
+    "lawReference": "Art. 9.3 CE"
+  },
+  {
+    "id": "xunta-a1-est-1",
+    "oposicion": "xunta-a1",
+    "topic": "estatuto-galicia",
+    "difficulty": "easy",
+    "question": "El artículo 1 del Estatuto de Autonomía de Galicia (LO 1/1981) establece que Galicia:",
+    "options": [
+      "Es una provincia autónoma",
+      "Es una nacionalidad histórica que se constituye en Comunidad Autónoma",
+      "Es una región administrativa sin autogobierno",
+      "Depende orgánicamente del Senado"
+    ],
+    "correct": 1,
+    "explanation": "El art. 1 del Estatuto define Galicia como nacionalidad histórica que accede a su autogobierno como Comunidad Autónoma.",
+    "lawReference": "Art. 1 LO 1/1981"
+  },
+  {
+    "id": "xunta-a1-est-2",
+    "oposicion": "xunta-a1",
+    "topic": "estatuto-galicia",
+    "difficulty": "medium",
+    "question": "Según el artículo 5 del Estatuto de Autonomía de Galicia, la lengua propia de Galicia es:",
+    "options": [
+      "El castellano",
+      "El gallego",
+      "El gallego y el portugués",
+      "Ninguna, porque solo hay lengua oficial estatal"
+    ],
+    "correct": 1,
+    "explanation": "El art. 5 del Estatuto señala expresamente que la lengua propia de Galicia es el gallego.",
+    "lawReference": "Art. 5 LO 1/1981"
+  },
+  {
+    "id": "xunta-a1-l39-1",
+    "oposicion": "xunta-a1",
+    "topic": "ley-39-2015",
+    "difficulty": "medium",
+    "question": "En la Ley 39/2015, ¿qué artículo impone a la Administración la obligación de dictar resolución expresa?",
+    "options": [
+      "Artículo 14",
+      "Artículo 21",
+      "Artículo 24",
+      "Artículo 53"
+    ],
+    "correct": 1,
+    "explanation": "El art. 21 de la Ley 39/2015 establece la obligación de resolver expresamente en todos los procedimientos.",
+    "lawReference": "Art. 21 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a1-l39-2",
+    "oposicion": "xunta-a1",
+    "topic": "ley-39-2015",
+    "difficulty": "medium",
+    "question": "Con carácter general, el silencio administrativo en procedimientos iniciados a solicitud del interesado es:",
+    "options": [
+      "Desestimatorio siempre",
+      "Estimatorio, salvo excepciones legales",
+      "Nulo de pleno derecho",
+      "Irrelevante jurídicamente"
+    ],
+    "correct": 1,
+    "explanation": "El art. 24.1 de la Ley 39/2015 establece como regla general el silencio positivo, con excepciones.",
+    "lawReference": "Art. 24.1 Ley 39/2015"
+  },
+  {
+    "id": "xunta-a1-l40-1",
+    "oposicion": "xunta-a1",
+    "topic": "ley-40-2015",
+    "difficulty": "medium",
+    "question": "¿Qué norma recoge los principios generales de actuación de las Administraciones Públicas como eficacia y servicio a los ciudadanos?",
+    "options": [
+      "Artículo 3 de la Ley 40/2015",
+      "Artículo 1 de la Ley 39/2015",
+      "Artículo 14 de la CE",
+      "Artículo 47 de la Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 3 de la Ley 40/2015 enumera los principios generales de actuación del sector público.",
+    "lawReference": "Art. 3 Ley 40/2015"
+  },
+  {
+    "id": "xunta-a1-l40-2",
+    "oposicion": "xunta-a1",
+    "topic": "ley-40-2015",
+    "difficulty": "hard",
+    "question": "La abstención de autoridades y personal al servicio de las Administraciones por conflicto de interés se regula en:",
+    "options": [
+      "Artículo 23 de la Ley 40/2015",
+      "Artículo 16 de la Ley 39/2015",
+      "Artículo 9 de la CE",
+      "Artículo 68 de la Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 23 de la Ley 40/2015 regula de forma expresa los supuestos de abstención.",
+    "lawReference": "Art. 23 Ley 40/2015"
+  },
+  {
+    "id": "xunta-a1-da-1",
+    "oposicion": "xunta-a1",
+    "topic": "derecho-admin",
+    "difficulty": "hard",
+    "question": "Según la Ley 39/2015, son nulos de pleno derecho los actos administrativos que:",
+    "options": [
+      "Sean desfavorables para el interesado",
+      "Incurran en desviación de poder",
+      "Lesionen derechos y libertades susceptibles de amparo constitucional",
+      "No estén motivados"
+    ],
+    "correct": 2,
+    "explanation": "El art. 47.1.a de la Ley 39/2015 declara nulos los actos que lesionen derechos y libertades susceptibles de amparo constitucional.",
+    "lawReference": "Art. 47.1.a Ley 39/2015"
+  },
+  {
+    "id": "xunta-a1-fpg-1",
+    "oposicion": "xunta-a1",
+    "topic": "funcion-publica-galicia",
+    "difficulty": "medium",
+    "question": "El acceso a las funciones y cargos públicos debe realizarse en condiciones de igualdad conforme a:",
+    "options": [
+      "Artículo 24 CE",
+      "Artículo 23.2 CE",
+      "Artículo 31 CE",
+      "Artículo 45 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 23.2 CE reconoce el derecho de acceso en condiciones de igualdad a funciones y cargos públicos.",
+    "lawReference": "Art. 23.2 CE"
+  }
+]

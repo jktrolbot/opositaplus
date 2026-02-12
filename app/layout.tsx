@@ -1,16 +1,11 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import { ThemeProvider } from 'next-themes';
+import { SiteNav } from '@/components/site-nav';
 
 export const metadata: Metadata = {
-  title: 'Oposita+ | Todas las herramientas para aprobar tu oposición',
-  description: 'Plataforma completa de preparación para oposiciones en España. Tests adaptativos, preparador personal 24/7, seguimiento de progreso y simulacros de examen.',
-  keywords: 'oposiciones, estudio, tests, preparador, Xunta, Galicia, España',
-  openGraph: {
-    title: 'Oposita+ | Prepara tu oposición',
-    description: 'Todas las herramientas que necesitas para aprobar',
-    type: 'website',
-  },
+  title: 'Oposita+ | Preparación por oposiciones',
+  description:
+    'Plataforma de preparación para oposiciones en España con tests, tutor, planificación, repaso y simulacros por convocatoria.',
 };
 
 export default function RootLayout({
@@ -19,11 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" suppressHydrationWarning>
-      <body className="antialiased">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          {children}
-        </ThemeProvider>
+    <html lang="es">
+      <body className="min-h-screen bg-[#F8FAFC] text-slate-900 antialiased">
+        <SiteNav />
+        {children}
       </body>
     </html>
   );

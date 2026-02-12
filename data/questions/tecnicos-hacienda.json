@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tecnicos-hacienda-lgt-1",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "easy",
+    "question": "El plazo general de prescripción de los derechos de la Administración tributaria es de:",
+    "options": [
+      "Dos años",
+      "Tres años",
+      "Cuatro años",
+      "Cinco años"
+    ],
+    "correct": 2,
+    "explanation": "La Ley General Tributaria fija con carácter general un plazo de prescripción de cuatro años.",
+    "lawReference": "Art. 66 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-lgt-2",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "derecho-tributario",
+    "difficulty": "medium",
+    "question": "Los derechos y garantías de los obligados tributarios se regulan en:",
+    "options": [
+      "Artículo 20 LGT",
+      "Artículo 34 LGT",
+      "Artículo 66 LGT",
+      "Artículo 95 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 34 LGT recoge los principales derechos y garantías de los obligados tributarios.",
+    "lawReference": "Art. 34 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-irpf-1",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "easy",
+    "question": "Conforme a la Ley 35/2006, el hecho imponible del IRPF es:",
+    "options": [
+      "La titularidad de inmuebles urbanos",
+      "La obtención de renta por el contribuyente",
+      "La mera residencia en España",
+      "La realización de actos de comercio"
+    ],
+    "correct": 1,
+    "explanation": "El art. 6 de la Ley 35/2006 define como hecho imponible la obtención de renta por el contribuyente.",
+    "lawReference": "Art. 6 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-irpf-2",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "irpf",
+    "difficulty": "medium",
+    "question": "En el IRPF, sueldos y salarios tienen la consideración de:",
+    "options": [
+      "Ganancias patrimoniales",
+      "Rendimientos del trabajo",
+      "Rendimientos del capital mobiliario",
+      "Rentas exentas"
+    ],
+    "correct": 1,
+    "explanation": "El art. 17 de la Ley 35/2006 califica sueldos y salarios como rendimientos del trabajo.",
+    "lawReference": "Art. 17 Ley 35/2006"
+  },
+  {
+    "id": "tecnicos-hacienda-iva-1",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "iva",
+    "difficulty": "easy",
+    "question": "¿Qué artículo de la Ley del IVA define, con carácter general, las operaciones sujetas al impuesto?",
+    "options": [
+      "Artículo 4",
+      "Artículo 20",
+      "Artículo 75",
+      "Artículo 90"
+    ],
+    "correct": 0,
+    "explanation": "El art. 4 de la Ley 37/1992 regula el hecho imponible general del IVA.",
+    "lawReference": "Art. 4 Ley 37/1992"
+  },
+  {
+    "id": "tecnicos-hacienda-iva-2",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "iva",
+    "difficulty": "easy",
+    "question": "El tipo general del IVA en España es:",
+    "options": [
+      "4%",
+      "10%",
+      "18%",
+      "21%"
+    ],
+    "correct": 3,
+    "explanation": "El art. 90 de la Ley 37/1992 fija el tipo impositivo general del 21%.",
+    "lawReference": "Art. 90 Ley 37/1992"
+  },
+  {
+    "id": "tecnicos-hacienda-is-1",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "impuesto-sociedades",
+    "difficulty": "easy",
+    "question": "El tipo general de gravamen del Impuesto sobre Sociedades es:",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correct": 2,
+    "explanation": "Con carácter general, el tipo de gravamen es del 25%.",
+    "lawReference": "Art. 29 Ley 27/2014"
+  },
+  {
+    "id": "tecnicos-hacienda-is-2",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "impuesto-sociedades",
+    "difficulty": "hard",
+    "question": "En el Impuesto sobre Sociedades, las liberalidades tienen la consideración de:",
+    "options": [
+      "Gasto fiscalmente deducible en todo caso",
+      "Gasto no deducible, con excepciones legales",
+      "Ingreso computable",
+      "Amortización acelerada"
+    ],
+    "correct": 1,
+    "explanation": "El art. 15.e de la Ley 27/2014 establece la no deducibilidad de liberalidades, salvo supuestos excepcionados.",
+    "lawReference": "Art. 15.e Ley 27/2014"
+  },
+  {
+    "id": "tecnicos-hacienda-proc-1",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "medium",
+    "question": "La autoliquidación tributaria se regula en:",
+    "options": [
+      "Artículo 95 LGT",
+      "Artículo 120 LGT",
+      "Artículo 150 LGT",
+      "Artículo 191 LGT"
+    ],
+    "correct": 1,
+    "explanation": "El art. 120 LGT regula la declaración tributaria y la autoliquidación.",
+    "lawReference": "Art. 120 Ley 58/2003 (LGT)"
+  },
+  {
+    "id": "tecnicos-hacienda-proc-2",
+    "oposicion": "tecnicos-hacienda",
+    "topic": "procedimientos-tributarios",
+    "difficulty": "hard",
+    "question": "Los datos, informes o antecedentes obtenidos por la Administración tributaria tienen carácter reservado según:",
+    "options": [
+      "Artículo 34 LGT",
+      "Artículo 66 LGT",
+      "Artículo 95 LGT",
+      "Artículo 120 LGT"
+    ],
+    "correct": 2,
+    "explanation": "El art. 95 LGT establece el carácter reservado de la información con trascendencia tributaria.",
+    "lawReference": "Art. 95 Ley 58/2003 (LGT)"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "age-a1-const-1",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "medium",
+    "question": "Según la CE, la dirección de la política interior y exterior corresponde a:",
+    "options": [
+      "El Congreso de los Diputados",
+      "El Rey",
+      "El Gobierno",
+      "El Senado"
+    ],
+    "correct": 2,
+    "explanation": "El art. 97 CE atribuye al Gobierno la dirección de la política interior y exterior, la Administración civil y militar y la defensa del Estado.",
+    "lawReference": "Art. 97 CE"
+  },
+  {
+    "id": "age-a1-const-2",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "hard",
+    "question": "La ley regulará el estatuto de los funcionarios públicos conforme a:",
+    "options": [
+      "Artículo 103.3 CE",
+      "Artículo 106.1 CE",
+      "Artículo 23.1 CE",
+      "Artículo 122 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 103.3 CE establece la reserva de ley para el estatuto de los funcionarios públicos.",
+    "lawReference": "Art. 103.3 CE"
+  },
+  {
+    "id": "age-a1-da-1",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "hard",
+    "question": "El control jurisdiccional de la potestad reglamentaria y de la legalidad de la actuación administrativa se reconoce en:",
+    "options": [
+      "Artículo 24 CE",
+      "Artículo 106.1 CE",
+      "Artículo 117 CE",
+      "Artículo 149.1.18 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 106.1 CE atribuye a los tribunales el control de la potestad reglamentaria y de la legalidad de la actuación administrativa.",
+    "lawReference": "Art. 106.1 CE"
+  },
+  {
+    "id": "age-a1-da-2",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "medium",
+    "question": "La motivación de los actos administrativos en los supuestos legalmente previstos se regula en:",
+    "options": [
+      "Artículo 35 Ley 39/2015",
+      "Artículo 14 Ley 39/2015",
+      "Artículo 53 Ley 39/2015",
+      "Artículo 68 Ley 39/2015"
+    ],
+    "correct": 0,
+    "explanation": "El art. 35 de la Ley 39/2015 regula la motivación de los actos administrativos.",
+    "lawReference": "Art. 35 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-da-3",
+    "oposicion": "age-a1",
+    "topic": "derecho-admin-avanzado",
+    "difficulty": "hard",
+    "question": "La nulidad de pleno derecho de los actos administrativos se regula en:",
+    "options": [
+      "Artículo 40 Ley 39/2015",
+      "Artículo 47 Ley 39/2015",
+      "Artículo 48 Ley 39/2015",
+      "Artículo 53 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 47 de la Ley 39/2015 recoge los supuestos de nulidad de pleno derecho.",
+    "lawReference": "Art. 47 Ley 39/2015"
+  },
+  {
+    "id": "age-a1-ue-1",
+    "oposicion": "age-a1",
+    "topic": "ue",
+    "difficulty": "medium",
+    "question": "La celebración de tratados por los que se atribuya a una organización internacional el ejercicio de competencias derivadas de la CE requiere:",
+    "options": [
+      "Ley ordinaria",
+      "Ley orgánica",
+      "Real decreto",
+      "Acuerdo del Senado sin más"
+    ],
+    "correct": 1,
+    "explanation": "El art. 93 CE exige ley orgánica para atribuir competencias derivadas de la Constitución a organizaciones internacionales.",
+    "lawReference": "Art. 93 CE"
+  },
+  {
+    "id": "age-a1-ue-2",
+    "oposicion": "age-a1",
+    "topic": "ue",
+    "difficulty": "medium",
+    "question": "Los tratados internacionales válidamente celebrados forman parte del ordenamiento interno español desde:",
+    "options": [
+      "Su firma por el Gobierno",
+      "Su aprobación por el Consejo de Estado",
+      "Su publicación oficial en España",
+      "Su ratificación por cualquier ministerio"
+    ],
+    "correct": 2,
+    "explanation": "El art. 96.1 CE establece que los tratados internacionales formarán parte del ordenamiento interno una vez publicados oficialmente en España.",
+    "lawReference": "Art. 96.1 CE"
+  },
+  {
+    "id": "age-a1-gp-1",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "medium",
+    "question": "Los principios de actuación y funcionamiento del sector público se regulan en:",
+    "options": [
+      "Artículo 3 Ley 40/2015",
+      "Artículo 21 Ley 39/2015",
+      "Artículo 103 CE",
+      "Artículo 149 CE"
+    ],
+    "correct": 0,
+    "explanation": "El art. 3 de la Ley 40/2015 establece los principios generales de actuación y funcionamiento del sector público.",
+    "lawReference": "Art. 3 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-gp-2",
+    "oposicion": "age-a1",
+    "topic": "gestion-publica",
+    "difficulty": "hard",
+    "question": "Los principios de cooperación entre Administraciones Públicas se recogen en:",
+    "options": [
+      "Artículo 24 Ley 39/2015",
+      "Artículo 140 Ley 40/2015",
+      "Artículo 68 Ley 39/2015",
+      "Artículo 47 Ley 39/2015"
+    ],
+    "correct": 1,
+    "explanation": "El art. 140 de la Ley 40/2015 regula los principios de relaciones interadministrativas, incluyendo cooperación y colaboración.",
+    "lawReference": "Art. 140 Ley 40/2015"
+  },
+  {
+    "id": "age-a1-const-3",
+    "oposicion": "age-a1",
+    "topic": "constitucion-avanzada",
+    "difficulty": "hard",
+    "question": "La competencia exclusiva del Estado sobre las bases del régimen jurídico de las Administraciones Públicas se recoge en:",
+    "options": [
+      "Artículo 148.1 CE",
+      "Artículo 149.1.18 CE",
+      "Artículo 150 CE",
+      "Artículo 137 CE"
+    ],
+    "correct": 1,
+    "explanation": "El art. 149.1.18 CE atribuye al Estado competencia exclusiva sobre las bases del régimen jurídico de las Administraciones Públicas y el procedimiento administrativo común.",
+    "lawReference": "Art. 149.1.18 CE"
+  }
+]
