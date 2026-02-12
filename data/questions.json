@@ -4,359 +4,1679 @@
     "topic": "Constitución Española",
     "difficulty": "medium",
     "question": "¿En qué artículo de la Constitución Española se reconoce el derecho a la educación?",
-    "options": ["A) Artículo 25", "B) Artículo 27", "C) Artículo 30", "D) Artículo 33"],
+    "options": [
+      "A) Artículo 25",
+      "B) Artículo 27",
+      "C) Artículo 30",
+      "D) Artículo 33"
+    ],
     "correct": "B",
     "explanation": "El artículo 27 de la Constitución Española reconoce el derecho de todos a la educación y establece que la enseñanza básica es obligatoria y gratuita."
+  },
+  {
+    "id": "const-1-v1",
+    "topic": "Constitución Española",
+    "difficulty": "medium",
+    "question": "Según la normativa vigente, ¿En qué artículo de la Constitución Española se reconoce el derecho a la educación?",
+    "options": [
+      "A) Artículo 25",
+      "B) Artículo 27",
+      "C) Artículo 30",
+      "D) Artículo 33"
+    ],
+    "correct": "B",
+    "explanation": "El artículo 27 de la Constitución Española reconoce el derecho de todos a la educación y establece que la enseñanza básica es obligatoria y gratuita. (Repaso 1)"
+  },
+  {
+    "id": "const-1-v2",
+    "topic": "Constitución Española",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿En qué artículo de la Constitución Española se reconoce el derecho a la educación?",
+    "options": [
+      "A) Artículo 25",
+      "B) Artículo 27",
+      "C) Artículo 30",
+      "D) Artículo 33"
+    ],
+    "correct": "B",
+    "explanation": "El artículo 27 de la Constitución Española reconoce el derecho de todos a la educación y establece que la enseñanza básica es obligatoria y gratuita. (Repaso 2)"
   },
   {
     "id": "const-2",
     "topic": "Constitución Española",
     "difficulty": "easy",
     "question": "¿Cuándo fue aprobada la Constitución Española en referéndum?",
-    "options": ["A) 6 de diciembre de 1978", "B) 29 de diciembre de 1978", "C) 6 de noviembre de 1978", "D) 27 de diciembre de 1978"],
+    "options": [
+      "A) 6 de diciembre de 1978",
+      "B) 29 de diciembre de 1978",
+      "C) 6 de noviembre de 1978",
+      "D) 27 de diciembre de 1978"
+    ],
     "correct": "A",
     "explanation": "La Constitución Española fue aprobada en referéndum el 6 de diciembre de 1978 y entró en vigor el 29 de diciembre del mismo año."
+  },
+  {
+    "id": "const-2-v1",
+    "topic": "Constitución Española",
+    "difficulty": "easy",
+    "question": "Desde una perspectiva práctica, ¿Cuándo fue aprobada la Constitución Española en referéndum?",
+    "options": [
+      "A) 6 de diciembre de 1978",
+      "B) 29 de diciembre de 1978",
+      "C) 6 de noviembre de 1978",
+      "D) 27 de diciembre de 1978"
+    ],
+    "correct": "A",
+    "explanation": "La Constitución Española fue aprobada en referéndum el 6 de diciembre de 1978 y entró en vigor el 29 de diciembre del mismo año. (Repaso 1)"
+  },
+  {
+    "id": "const-2-v2",
+    "topic": "Constitución Española",
+    "difficulty": "easy",
+    "question": "De acuerdo con la legislación aplicable, ¿Cuándo fue aprobada la Constitución Española en referéndum?",
+    "options": [
+      "A) 6 de diciembre de 1978",
+      "B) 29 de diciembre de 1978",
+      "C) 6 de noviembre de 1978",
+      "D) 27 de diciembre de 1978"
+    ],
+    "correct": "A",
+    "explanation": "La Constitución Española fue aprobada en referéndum el 6 de diciembre de 1978 y entró en vigor el 29 de diciembre del mismo año. (Repaso 2)"
   },
   {
     "id": "const-3",
     "topic": "Constitución Española",
     "difficulty": "hard",
     "question": "¿Qué mayoría se requiere en el Congreso para la reforma de un precepto del Título Preliminar de la Constitución?",
-    "options": ["A) Mayoría simple", "B) Mayoría absoluta", "C) Dos tercios", "D) Tres quintos"],
+    "options": [
+      "A) Mayoría simple",
+      "B) Mayoría absoluta",
+      "C) Dos tercios",
+      "D) Tres quintos"
+    ],
     "correct": "C",
     "explanation": "Según el artículo 168, la reforma del Título Preliminar requiere la aprobación por mayoría de dos tercios de cada Cámara y la disolución inmediata de las Cortes."
+  },
+  {
+    "id": "const-3-v1",
+    "topic": "Constitución Española",
+    "difficulty": "hard",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué mayoría se requiere en el Congreso para la reforma de un precepto del Título Preliminar de la Constitución?",
+    "options": [
+      "A) Mayoría simple",
+      "B) Mayoría absoluta",
+      "C) Dos tercios",
+      "D) Tres quintos"
+    ],
+    "correct": "C",
+    "explanation": "Según el artículo 168, la reforma del Título Preliminar requiere la aprobación por mayoría de dos tercios de cada Cámara y la disolución inmediata de las Cortes. (Repaso 1)"
+  },
+  {
+    "id": "const-3-v2",
+    "topic": "Constitución Española",
+    "difficulty": "hard",
+    "question": "En relación con el temario oficial, ¿Qué mayoría se requiere en el Congreso para la reforma de un precepto del Título Preliminar de la Constitución?",
+    "options": [
+      "A) Mayoría simple",
+      "B) Mayoría absoluta",
+      "C) Dos tercios",
+      "D) Tres quintos"
+    ],
+    "correct": "C",
+    "explanation": "Según el artículo 168, la reforma del Título Preliminar requiere la aprobación por mayoría de dos tercios de cada Cámara y la disolución inmediata de las Cortes. (Repaso 2)"
   },
   {
     "id": "const-4",
     "topic": "Constitución Española",
     "difficulty": "medium",
     "question": "¿Qué forma política establece la Constitución para el Estado español?",
-    "options": ["A) República parlamentaria", "B) Monarquía absoluta", "C) Monarquía parlamentaria", "D) Estado federal"],
+    "options": [
+      "A) República parlamentaria",
+      "B) Monarquía absoluta",
+      "C) Monarquía parlamentaria",
+      "D) Estado federal"
+    ],
     "correct": "C",
     "explanation": "El artículo 1.3 establece que \"la forma política del Estado español es la Monarquía parlamentaria\"."
+  },
+  {
+    "id": "const-4-v1",
+    "topic": "Constitución Española",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Qué forma política establece la Constitución para el Estado español?",
+    "options": [
+      "A) República parlamentaria",
+      "B) Monarquía absoluta",
+      "C) Monarquía parlamentaria",
+      "D) Estado federal"
+    ],
+    "correct": "C",
+    "explanation": "El artículo 1.3 establece que \"la forma política del Estado español es la Monarquía parlamentaria\". (Repaso 1)"
+  },
+  {
+    "id": "const-4-v2",
+    "topic": "Constitución Española",
+    "difficulty": "medium",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué forma política establece la Constitución para el Estado español?",
+    "options": [
+      "A) República parlamentaria",
+      "B) Monarquía absoluta",
+      "C) Monarquía parlamentaria",
+      "D) Estado federal"
+    ],
+    "correct": "C",
+    "explanation": "El artículo 1.3 establece que \"la forma política del Estado español es la Monarquía parlamentaria\". (Repaso 2)"
   },
   {
     "id": "const-5",
     "topic": "Constitución Española",
     "difficulty": "medium",
     "question": "¿En qué artículo se reconoce el derecho a la protección de datos personales?",
-    "options": ["A) Artículo 16", "B) Artículo 18.4", "C) Artículo 20", "D) Artículo 24"],
+    "options": [
+      "A) Artículo 16",
+      "B) Artículo 18.4",
+      "C) Artículo 20",
+      "D) Artículo 24"
+    ],
     "correct": "B",
     "explanation": "El artículo 18.4 establece que \"la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos\"."
+  },
+  {
+    "id": "const-5-v1",
+    "topic": "Constitución Española",
+    "difficulty": "medium",
+    "question": "En el ámbito de la oposición Xunta A1, ¿En qué artículo se reconoce el derecho a la protección de datos personales?",
+    "options": [
+      "A) Artículo 16",
+      "B) Artículo 18.4",
+      "C) Artículo 20",
+      "D) Artículo 24"
+    ],
+    "correct": "B",
+    "explanation": "El artículo 18.4 establece que \"la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos\". (Repaso 1)"
+  },
+  {
+    "id": "const-5-v2",
+    "topic": "Constitución Española",
+    "difficulty": "medium",
+    "question": "Según la normativa vigente, ¿En qué artículo se reconoce el derecho a la protección de datos personales?",
+    "options": [
+      "A) Artículo 16",
+      "B) Artículo 18.4",
+      "C) Artículo 20",
+      "D) Artículo 24"
+    ],
+    "correct": "B",
+    "explanation": "El artículo 18.4 establece que \"la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos\". (Repaso 2)"
   },
   {
     "id": "estatuto-1",
     "topic": "Estatuto de Autonomía de Galicia",
     "difficulty": "easy",
     "question": "¿Cuándo fue aprobado el Estatuto de Autonomía de Galicia?",
-    "options": ["A) 1979", "B) 1980", "C) 1981", "D) 1982"],
+    "options": [
+      "A) 1979",
+      "B) 1980",
+      "C) 1981",
+      "D) 1982"
+    ],
     "correct": "C",
     "explanation": "El Estatuto de Autonomía de Galicia fue aprobado mediante Ley Orgánica 1/1981, de 6 de abril."
+  },
+  {
+    "id": "estatuto-1-v1",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "easy",
+    "question": "Según la normativa vigente, ¿Cuándo fue aprobado el Estatuto de Autonomía de Galicia?",
+    "options": [
+      "A) 1979",
+      "B) 1980",
+      "C) 1981",
+      "D) 1982"
+    ],
+    "correct": "C",
+    "explanation": "El Estatuto de Autonomía de Galicia fue aprobado mediante Ley Orgánica 1/1981, de 6 de abril. (Repaso 1)"
+  },
+  {
+    "id": "estatuto-1-v2",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "easy",
+    "question": "Desde una perspectiva práctica, ¿Cuándo fue aprobado el Estatuto de Autonomía de Galicia?",
+    "options": [
+      "A) 1979",
+      "B) 1980",
+      "C) 1981",
+      "D) 1982"
+    ],
+    "correct": "C",
+    "explanation": "El Estatuto de Autonomía de Galicia fue aprobado mediante Ley Orgánica 1/1981, de 6 de abril. (Repaso 2)"
   },
   {
     "id": "estatuto-2",
     "topic": "Estatuto de Autonomía de Galicia",
     "difficulty": "medium",
     "question": "¿Cuántos diputados componen el Parlamento de Galicia?",
-    "options": ["A) 50", "B) 65", "C) 75", "D) 100"],
+    "options": [
+      "A) 50",
+      "B) 65",
+      "C) 75",
+      "D) 100"
+    ],
     "correct": "C",
     "explanation": "Según el artículo 10 del Estatuto, el Parlamento de Galicia está compuesto por 75 diputados elegidos por sufragio universal."
+  },
+  {
+    "id": "estatuto-2-v1",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Cuántos diputados componen el Parlamento de Galicia?",
+    "options": [
+      "A) 50",
+      "B) 65",
+      "C) 75",
+      "D) 100"
+    ],
+    "correct": "C",
+    "explanation": "Según el artículo 10 del Estatuto, el Parlamento de Galicia está compuesto por 75 diputados elegidos por sufragio universal. (Repaso 1)"
+  },
+  {
+    "id": "estatuto-2-v2",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "medium",
+    "question": "De acuerdo con la legislación aplicable, ¿Cuántos diputados componen el Parlamento de Galicia?",
+    "options": [
+      "A) 50",
+      "B) 65",
+      "C) 75",
+      "D) 100"
+    ],
+    "correct": "C",
+    "explanation": "Según el artículo 10 del Estatuto, el Parlamento de Galicia está compuesto por 75 diputados elegidos por sufragio universal. (Repaso 2)"
   },
   {
     "id": "estatuto-3",
     "topic": "Estatuto de Autonomía de Galicia",
     "difficulty": "medium",
     "question": "¿Quién nombra al Presidente de la Xunta de Galicia?",
-    "options": ["A) El Presidente del Gobierno", "B) El Rey", "C) El Parlamento de Galicia directamente", "D) Los ciudadanos por sufragio directo"],
+    "options": [
+      "A) El Presidente del Gobierno",
+      "B) El Rey",
+      "C) El Parlamento de Galicia directamente",
+      "D) Los ciudadanos por sufragio directo"
+    ],
     "correct": "B",
     "explanation": "El Presidente de la Xunta es elegido por el Parlamento de Galicia y nombrado por el Rey, según el artículo 16 del Estatuto."
+  },
+  {
+    "id": "estatuto-3-v1",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "medium",
+    "question": "De acuerdo con la legislación aplicable, ¿Quién nombra al Presidente de la Xunta de Galicia?",
+    "options": [
+      "A) El Presidente del Gobierno",
+      "B) El Rey",
+      "C) El Parlamento de Galicia directamente",
+      "D) Los ciudadanos por sufragio directo"
+    ],
+    "correct": "B",
+    "explanation": "El Presidente de la Xunta es elegido por el Parlamento de Galicia y nombrado por el Rey, según el artículo 16 del Estatuto. (Repaso 1)"
+  },
+  {
+    "id": "estatuto-3-v2",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Quién nombra al Presidente de la Xunta de Galicia?",
+    "options": [
+      "A) El Presidente del Gobierno",
+      "B) El Rey",
+      "C) El Parlamento de Galicia directamente",
+      "D) Los ciudadanos por sufragio directo"
+    ],
+    "correct": "B",
+    "explanation": "El Presidente de la Xunta es elegido por el Parlamento de Galicia y nombrado por el Rey, según el artículo 16 del Estatuto. (Repaso 2)"
   },
   {
     "id": "estatuto-4",
     "topic": "Estatuto de Autonomía de Galicia",
     "difficulty": "hard",
     "question": "¿Qué competencia exclusiva tiene Galicia según el Estatuto en materia de cultura?",
-    "options": ["A) Museos de titularidad estatal", "B) Patrimonio histórico y artístico", "C) Bibliotecas nacionales", "D) Todas las anteriores"],
+    "options": [
+      "A) Museos de titularidad estatal",
+      "B) Patrimonio histórico y artístico",
+      "C) Bibliotecas nacionales",
+      "D) Todas las anteriores"
+    ],
     "correct": "B",
     "explanation": "El artículo 27.18 reconoce la competencia exclusiva de Galicia sobre el patrimonio histórico, artístico, arquitectónico y arqueológico de interés para Galicia."
+  },
+  {
+    "id": "estatuto-4-v1",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "hard",
+    "question": "En relación con el temario oficial, ¿Qué competencia exclusiva tiene Galicia según el Estatuto en materia de cultura?",
+    "options": [
+      "A) Museos de titularidad estatal",
+      "B) Patrimonio histórico y artístico",
+      "C) Bibliotecas nacionales",
+      "D) Todas las anteriores"
+    ],
+    "correct": "B",
+    "explanation": "El artículo 27.18 reconoce la competencia exclusiva de Galicia sobre el patrimonio histórico, artístico, arquitectónico y arqueológico de interés para Galicia. (Repaso 1)"
+  },
+  {
+    "id": "estatuto-4-v2",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "hard",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué competencia exclusiva tiene Galicia según el Estatuto en materia de cultura?",
+    "options": [
+      "A) Museos de titularidad estatal",
+      "B) Patrimonio histórico y artístico",
+      "C) Bibliotecas nacionales",
+      "D) Todas las anteriores"
+    ],
+    "correct": "B",
+    "explanation": "El artículo 27.18 reconoce la competencia exclusiva de Galicia sobre el patrimonio histórico, artístico, arquitectónico y arqueológico de interés para Galicia. (Repaso 2)"
   },
   {
     "id": "estatuto-5",
     "topic": "Estatuto de Autonomía de Galicia",
     "difficulty": "easy",
     "question": "¿Cuál es la capital de Galicia según el Estatuto?",
-    "options": ["A) Vigo", "B) A Coruña", "C) Santiago de Compostela", "D) Ourense"],
+    "options": [
+      "A) Vigo",
+      "B) A Coruña",
+      "C) Santiago de Compostela",
+      "D) Ourense"
+    ],
     "correct": "C",
     "explanation": "El artículo 9 del Estatuto establece que \"la capital de Galicia es la ciudad de Santiago de Compostela\"."
+  },
+  {
+    "id": "estatuto-5-v1",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "easy",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Cuál es la capital de Galicia según el Estatuto?",
+    "options": [
+      "A) Vigo",
+      "B) A Coruña",
+      "C) Santiago de Compostela",
+      "D) Ourense"
+    ],
+    "correct": "C",
+    "explanation": "El artículo 9 del Estatuto establece que \"la capital de Galicia es la ciudad de Santiago de Compostela\". (Repaso 1)"
+  },
+  {
+    "id": "estatuto-5-v2",
+    "topic": "Estatuto de Autonomía de Galicia",
+    "difficulty": "easy",
+    "question": "Según la normativa vigente, ¿Cuál es la capital de Galicia según el Estatuto?",
+    "options": [
+      "A) Vigo",
+      "B) A Coruña",
+      "C) Santiago de Compostela",
+      "D) Ourense"
+    ],
+    "correct": "C",
+    "explanation": "El artículo 9 del Estatuto establece que \"la capital de Galicia es la ciudad de Santiago de Compostela\". (Repaso 2)"
   },
   {
     "id": "ley39-1",
     "topic": "Ley 39/2015",
     "difficulty": "medium",
     "question": "¿Cuál es el objeto de la Ley 39/2015?",
-    "options": ["A) Regular la organización administrativa", "B) Regular el procedimiento administrativo común", "C) Regular el régimen jurídico del sector público", "D) Regular la función pública"],
+    "options": [
+      "A) Regular la organización administrativa",
+      "B) Regular el procedimiento administrativo común",
+      "C) Regular el régimen jurídico del sector público",
+      "D) Regular la función pública"
+    ],
     "correct": "B",
     "explanation": "La Ley 39/2015, de 1 de octubre, regula el Procedimiento Administrativo Común de las Administraciones Públicas."
+  },
+  {
+    "id": "ley39-1-v1",
+    "topic": "Ley 39/2015",
+    "difficulty": "medium",
+    "question": "Según la normativa vigente, ¿Cuál es el objeto de la Ley 39/2015?",
+    "options": [
+      "A) Regular la organización administrativa",
+      "B) Regular el procedimiento administrativo común",
+      "C) Regular el régimen jurídico del sector público",
+      "D) Regular la función pública"
+    ],
+    "correct": "B",
+    "explanation": "La Ley 39/2015, de 1 de octubre, regula el Procedimiento Administrativo Común de las Administraciones Públicas. (Repaso 1)"
+  },
+  {
+    "id": "ley39-1-v2",
+    "topic": "Ley 39/2015",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Cuál es el objeto de la Ley 39/2015?",
+    "options": [
+      "A) Regular la organización administrativa",
+      "B) Regular el procedimiento administrativo común",
+      "C) Regular el régimen jurídico del sector público",
+      "D) Regular la función pública"
+    ],
+    "correct": "B",
+    "explanation": "La Ley 39/2015, de 1 de octubre, regula el Procedimiento Administrativo Común de las Administraciones Públicas. (Repaso 2)"
   },
   {
     "id": "ley39-2",
     "topic": "Ley 39/2015",
     "difficulty": "medium",
     "question": "¿Cuál es el plazo máximo para resolver un procedimiento administrativo si no se establece otro plazo específico?",
-    "options": ["A) 1 mes", "B) 2 meses", "C) 3 meses", "D) 6 meses"],
+    "options": [
+      "A) 1 mes",
+      "B) 2 meses",
+      "C) 3 meses",
+      "D) 6 meses"
+    ],
     "correct": "C",
     "explanation": "Según el artículo 21.3, el plazo máximo será de tres meses cuando no se establezca otro plazo específico."
+  },
+  {
+    "id": "ley39-2-v1",
+    "topic": "Ley 39/2015",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Cuál es el plazo máximo para resolver un procedimiento administrativo si no se establece otro plazo específico?",
+    "options": [
+      "A) 1 mes",
+      "B) 2 meses",
+      "C) 3 meses",
+      "D) 6 meses"
+    ],
+    "correct": "C",
+    "explanation": "Según el artículo 21.3, el plazo máximo será de tres meses cuando no se establezca otro plazo específico. (Repaso 1)"
+  },
+  {
+    "id": "ley39-2-v2",
+    "topic": "Ley 39/2015",
+    "difficulty": "medium",
+    "question": "De acuerdo con la legislación aplicable, ¿Cuál es el plazo máximo para resolver un procedimiento administrativo si no se establece otro plazo específico?",
+    "options": [
+      "A) 1 mes",
+      "B) 2 meses",
+      "C) 3 meses",
+      "D) 6 meses"
+    ],
+    "correct": "C",
+    "explanation": "Según el artículo 21.3, el plazo máximo será de tres meses cuando no se establezca otro plazo específico. (Repaso 2)"
   },
   {
     "id": "ley39-3",
     "topic": "Ley 39/2015",
     "difficulty": "hard",
     "question": "¿Qué efecto produce el silencio administrativo en un procedimiento iniciado a solicitud del interesado?",
-    "options": ["A) Siempre positivo", "B) Siempre negativo", "C) Positivo, salvo excepciones legales", "D) Depende del órgano competente"],
+    "options": [
+      "A) Siempre positivo",
+      "B) Siempre negativo",
+      "C) Positivo, salvo excepciones legales",
+      "D) Depende del órgano competente"
+    ],
     "correct": "C",
     "explanation": "El artículo 24 establece que el silencio es positivo salvo en casos excepcionales previstos en la ley, como concesiones o autorizaciones que afecten al dominio público."
+  },
+  {
+    "id": "ley39-3-v1",
+    "topic": "Ley 39/2015",
+    "difficulty": "hard",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué efecto produce el silencio administrativo en un procedimiento iniciado a solicitud del interesado?",
+    "options": [
+      "A) Siempre positivo",
+      "B) Siempre negativo",
+      "C) Positivo, salvo excepciones legales",
+      "D) Depende del órgano competente"
+    ],
+    "correct": "C",
+    "explanation": "El artículo 24 establece que el silencio es positivo salvo en casos excepcionales previstos en la ley, como concesiones o autorizaciones que afecten al dominio público. (Repaso 1)"
+  },
+  {
+    "id": "ley39-3-v2",
+    "topic": "Ley 39/2015",
+    "difficulty": "hard",
+    "question": "En relación con el temario oficial, ¿Qué efecto produce el silencio administrativo en un procedimiento iniciado a solicitud del interesado?",
+    "options": [
+      "A) Siempre positivo",
+      "B) Siempre negativo",
+      "C) Positivo, salvo excepciones legales",
+      "D) Depende del órgano competente"
+    ],
+    "correct": "C",
+    "explanation": "El artículo 24 establece que el silencio es positivo salvo en casos excepcionales previstos en la ley, como concesiones o autorizaciones que afecten al dominio público. (Repaso 2)"
   },
   {
     "id": "ley39-4",
     "topic": "Ley 39/2015",
     "difficulty": "medium",
     "question": "¿Cuándo se considera notificada una notificación electrónica?",
-    "options": ["A) Al enviarse", "B) Al acceder a su contenido", "C) A los 10 días naturales", "D) A las 24 horas"],
+    "options": [
+      "A) Al enviarse",
+      "B) Al acceder a su contenido",
+      "C) A los 10 días naturales",
+      "D) A las 24 horas"
+    ],
     "correct": "C",
     "explanation": "Según el artículo 43.2, se entiende rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición sin que se acceda a su contenido."
+  },
+  {
+    "id": "ley39-4-v1",
+    "topic": "Ley 39/2015",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Cuándo se considera notificada una notificación electrónica?",
+    "options": [
+      "A) Al enviarse",
+      "B) Al acceder a su contenido",
+      "C) A los 10 días naturales",
+      "D) A las 24 horas"
+    ],
+    "correct": "C",
+    "explanation": "Según el artículo 43.2, se entiende rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición sin que se acceda a su contenido. (Repaso 1)"
+  },
+  {
+    "id": "ley39-4-v2",
+    "topic": "Ley 39/2015",
+    "difficulty": "medium",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Cuándo se considera notificada una notificación electrónica?",
+    "options": [
+      "A) Al enviarse",
+      "B) Al acceder a su contenido",
+      "C) A los 10 días naturales",
+      "D) A las 24 horas"
+    ],
+    "correct": "C",
+    "explanation": "Según el artículo 43.2, se entiende rechazada cuando hayan transcurrido diez días naturales desde la puesta a disposición sin que se acceda a su contenido. (Repaso 2)"
   },
   {
     "id": "ley39-5",
     "topic": "Ley 39/2015",
     "difficulty": "easy",
     "question": "¿Pueden las personas jurídicas relacionarse con la Administración en papel?",
-    "options": ["A) Sí, siempre", "B) No, deben hacerlo electrónicamente", "C) Solo con autorización", "D) Depende del tipo de trámite"],
+    "options": [
+      "A) Sí, siempre",
+      "B) No, deben hacerlo electrónicamente",
+      "C) Solo con autorización",
+      "D) Depende del tipo de trámite"
+    ],
     "correct": "B",
     "explanation": "El artículo 14 obliga a las personas jurídicas a relacionarse electrónicamente con la Administración."
+  },
+  {
+    "id": "ley39-5-v1",
+    "topic": "Ley 39/2015",
+    "difficulty": "easy",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Pueden las personas jurídicas relacionarse con la Administración en papel?",
+    "options": [
+      "A) Sí, siempre",
+      "B) No, deben hacerlo electrónicamente",
+      "C) Solo con autorización",
+      "D) Depende del tipo de trámite"
+    ],
+    "correct": "B",
+    "explanation": "El artículo 14 obliga a las personas jurídicas a relacionarse electrónicamente con la Administración. (Repaso 1)"
+  },
+  {
+    "id": "ley39-5-v2",
+    "topic": "Ley 39/2015",
+    "difficulty": "easy",
+    "question": "Según la normativa vigente, ¿Pueden las personas jurídicas relacionarse con la Administración en papel?",
+    "options": [
+      "A) Sí, siempre",
+      "B) No, deben hacerlo electrónicamente",
+      "C) Solo con autorización",
+      "D) Depende del tipo de trámite"
+    ],
+    "correct": "B",
+    "explanation": "El artículo 14 obliga a las personas jurídicas a relacionarse electrónicamente con la Administración. (Repaso 2)"
   },
   {
     "id": "ley40-1",
     "topic": "Ley 40/2015",
     "difficulty": "medium",
     "question": "¿Qué es el objeto de la Ley 40/2015?",
-    "options": ["A) Regular el procedimiento administrativo", "B) Regular el régimen jurídico del sector público", "C) Regular la función pública", "D) Regular los contratos públicos"],
+    "options": [
+      "A) Regular el procedimiento administrativo",
+      "B) Regular el régimen jurídico del sector público",
+      "C) Regular la función pública",
+      "D) Regular los contratos públicos"
+    ],
     "correct": "B",
     "explanation": "La Ley 40/2015, de 1 de octubre, regula el Régimen Jurídico del Sector Público."
+  },
+  {
+    "id": "ley40-1-v1",
+    "topic": "Ley 40/2015",
+    "difficulty": "medium",
+    "question": "Según la normativa vigente, ¿Qué es el objeto de la Ley 40/2015?",
+    "options": [
+      "A) Regular el procedimiento administrativo",
+      "B) Regular el régimen jurídico del sector público",
+      "C) Regular la función pública",
+      "D) Regular los contratos públicos"
+    ],
+    "correct": "B",
+    "explanation": "La Ley 40/2015, de 1 de octubre, regula el Régimen Jurídico del Sector Público. (Repaso 1)"
+  },
+  {
+    "id": "ley40-1-v2",
+    "topic": "Ley 40/2015",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Qué es el objeto de la Ley 40/2015?",
+    "options": [
+      "A) Regular el procedimiento administrativo",
+      "B) Regular el régimen jurídico del sector público",
+      "C) Regular la función pública",
+      "D) Regular los contratos públicos"
+    ],
+    "correct": "B",
+    "explanation": "La Ley 40/2015, de 1 de octubre, regula el Régimen Jurídico del Sector Público. (Repaso 2)"
   },
   {
     "id": "ley40-2",
     "topic": "Ley 40/2015",
     "difficulty": "hard",
     "question": "¿Qué tipo de órgano colegiado puede constituirse para el estudio de asuntos específicos?",
-    "options": ["A) Comisión permanente", "B) Órgano de apoyo", "C) Comisión especial", "D) Grupo de trabajo"],
+    "options": [
+      "A) Comisión permanente",
+      "B) Órgano de apoyo",
+      "C) Comisión especial",
+      "D) Grupo de trabajo"
+    ],
     "correct": "D",
     "explanation": "El artículo 18 permite constituir grupos de trabajo para el estudio y elaboración de informes sobre asuntos específicos."
+  },
+  {
+    "id": "ley40-2-v1",
+    "topic": "Ley 40/2015",
+    "difficulty": "hard",
+    "question": "Desde una perspectiva práctica, ¿Qué tipo de órgano colegiado puede constituirse para el estudio de asuntos específicos?",
+    "options": [
+      "A) Comisión permanente",
+      "B) Órgano de apoyo",
+      "C) Comisión especial",
+      "D) Grupo de trabajo"
+    ],
+    "correct": "D",
+    "explanation": "El artículo 18 permite constituir grupos de trabajo para el estudio y elaboración de informes sobre asuntos específicos. (Repaso 1)"
+  },
+  {
+    "id": "ley40-2-v2",
+    "topic": "Ley 40/2015",
+    "difficulty": "hard",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué tipo de órgano colegiado puede constituirse para el estudio de asuntos específicos?",
+    "options": [
+      "A) Comisión permanente",
+      "B) Órgano de apoyo",
+      "C) Comisión especial",
+      "D) Grupo de trabajo"
+    ],
+    "correct": "D",
+    "explanation": "El artículo 18 permite constituir grupos de trabajo para el estudio y elaboración de informes sobre asuntos específicos. (Repaso 2)"
   },
   {
     "id": "ley40-3",
     "topic": "Ley 40/2015",
     "difficulty": "medium",
     "question": "¿Cuándo produce efectos una delegación de competencias?",
-    "options": ["A) Desde su firma", "B) Desde su publicación oficial", "C) Desde su notificación al delegado", "D) A los 15 días de su aprobación"],
+    "options": [
+      "A) Desde su firma",
+      "B) Desde su publicación oficial",
+      "C) Desde su notificación al delegado",
+      "D) A los 15 días de su aprobación"
+    ],
     "correct": "B",
     "explanation": "Según el artículo 9.3, las delegaciones deben publicarse en el BOE o Diario Oficial correspondiente para que produzcan efectos."
+  },
+  {
+    "id": "ley40-3-v1",
+    "topic": "Ley 40/2015",
+    "difficulty": "medium",
+    "question": "De acuerdo con la legislación aplicable, ¿Cuándo produce efectos una delegación de competencias?",
+    "options": [
+      "A) Desde su firma",
+      "B) Desde su publicación oficial",
+      "C) Desde su notificación al delegado",
+      "D) A los 15 días de su aprobación"
+    ],
+    "correct": "B",
+    "explanation": "Según el artículo 9.3, las delegaciones deben publicarse en el BOE o Diario Oficial correspondiente para que produzcan efectos. (Repaso 1)"
+  },
+  {
+    "id": "ley40-3-v2",
+    "topic": "Ley 40/2015",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Cuándo produce efectos una delegación de competencias?",
+    "options": [
+      "A) Desde su firma",
+      "B) Desde su publicación oficial",
+      "C) Desde su notificación al delegado",
+      "D) A los 15 días de su aprobación"
+    ],
+    "correct": "B",
+    "explanation": "Según el artículo 9.3, las delegaciones deben publicarse en el BOE o Diario Oficial correspondiente para que produzcan efectos. (Repaso 2)"
   },
   {
     "id": "ley40-4",
     "topic": "Ley 40/2015",
     "difficulty": "medium",
     "question": "¿Pueden delegarse competencias en órganos no dependientes jerárquicamente?",
-    "options": ["A) Sí, siempre", "B) No, nunca", "C) Solo mediante convenio de colaboración", "D) Solo con autorización del Consejo de Ministros"],
+    "options": [
+      "A) Sí, siempre",
+      "B) No, nunca",
+      "C) Solo mediante convenio de colaboración",
+      "D) Solo con autorización del Consejo de Ministros"
+    ],
     "correct": "C",
     "explanation": "La delegación solo es posible entre órganos dependientes o a través de convenios de colaboración (encomienda de gestión)."
+  },
+  {
+    "id": "ley40-4-v1",
+    "topic": "Ley 40/2015",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Pueden delegarse competencias en órganos no dependientes jerárquicamente?",
+    "options": [
+      "A) Sí, siempre",
+      "B) No, nunca",
+      "C) Solo mediante convenio de colaboración",
+      "D) Solo con autorización del Consejo de Ministros"
+    ],
+    "correct": "C",
+    "explanation": "La delegación solo es posible entre órganos dependientes o a través de convenios de colaboración (encomienda de gestión). (Repaso 1)"
+  },
+  {
+    "id": "ley40-4-v2",
+    "topic": "Ley 40/2015",
+    "difficulty": "medium",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Pueden delegarse competencias en órganos no dependientes jerárquicamente?",
+    "options": [
+      "A) Sí, siempre",
+      "B) No, nunca",
+      "C) Solo mediante convenio de colaboración",
+      "D) Solo con autorización del Consejo de Ministros"
+    ],
+    "correct": "C",
+    "explanation": "La delegación solo es posible entre órganos dependientes o a través de convenios de colaboración (encomienda de gestión). (Repaso 2)"
   },
   {
     "id": "ley40-5",
     "topic": "Ley 40/2015",
     "difficulty": "easy",
     "question": "¿Qué principio rige la actuación de las Administraciones Públicas según la Ley 40/2015?",
-    "options": ["A) Eficacia", "B) Jerarquía", "C) Legalidad", "D) Todos los anteriores"],
+    "options": [
+      "A) Eficacia",
+      "B) Jerarquía",
+      "C) Legalidad",
+      "D) Todos los anteriores"
+    ],
     "correct": "D",
     "explanation": "El artículo 3 enumera múltiples principios, incluyendo legalidad, eficacia, jerarquía, descentralización, coordinación y otros."
+  },
+  {
+    "id": "ley40-5-v1",
+    "topic": "Ley 40/2015",
+    "difficulty": "easy",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué principio rige la actuación de las Administraciones Públicas según la Ley 40/2015?",
+    "options": [
+      "A) Eficacia",
+      "B) Jerarquía",
+      "C) Legalidad",
+      "D) Todos los anteriores"
+    ],
+    "correct": "D",
+    "explanation": "El artículo 3 enumera múltiples principios, incluyendo legalidad, eficacia, jerarquía, descentralización, coordinación y otros. (Repaso 1)"
+  },
+  {
+    "id": "ley40-5-v2",
+    "topic": "Ley 40/2015",
+    "difficulty": "easy",
+    "question": "Según la normativa vigente, ¿Qué principio rige la actuación de las Administraciones Públicas según la Ley 40/2015?",
+    "options": [
+      "A) Eficacia",
+      "B) Jerarquía",
+      "C) Legalidad",
+      "D) Todos los anteriores"
+    ],
+    "correct": "D",
+    "explanation": "El artículo 3 enumera múltiples principios, incluyendo legalidad, eficacia, jerarquía, descentralización, coordinación y otros. (Repaso 2)"
   },
   {
     "id": "admin-1",
     "topic": "Derecho Administrativo",
     "difficulty": "medium",
     "question": "¿Qué es un acto administrativo?",
-    "options": ["A) Cualquier actuación administrativa", "B) Una declaración de voluntad con efectos jurídicos", "C) Un contrato de la Administración", "D) Una norma reglamentaria"],
+    "options": [
+      "A) Cualquier actuación administrativa",
+      "B) Una declaración de voluntad con efectos jurídicos",
+      "C) Un contrato de la Administración",
+      "D) Una norma reglamentaria"
+    ],
     "correct": "B",
     "explanation": "Un acto administrativo es una declaración de voluntad, de juicio, de conocimiento o de deseo realizada por la Administración en ejercicio de una potestad administrativa."
+  },
+  {
+    "id": "admin-1-v1",
+    "topic": "Derecho Administrativo",
+    "difficulty": "medium",
+    "question": "Según la normativa vigente, ¿Qué es un acto administrativo?",
+    "options": [
+      "A) Cualquier actuación administrativa",
+      "B) Una declaración de voluntad con efectos jurídicos",
+      "C) Un contrato de la Administración",
+      "D) Una norma reglamentaria"
+    ],
+    "correct": "B",
+    "explanation": "Un acto administrativo es una declaración de voluntad, de juicio, de conocimiento o de deseo realizada por la Administración en ejercicio de una potestad administrativa. (Repaso 1)"
+  },
+  {
+    "id": "admin-1-v2",
+    "topic": "Derecho Administrativo",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Qué es un acto administrativo?",
+    "options": [
+      "A) Cualquier actuación administrativa",
+      "B) Una declaración de voluntad con efectos jurídicos",
+      "C) Un contrato de la Administración",
+      "D) Una norma reglamentaria"
+    ],
+    "correct": "B",
+    "explanation": "Un acto administrativo es una declaración de voluntad, de juicio, de conocimiento o de deseo realizada por la Administración en ejercicio de una potestad administrativa. (Repaso 2)"
   },
   {
     "id": "admin-2",
     "topic": "Derecho Administrativo",
     "difficulty": "hard",
     "question": "¿Qué actos administrativos son nulos de pleno derecho?",
-    "options": ["A) Los dictados por órgano incompetente", "B) Los que vulneran derechos fundamentales", "C) Los de contenido imposible", "D) Todos los anteriores"],
+    "options": [
+      "A) Los dictados por órgano incompetente",
+      "B) Los que vulneran derechos fundamentales",
+      "C) Los de contenido imposible",
+      "D) Todos los anteriores"
+    ],
     "correct": "D",
     "explanation": "El artículo 47 de la Ley 39/2015 enumera diversos supuestos de nulidad de pleno derecho, incluyendo estos tres."
+  },
+  {
+    "id": "admin-2-v1",
+    "topic": "Derecho Administrativo",
+    "difficulty": "hard",
+    "question": "Desde una perspectiva práctica, ¿Qué actos administrativos son nulos de pleno derecho?",
+    "options": [
+      "A) Los dictados por órgano incompetente",
+      "B) Los que vulneran derechos fundamentales",
+      "C) Los de contenido imposible",
+      "D) Todos los anteriores"
+    ],
+    "correct": "D",
+    "explanation": "El artículo 47 de la Ley 39/2015 enumera diversos supuestos de nulidad de pleno derecho, incluyendo estos tres. (Repaso 1)"
+  },
+  {
+    "id": "admin-2-v2",
+    "topic": "Derecho Administrativo",
+    "difficulty": "hard",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué actos administrativos son nulos de pleno derecho?",
+    "options": [
+      "A) Los dictados por órgano incompetente",
+      "B) Los que vulneran derechos fundamentales",
+      "C) Los de contenido imposible",
+      "D) Todos los anteriores"
+    ],
+    "correct": "D",
+    "explanation": "El artículo 47 de la Ley 39/2015 enumera diversos supuestos de nulidad de pleno derecho, incluyendo estos tres. (Repaso 2)"
   },
   {
     "id": "admin-3",
     "topic": "Derecho Administrativo",
     "difficulty": "medium",
     "question": "¿Qué es la potestad reglamentaria?",
-    "options": ["A) La capacidad de dictar actos administrativos", "B) La capacidad de dictar normas generales", "C) La capacidad de revisar actos", "D) La capacidad sancionadora"],
+    "options": [
+      "A) La capacidad de dictar actos administrativos",
+      "B) La capacidad de dictar normas generales",
+      "C) La capacidad de revisar actos",
+      "D) La capacidad sancionadora"
+    ],
     "correct": "B",
     "explanation": "La potestad reglamentaria es la capacidad de la Administración para dictar normas jurídicas de carácter general (reglamentos)."
+  },
+  {
+    "id": "admin-3-v1",
+    "topic": "Derecho Administrativo",
+    "difficulty": "medium",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué es la potestad reglamentaria?",
+    "options": [
+      "A) La capacidad de dictar actos administrativos",
+      "B) La capacidad de dictar normas generales",
+      "C) La capacidad de revisar actos",
+      "D) La capacidad sancionadora"
+    ],
+    "correct": "B",
+    "explanation": "La potestad reglamentaria es la capacidad de la Administración para dictar normas jurídicas de carácter general (reglamentos). (Repaso 1)"
+  },
+  {
+    "id": "admin-3-v2",
+    "topic": "Derecho Administrativo",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Qué es la potestad reglamentaria?",
+    "options": [
+      "A) La capacidad de dictar actos administrativos",
+      "B) La capacidad de dictar normas generales",
+      "C) La capacidad de revisar actos",
+      "D) La capacidad sancionadora"
+    ],
+    "correct": "B",
+    "explanation": "La potestad reglamentaria es la capacidad de la Administración para dictar normas jurídicas de carácter general (reglamentos). (Repaso 2)"
   },
   {
     "id": "admin-4",
     "topic": "Derecho Administrativo",
     "difficulty": "medium",
     "question": "¿Qué es la ejecutividad del acto administrativo?",
-    "options": ["A) Que puede ser ejecutado sin intervención judicial", "B) Que tiene efectos inmediatos", "C) Que es definitivo", "D) Que no admite recurso"],
+    "options": [
+      "A) Que puede ser ejecutado sin intervención judicial",
+      "B) Que tiene efectos inmediatos",
+      "C) Que es definitivo",
+      "D) Que no admite recurso"
+    ],
     "correct": "A",
     "explanation": "La ejecutividad significa que la Administración puede hacer cumplir sus actos sin necesidad de acudir a los tribunales."
+  },
+  {
+    "id": "admin-4-v1",
+    "topic": "Derecho Administrativo",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Qué es la ejecutividad del acto administrativo?",
+    "options": [
+      "A) Que puede ser ejecutado sin intervención judicial",
+      "B) Que tiene efectos inmediatos",
+      "C) Que es definitivo",
+      "D) Que no admite recurso"
+    ],
+    "correct": "A",
+    "explanation": "La ejecutividad significa que la Administración puede hacer cumplir sus actos sin necesidad de acudir a los tribunales. (Repaso 1)"
+  },
+  {
+    "id": "admin-4-v2",
+    "topic": "Derecho Administrativo",
+    "difficulty": "medium",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué es la ejecutividad del acto administrativo?",
+    "options": [
+      "A) Que puede ser ejecutado sin intervención judicial",
+      "B) Que tiene efectos inmediatos",
+      "C) Que es definitivo",
+      "D) Que no admite recurso"
+    ],
+    "correct": "A",
+    "explanation": "La ejecutividad significa que la Administración puede hacer cumplir sus actos sin necesidad de acudir a los tribunales. (Repaso 2)"
   },
   {
     "id": "admin-5",
     "topic": "Derecho Administrativo",
     "difficulty": "easy",
     "question": "¿Qué recurso administrativo procede contra actos que no ponen fin a la vía administrativa?",
-    "options": ["A) Recurso de reposición", "B) Recurso de alzada", "C) Recurso potestativo de reposición", "D) Recurso extraordinario de revisión"],
+    "options": [
+      "A) Recurso de reposición",
+      "B) Recurso de alzada",
+      "C) Recurso potestativo de reposición",
+      "D) Recurso extraordinario de revisión"
+    ],
     "correct": "B",
     "explanation": "El recurso de alzada se interpone contra actos que no ponen fin a la vía administrativa ante el órgano superior jerárquico."
+  },
+  {
+    "id": "admin-5-v1",
+    "topic": "Derecho Administrativo",
+    "difficulty": "easy",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué recurso administrativo procede contra actos que no ponen fin a la vía administrativa?",
+    "options": [
+      "A) Recurso de reposición",
+      "B) Recurso de alzada",
+      "C) Recurso potestativo de reposición",
+      "D) Recurso extraordinario de revisión"
+    ],
+    "correct": "B",
+    "explanation": "El recurso de alzada se interpone contra actos que no ponen fin a la vía administrativa ante el órgano superior jerárquico. (Repaso 1)"
+  },
+  {
+    "id": "admin-5-v2",
+    "topic": "Derecho Administrativo",
+    "difficulty": "easy",
+    "question": "Según la normativa vigente, ¿Qué recurso administrativo procede contra actos que no ponen fin a la vía administrativa?",
+    "options": [
+      "A) Recurso de reposición",
+      "B) Recurso de alzada",
+      "C) Recurso potestativo de reposición",
+      "D) Recurso extraordinario de revisión"
+    ],
+    "correct": "B",
+    "explanation": "El recurso de alzada se interpone contra actos que no ponen fin a la vía administrativa ante el órgano superior jerárquico. (Repaso 2)"
   },
   {
     "id": "funcion-1",
     "topic": "Función Pública",
     "difficulty": "medium",
     "question": "¿Qué normativa estatal regula el Estatuto Básico del Empleado Público?",
-    "options": ["A) Ley 7/2007", "B) Ley 39/2015", "C) Ley 40/2015", "D) Real Decreto 5/2015"],
+    "options": [
+      "A) Ley 7/2007",
+      "B) Ley 39/2015",
+      "C) Ley 40/2015",
+      "D) Real Decreto 5/2015"
+    ],
     "correct": "A",
     "explanation": "El Estatuto Básico del Empleado Público está regulado por la Ley 7/2007, de 12 de abril."
+  },
+  {
+    "id": "funcion-1-v1",
+    "topic": "Función Pública",
+    "difficulty": "medium",
+    "question": "Según la normativa vigente, ¿Qué normativa estatal regula el Estatuto Básico del Empleado Público?",
+    "options": [
+      "A) Ley 7/2007",
+      "B) Ley 39/2015",
+      "C) Ley 40/2015",
+      "D) Real Decreto 5/2015"
+    ],
+    "correct": "A",
+    "explanation": "El Estatuto Básico del Empleado Público está regulado por la Ley 7/2007, de 12 de abril. (Repaso 1)"
+  },
+  {
+    "id": "funcion-1-v2",
+    "topic": "Función Pública",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Qué normativa estatal regula el Estatuto Básico del Empleado Público?",
+    "options": [
+      "A) Ley 7/2007",
+      "B) Ley 39/2015",
+      "C) Ley 40/2015",
+      "D) Real Decreto 5/2015"
+    ],
+    "correct": "A",
+    "explanation": "El Estatuto Básico del Empleado Público está regulado por la Ley 7/2007, de 12 de abril. (Repaso 2)"
   },
   {
     "id": "funcion-2",
     "topic": "Función Pública",
     "difficulty": "medium",
     "question": "¿Qué tipo de personal puede desempeñar funciones que impliquen ejercicio de autoridad?",
-    "options": ["A) Personal laboral", "B) Personal eventual", "C) Personal funcionario", "D) Personal interino"],
+    "options": [
+      "A) Personal laboral",
+      "B) Personal eventual",
+      "C) Personal funcionario",
+      "D) Personal interino"
+    ],
     "correct": "C",
     "explanation": "Solo el personal funcionario de carrera puede desempeñar funciones que impliquen ejercicio de autoridad, según el artículo 9 del EBEP."
+  },
+  {
+    "id": "funcion-2-v1",
+    "topic": "Función Pública",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Qué tipo de personal puede desempeñar funciones que impliquen ejercicio de autoridad?",
+    "options": [
+      "A) Personal laboral",
+      "B) Personal eventual",
+      "C) Personal funcionario",
+      "D) Personal interino"
+    ],
+    "correct": "C",
+    "explanation": "Solo el personal funcionario de carrera puede desempeñar funciones que impliquen ejercicio de autoridad, según el artículo 9 del EBEP. (Repaso 1)"
+  },
+  {
+    "id": "funcion-2-v2",
+    "topic": "Función Pública",
+    "difficulty": "medium",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué tipo de personal puede desempeñar funciones que impliquen ejercicio de autoridad?",
+    "options": [
+      "A) Personal laboral",
+      "B) Personal eventual",
+      "C) Personal funcionario",
+      "D) Personal interino"
+    ],
+    "correct": "C",
+    "explanation": "Solo el personal funcionario de carrera puede desempeñar funciones que impliquen ejercicio de autoridad, según el artículo 9 del EBEP. (Repaso 2)"
   },
   {
     "id": "funcion-3",
     "topic": "Función Pública",
     "difficulty": "hard",
     "question": "¿Cuántas faltas muy graves no justificadas en un mes pueden suponer el despido disciplinario?",
-    "options": ["A) 2", "B) 3", "C) 4", "D) 5"],
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
     "correct": "B",
     "explanation": "Según la normativa de función pública, tres faltas muy graves de asistencia no justificadas en un mes pueden ser causa de despido."
+  },
+  {
+    "id": "funcion-3-v1",
+    "topic": "Función Pública",
+    "difficulty": "hard",
+    "question": "De acuerdo con la legislación aplicable, ¿Cuántas faltas muy graves no justificadas en un mes pueden suponer el despido disciplinario?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correct": "B",
+    "explanation": "Según la normativa de función pública, tres faltas muy graves de asistencia no justificadas en un mes pueden ser causa de despido. (Repaso 1)"
+  },
+  {
+    "id": "funcion-3-v2",
+    "topic": "Función Pública",
+    "difficulty": "hard",
+    "question": "En relación con el temario oficial, ¿Cuántas faltas muy graves no justificadas en un mes pueden suponer el despido disciplinario?",
+    "options": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 5"
+    ],
+    "correct": "B",
+    "explanation": "Según la normativa de función pública, tres faltas muy graves de asistencia no justificadas en un mes pueden ser causa de despido. (Repaso 2)"
   },
   {
     "id": "funcion-4",
     "topic": "Función Pública",
     "difficulty": "medium",
     "question": "¿Qué sistema de acceso a la función pública es el general?",
-    "options": ["A) Oposición", "B) Concurso", "C) Concurso-oposición", "D) Libre designación"],
+    "options": [
+      "A) Oposición",
+      "B) Concurso",
+      "C) Concurso-oposición",
+      "D) Libre designación"
+    ],
     "correct": "A",
     "explanation": "El artículo 61 del EBEP establece que el sistema normal de acceso es el de oposición, garantizando los principios de igualdad, mérito y capacidad."
+  },
+  {
+    "id": "funcion-4-v1",
+    "topic": "Función Pública",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Qué sistema de acceso a la función pública es el general?",
+    "options": [
+      "A) Oposición",
+      "B) Concurso",
+      "C) Concurso-oposición",
+      "D) Libre designación"
+    ],
+    "correct": "A",
+    "explanation": "El artículo 61 del EBEP establece que el sistema normal de acceso es el de oposición, garantizando los principios de igualdad, mérito y capacidad. (Repaso 1)"
+  },
+  {
+    "id": "funcion-4-v2",
+    "topic": "Función Pública",
+    "difficulty": "medium",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué sistema de acceso a la función pública es el general?",
+    "options": [
+      "A) Oposición",
+      "B) Concurso",
+      "C) Concurso-oposición",
+      "D) Libre designación"
+    ],
+    "correct": "A",
+    "explanation": "El artículo 61 del EBEP establece que el sistema normal de acceso es el de oposición, garantizando los principios de igualdad, mérito y capacidad. (Repaso 2)"
   },
   {
     "id": "funcion-5",
     "topic": "Función Pública",
     "difficulty": "easy",
     "question": "¿Qué situación administrativa corresponde al funcionario que presta servicios en una Administración Pública?",
-    "options": ["A) Servicio activo", "B) Servicios especiales", "C) Excedencia", "D) Suspensión"],
+    "options": [
+      "A) Servicio activo",
+      "B) Servicios especiales",
+      "C) Excedencia",
+      "D) Suspensión"
+    ],
     "correct": "A",
     "explanation": "La situación de servicio activo corresponde a los funcionarios que prestan servicios en cualquier Administración Pública."
+  },
+  {
+    "id": "funcion-5-v1",
+    "topic": "Función Pública",
+    "difficulty": "easy",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué situación administrativa corresponde al funcionario que presta servicios en una Administración Pública?",
+    "options": [
+      "A) Servicio activo",
+      "B) Servicios especiales",
+      "C) Excedencia",
+      "D) Suspensión"
+    ],
+    "correct": "A",
+    "explanation": "La situación de servicio activo corresponde a los funcionarios que prestan servicios en cualquier Administración Pública. (Repaso 1)"
+  },
+  {
+    "id": "funcion-5-v2",
+    "topic": "Función Pública",
+    "difficulty": "easy",
+    "question": "Según la normativa vigente, ¿Qué situación administrativa corresponde al funcionario que presta servicios en una Administración Pública?",
+    "options": [
+      "A) Servicio activo",
+      "B) Servicios especiales",
+      "C) Excedencia",
+      "D) Suspensión"
+    ],
+    "correct": "A",
+    "explanation": "La situación de servicio activo corresponde a los funcionarios que prestan servicios en cualquier Administración Pública. (Repaso 2)"
   },
   {
     "id": "hacienda-1",
     "topic": "Hacienda Pública",
     "difficulty": "medium",
     "question": "¿Qué Ley regula la Hacienda Pública autonómica de Galicia?",
-    "options": ["A) Ley 1/1999", "B) Ley 5/2000", "C) Ley 7/2005", "D) Ley 9/2007"],
+    "options": [
+      "A) Ley 1/1999",
+      "B) Ley 5/2000",
+      "C) Ley 7/2005",
+      "D) Ley 9/2007"
+    ],
     "correct": "D",
     "explanation": "La Ley 9/2007, de 13 de junio, de subvenciones de Galicia, y el Decreto Legislativo 1/1999 regulan aspectos de la Hacienda autonómica."
+  },
+  {
+    "id": "hacienda-1-v1",
+    "topic": "Hacienda Pública",
+    "difficulty": "medium",
+    "question": "Según la normativa vigente, ¿Qué Ley regula la Hacienda Pública autonómica de Galicia?",
+    "options": [
+      "A) Ley 1/1999",
+      "B) Ley 5/2000",
+      "C) Ley 7/2005",
+      "D) Ley 9/2007"
+    ],
+    "correct": "D",
+    "explanation": "La Ley 9/2007, de 13 de junio, de subvenciones de Galicia, y el Decreto Legislativo 1/1999 regulan aspectos de la Hacienda autonómica. (Repaso 1)"
+  },
+  {
+    "id": "hacienda-1-v2",
+    "topic": "Hacienda Pública",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Qué Ley regula la Hacienda Pública autonómica de Galicia?",
+    "options": [
+      "A) Ley 1/1999",
+      "B) Ley 5/2000",
+      "C) Ley 7/2005",
+      "D) Ley 9/2007"
+    ],
+    "correct": "D",
+    "explanation": "La Ley 9/2007, de 13 de junio, de subvenciones de Galicia, y el Decreto Legislativo 1/1999 regulan aspectos de la Hacienda autonómica. (Repaso 2)"
   },
   {
     "id": "hacienda-2",
     "topic": "Hacienda Pública",
     "difficulty": "hard",
     "question": "¿Qué porcentaje del PIB no puede superar el déficit estructural según la Ley Orgánica de Estabilidad Presupuestaria?",
-    "options": ["A) 0,4%", "B) 0,5%", "C) 1%", "D) 3%"],
+    "options": [
+      "A) 0,4%",
+      "B) 0,5%",
+      "C) 1%",
+      "D) 3%"
+    ],
     "correct": "A",
     "explanation": "La Ley Orgánica 2/2012 de Estabilidad Presupuestaria establece que el déficit estructural no puede superar el 0,4% del PIB."
+  },
+  {
+    "id": "hacienda-2-v1",
+    "topic": "Hacienda Pública",
+    "difficulty": "hard",
+    "question": "Desde una perspectiva práctica, ¿Qué porcentaje del PIB no puede superar el déficit estructural según la Ley Orgánica de Estabilidad Presupuestaria?",
+    "options": [
+      "A) 0,4%",
+      "B) 0,5%",
+      "C) 1%",
+      "D) 3%"
+    ],
+    "correct": "A",
+    "explanation": "La Ley Orgánica 2/2012 de Estabilidad Presupuestaria establece que el déficit estructural no puede superar el 0,4% del PIB. (Repaso 1)"
+  },
+  {
+    "id": "hacienda-2-v2",
+    "topic": "Hacienda Pública",
+    "difficulty": "hard",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué porcentaje del PIB no puede superar el déficit estructural según la Ley Orgánica de Estabilidad Presupuestaria?",
+    "options": [
+      "A) 0,4%",
+      "B) 0,5%",
+      "C) 1%",
+      "D) 3%"
+    ],
+    "correct": "A",
+    "explanation": "La Ley Orgánica 2/2012 de Estabilidad Presupuestaria establece que el déficit estructural no puede superar el 0,4% del PIB. (Repaso 2)"
   },
   {
     "id": "hacienda-3",
     "topic": "Hacienda Pública",
     "difficulty": "medium",
     "question": "¿Qué es un crédito extraordinario en el presupuesto?",
-    "options": ["A) Un crédito que aumenta una partida existente", "B) Un crédito para gastos no previstos", "C) Un crédito que se traslada de una partida a otra", "D) Un crédito plurianual"],
+    "options": [
+      "A) Un crédito que aumenta una partida existente",
+      "B) Un crédito para gastos no previstos",
+      "C) Un crédito que se traslada de una partida a otra",
+      "D) Un crédito plurianual"
+    ],
     "correct": "B",
     "explanation": "Los créditos extraordinarios se destinan a gastos de carácter específico y determinado que no pueden demorarse hasta el ejercicio siguiente y para los que no hay crédito."
+  },
+  {
+    "id": "hacienda-3-v1",
+    "topic": "Hacienda Pública",
+    "difficulty": "medium",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué es un crédito extraordinario en el presupuesto?",
+    "options": [
+      "A) Un crédito que aumenta una partida existente",
+      "B) Un crédito para gastos no previstos",
+      "C) Un crédito que se traslada de una partida a otra",
+      "D) Un crédito plurianual"
+    ],
+    "correct": "B",
+    "explanation": "Los créditos extraordinarios se destinan a gastos de carácter específico y determinado que no pueden demorarse hasta el ejercicio siguiente y para los que no hay crédito. (Repaso 1)"
+  },
+  {
+    "id": "hacienda-3-v2",
+    "topic": "Hacienda Pública",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Qué es un crédito extraordinario en el presupuesto?",
+    "options": [
+      "A) Un crédito que aumenta una partida existente",
+      "B) Un crédito para gastos no previstos",
+      "C) Un crédito que se traslada de una partida a otra",
+      "D) Un crédito plurianual"
+    ],
+    "correct": "B",
+    "explanation": "Los créditos extraordinarios se destinan a gastos de carácter específico y determinado que no pueden demorarse hasta el ejercicio siguiente y para los que no hay crédito. (Repaso 2)"
   },
   {
     "id": "hacienda-4",
     "topic": "Hacienda Pública",
     "difficulty": "medium",
     "question": "¿Qué principio presupuestario establece que todos los ingresos y gastos deben estar incluidos en el presupuesto?",
-    "options": ["A) Principio de universalidad", "B) Principio de especialidad", "C) Principio de anualidad", "D) Principio de unidad"],
+    "options": [
+      "A) Principio de universalidad",
+      "B) Principio de especialidad",
+      "C) Principio de anualidad",
+      "D) Principio de unidad"
+    ],
     "correct": "A",
     "explanation": "El principio de universalidad establece que el presupuesto debe contener todos los ingresos y gastos del sector público sin excepciones."
+  },
+  {
+    "id": "hacienda-4-v1",
+    "topic": "Hacienda Pública",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Qué principio presupuestario establece que todos los ingresos y gastos deben estar incluidos en el presupuesto?",
+    "options": [
+      "A) Principio de universalidad",
+      "B) Principio de especialidad",
+      "C) Principio de anualidad",
+      "D) Principio de unidad"
+    ],
+    "correct": "A",
+    "explanation": "El principio de universalidad establece que el presupuesto debe contener todos los ingresos y gastos del sector público sin excepciones. (Repaso 1)"
+  },
+  {
+    "id": "hacienda-4-v2",
+    "topic": "Hacienda Pública",
+    "difficulty": "medium",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué principio presupuestario establece que todos los ingresos y gastos deben estar incluidos en el presupuesto?",
+    "options": [
+      "A) Principio de universalidad",
+      "B) Principio de especialidad",
+      "C) Principio de anualidad",
+      "D) Principio de unidad"
+    ],
+    "correct": "A",
+    "explanation": "El principio de universalidad establece que el presupuesto debe contener todos los ingresos y gastos del sector público sin excepciones. (Repaso 2)"
   },
   {
     "id": "hacienda-5",
     "topic": "Hacienda Pública",
     "difficulty": "easy",
     "question": "¿Qué Ley General regula los Presupuestos del Estado?",
-    "options": ["A) Ley 40/2015", "B) Ley 47/2003", "C) Ley 39/2015", "D) Ley 50/1997"],
+    "options": [
+      "A) Ley 40/2015",
+      "B) Ley 47/2003",
+      "C) Ley 39/2015",
+      "D) Ley 50/1997"
+    ],
     "correct": "B",
     "explanation": "La Ley 47/2003, de 26 de noviembre, General Presupuestaria, regula el régimen presupuestario del Estado."
+  },
+  {
+    "id": "hacienda-5-v1",
+    "topic": "Hacienda Pública",
+    "difficulty": "easy",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué Ley General regula los Presupuestos del Estado?",
+    "options": [
+      "A) Ley 40/2015",
+      "B) Ley 47/2003",
+      "C) Ley 39/2015",
+      "D) Ley 50/1997"
+    ],
+    "correct": "B",
+    "explanation": "La Ley 47/2003, de 26 de noviembre, General Presupuestaria, regula el régimen presupuestario del Estado. (Repaso 1)"
+  },
+  {
+    "id": "hacienda-5-v2",
+    "topic": "Hacienda Pública",
+    "difficulty": "easy",
+    "question": "Según la normativa vigente, ¿Qué Ley General regula los Presupuestos del Estado?",
+    "options": [
+      "A) Ley 40/2015",
+      "B) Ley 47/2003",
+      "C) Ley 39/2015",
+      "D) Ley 50/1997"
+    ],
+    "correct": "B",
+    "explanation": "La Ley 47/2003, de 26 de noviembre, General Presupuestaria, regula el régimen presupuestario del Estado. (Repaso 2)"
   },
   {
     "id": "ue-1",
     "topic": "Unión Europea",
     "difficulty": "medium",
     "question": "¿Cuántos Estados miembros tiene actualmente la Unión Europea?",
-    "options": ["A) 25", "B) 27", "C) 28", "D) 30"],
+    "options": [
+      "A) 25",
+      "B) 27",
+      "C) 28",
+      "D) 30"
+    ],
     "correct": "B",
     "explanation": "Tras la salida del Reino Unido (Brexit) en 2020, la UE cuenta con 27 Estados miembros."
+  },
+  {
+    "id": "ue-1-v1",
+    "topic": "Unión Europea",
+    "difficulty": "medium",
+    "question": "Según la normativa vigente, ¿Cuántos Estados miembros tiene actualmente la Unión Europea?",
+    "options": [
+      "A) 25",
+      "B) 27",
+      "C) 28",
+      "D) 30"
+    ],
+    "correct": "B",
+    "explanation": "Tras la salida del Reino Unido (Brexit) en 2020, la UE cuenta con 27 Estados miembros. (Repaso 1)"
+  },
+  {
+    "id": "ue-1-v2",
+    "topic": "Unión Europea",
+    "difficulty": "medium",
+    "question": "Desde una perspectiva práctica, ¿Cuántos Estados miembros tiene actualmente la Unión Europea?",
+    "options": [
+      "A) 25",
+      "B) 27",
+      "C) 28",
+      "D) 30"
+    ],
+    "correct": "B",
+    "explanation": "Tras la salida del Reino Unido (Brexit) en 2020, la UE cuenta con 27 Estados miembros. (Repaso 2)"
   },
   {
     "id": "ue-2",
     "topic": "Unión Europea",
     "difficulty": "hard",
     "question": "¿Qué Tratado estableció la Unión Europea en su forma actual?",
-    "options": ["A) Tratado de Roma", "B) Tratado de Maastricht", "C) Tratado de Lisboa", "D) Tratado de Niza"],
+    "options": [
+      "A) Tratado de Roma",
+      "B) Tratado de Maastricht",
+      "C) Tratado de Lisboa",
+      "D) Tratado de Niza"
+    ],
     "correct": "C",
     "explanation": "El Tratado de Lisboa (2007, en vigor desde 2009) modificó los tratados anteriores y estableció la estructura actual de la UE."
+  },
+  {
+    "id": "ue-2-v1",
+    "topic": "Unión Europea",
+    "difficulty": "hard",
+    "question": "Desde una perspectiva práctica, ¿Qué Tratado estableció la Unión Europea en su forma actual?",
+    "options": [
+      "A) Tratado de Roma",
+      "B) Tratado de Maastricht",
+      "C) Tratado de Lisboa",
+      "D) Tratado de Niza"
+    ],
+    "correct": "C",
+    "explanation": "El Tratado de Lisboa (2007, en vigor desde 2009) modificó los tratados anteriores y estableció la estructura actual de la UE. (Repaso 1)"
+  },
+  {
+    "id": "ue-2-v2",
+    "topic": "Unión Europea",
+    "difficulty": "hard",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué Tratado estableció la Unión Europea en su forma actual?",
+    "options": [
+      "A) Tratado de Roma",
+      "B) Tratado de Maastricht",
+      "C) Tratado de Lisboa",
+      "D) Tratado de Niza"
+    ],
+    "correct": "C",
+    "explanation": "El Tratado de Lisboa (2007, en vigor desde 2009) modificó los tratados anteriores y estableció la estructura actual de la UE. (Repaso 2)"
   },
   {
     "id": "ue-3",
     "topic": "Unión Europea",
     "difficulty": "medium",
     "question": "¿Qué institución representa a los ciudadanos de la UE?",
-    "options": ["A) Consejo Europeo", "B) Consejo de la UE", "C) Parlamento Europeo", "D) Comisión Europea"],
+    "options": [
+      "A) Consejo Europeo",
+      "B) Consejo de la UE",
+      "C) Parlamento Europeo",
+      "D) Comisión Europea"
+    ],
     "correct": "C",
     "explanation": "El Parlamento Europeo representa directamente a los ciudadanos de la UE y es elegido por sufragio universal directo cada cinco años."
+  },
+  {
+    "id": "ue-3-v1",
+    "topic": "Unión Europea",
+    "difficulty": "medium",
+    "question": "De acuerdo con la legislación aplicable, ¿Qué institución representa a los ciudadanos de la UE?",
+    "options": [
+      "A) Consejo Europeo",
+      "B) Consejo de la UE",
+      "C) Parlamento Europeo",
+      "D) Comisión Europea"
+    ],
+    "correct": "C",
+    "explanation": "El Parlamento Europeo representa directamente a los ciudadanos de la UE y es elegido por sufragio universal directo cada cinco años. (Repaso 1)"
+  },
+  {
+    "id": "ue-3-v2",
+    "topic": "Unión Europea",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Qué institución representa a los ciudadanos de la UE?",
+    "options": [
+      "A) Consejo Europeo",
+      "B) Consejo de la UE",
+      "C) Parlamento Europeo",
+      "D) Comisión Europea"
+    ],
+    "correct": "C",
+    "explanation": "El Parlamento Europeo representa directamente a los ciudadanos de la UE y es elegido por sufragio universal directo cada cinco años. (Repaso 2)"
   },
   {
     "id": "ue-4",
     "topic": "Unión Europea",
     "difficulty": "medium",
     "question": "¿Qué tipo de acto de la UE es obligatorio en todos sus elementos y directamente aplicable?",
-    "options": ["A) Directiva", "B) Reglamento", "C) Decisión", "D) Recomendación"],
+    "options": [
+      "A) Directiva",
+      "B) Reglamento",
+      "C) Decisión",
+      "D) Recomendación"
+    ],
     "correct": "B",
     "explanation": "El Reglamento es obligatorio en todos sus elementos y directamente aplicable en cada Estado miembro sin necesidad de transposición."
+  },
+  {
+    "id": "ue-4-v1",
+    "topic": "Unión Europea",
+    "difficulty": "medium",
+    "question": "En relación con el temario oficial, ¿Qué tipo de acto de la UE es obligatorio en todos sus elementos y directamente aplicable?",
+    "options": [
+      "A) Directiva",
+      "B) Reglamento",
+      "C) Decisión",
+      "D) Recomendación"
+    ],
+    "correct": "B",
+    "explanation": "El Reglamento es obligatorio en todos sus elementos y directamente aplicable en cada Estado miembro sin necesidad de transposición. (Repaso 1)"
+  },
+  {
+    "id": "ue-4-v2",
+    "topic": "Unión Europea",
+    "difficulty": "medium",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Qué tipo de acto de la UE es obligatorio en todos sus elementos y directamente aplicable?",
+    "options": [
+      "A) Directiva",
+      "B) Reglamento",
+      "C) Decisión",
+      "D) Recomendación"
+    ],
+    "correct": "B",
+    "explanation": "El Reglamento es obligatorio en todos sus elementos y directamente aplicable en cada Estado miembro sin necesidad de transposición. (Repaso 2)"
   },
   {
     "id": "ue-5",
     "topic": "Unión Europea",
     "difficulty": "easy",
     "question": "¿Cuál es la moneda oficial de la Unión Europea?",
-    "options": ["A) El dólar europeo", "B) El euro", "C) La libra europea", "D) El marco"],
+    "options": [
+      "A) El dólar europeo",
+      "B) El euro",
+      "C) La libra europea",
+      "D) El marco"
+    ],
     "correct": "B",
     "explanation": "El euro es la moneda oficial de la Unión Europea, adoptada por 20 de los 27 Estados miembros (zona euro)."
+  },
+  {
+    "id": "ue-5-v1",
+    "topic": "Unión Europea",
+    "difficulty": "easy",
+    "question": "En el ámbito de la oposición Xunta A1, ¿Cuál es la moneda oficial de la Unión Europea?",
+    "options": [
+      "A) El dólar europeo",
+      "B) El euro",
+      "C) La libra europea",
+      "D) El marco"
+    ],
+    "correct": "B",
+    "explanation": "El euro es la moneda oficial de la Unión Europea, adoptada por 20 de los 27 Estados miembros (zona euro). (Repaso 1)"
+  },
+  {
+    "id": "ue-5-v2",
+    "topic": "Unión Europea",
+    "difficulty": "easy",
+    "question": "Según la normativa vigente, ¿Cuál es la moneda oficial de la Unión Europea?",
+    "options": [
+      "A) El dólar europeo",
+      "B) El euro",
+      "C) La libra europea",
+      "D) El marco"
+    ],
+    "correct": "B",
+    "explanation": "El euro es la moneda oficial de la Unión Europea, adoptada por 20 de los 27 Estados miembros (zona euro). (Repaso 2)"
   }
 ]
