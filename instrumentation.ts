@@ -8,7 +8,7 @@ export async function register() {
   }
 }
 
-export const onRequestError = async (...args: Parameters<NonNullable<typeof import("next").NextConfig["experimental"]>["onRequestError"]>) => {
+export const onRequestError = async (...args: unknown[]) => {
   const { captureRequestError } = await import("@sentry/nextjs");
-  return captureRequestError(...args);
+  return captureRequestError(...(args as Parameters<typeof captureRequestError>));
 };
