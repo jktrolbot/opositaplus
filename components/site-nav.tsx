@@ -10,7 +10,8 @@ import { useAuth } from '@/lib/auth-context';
 const links = [
   { href: '/', label: 'Inicio' },
   { href: '/oposiciones', label: 'Oposiciones' },
-  { href: '/centros/cip-formacion', label: 'Centros' },
+  { href: '/centros', label: 'Centros' },
+  { href: '/para-centros', label: 'Para centros' },
 ];
 
 export function SiteNav() {
@@ -22,7 +23,8 @@ export function SiteNav() {
   const activeHref = useMemo(() => {
     if (!pathname) return '/';
     if (pathname.startsWith('/oposiciones')) return '/oposiciones';
-    if (pathname.startsWith('/centros')) return '/centros/cip-formacion';
+    if (pathname.startsWith('/centros')) return '/centros';
+    if (pathname.startsWith('/para-centros')) return '/para-centros';
     return '/';
   }, [pathname]);
 
@@ -58,9 +60,14 @@ export function SiteNav() {
 
           <div className="ml-2">
             {!isLoading && !isLoggedIn && (
-              <Link href="/login">
-                <Button className="bg-[#1B3A5C] text-white hover:bg-[#16314d]">Iniciar sesión</Button>
-              </Link>
+              <div className="flex items-center gap-2">
+                <Link href="/registro">
+                  <Button variant="outline">Registrarse</Button>
+                </Link>
+                <Link href="/login">
+                  <Button className="bg-[#1B3A5C] text-white hover:bg-[#16314d]">Iniciar sesión</Button>
+                </Link>
+              </div>
             )}
 
             {!isLoading && isLoggedIn && user && (
@@ -127,13 +134,22 @@ export function SiteNav() {
 
             <div className="mt-2 border-t border-slate-200 pt-3">
               {!isLoading && !isLoggedIn && (
-                <Link
-                  href="/login"
-                  onClick={() => setOpen(false)}
-                  className="block rounded-md bg-[#1B3A5C] px-3 py-2 text-sm font-medium text-white"
-                >
-                  Iniciar sesión
-                </Link>
+                <div className="space-y-2">
+                  <Link
+                    href="/registro"
+                    onClick={() => setOpen(false)}
+                    className="block rounded-md border border-slate-200 px-3 py-2 text-sm font-medium text-slate-700"
+                  >
+                    Registrarse
+                  </Link>
+                  <Link
+                    href="/login"
+                    onClick={() => setOpen(false)}
+                    className="block rounded-md bg-[#1B3A5C] px-3 py-2 text-sm font-medium text-white"
+                  >
+                    Iniciar sesión
+                  </Link>
+                </div>
               )}
 
               {!isLoading && isLoggedIn && user && (
