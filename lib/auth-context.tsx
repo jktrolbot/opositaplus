@@ -10,12 +10,11 @@ import {
   useState,
   type ReactNode,
 } from 'react';
-
-const AUTH_STORAGE_KEY = 'opositaplus_user';
-const DEMO_PASSWORD = 'demo1234';
-const ALLOWED_DOMAIN = '@opositaplus.es';
+import type { User, Session } from '@supabase/supabase-js';
+import { createClient } from '@/lib/supabase/client';
 
 export interface AuthUser {
+  id: string;
   email: string;
   name: string;
   avatar: string;
@@ -24,52 +23,35 @@ export interface AuthUser {
 
 interface AuthContextValue {
   user: AuthUser | null;
+  session: Session | null;
   isLoggedIn: boolean;
   isLoading: boolean;
+  signIn: (email: string, password: string) => Promise<{ error: string | null }>;
+  signUp: (email: string, password: string, name?: string) => Promise<{ error: string | null }>;
+  signInWithMagicLink: (email: string) => Promise<{ error: string | null }>;
+  signOut: () => Promise<void>;
+  /** @deprecated Use signIn instead */
   login: (email: string, password: string) => boolean;
+  /** @deprecated Use signOut instead */
   logout: () => void;
 }
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 
-function safeParseUser(value: string | null): AuthUser | null {
-  if (!value) return null;
-
-  try {
-    const parsed = JSON.parse(value) as Partial<AuthUser>;
-    if (
-      typeof parsed.email === 'string' &&
-      typeof parsed.name === 'string' &&
-      typeof parsed.avatar === 'string' &&
-      parsed.loggedIn === true
-    ) {
-      return {
-        email: parsed.email,
-        name: parsed.name,
-        avatar: parsed.avatar,
-        loggedIn: true,
-      };
-    }
-  } catch {
-    return null;
-  }
-
-  return null;
-}
-
-function normalizeEmail(email: string) {
-  return email.trim().toLowerCase();
-}
-
-function isValidDemoEmail(email: string) {
-  return email.endsWith(ALLOWED_DOMAIN) && email.length > ALLOWED_DOMAIN.length;
-}
-
-function createDemoUser(email: string): AuthUser {
+function userFromSupabase(user: User): AuthUser {
+  const email = user.email ?? '';
+  const name = user.user_metadata?.full_name ?? user.user_metadata?.name ?? email.split('@')[0] ?? '';
+  const initials = name
+    .split(' ')
+    .map((n: string) => n[0])
+    .join('')
+    .toUpperCase()
+    .slice(0, 2) || 'U';
   return {
+    id: user.id,
     email,
-    name: 'María García',
-    avatar: 'MG',
+    name,
+    avatar: initials,
     loggedIn: true,
   };
 }
@@ -77,48 +59,98 @@ function createDemoUser(email: string): AuthUser {
 export function AuthProvider({ children }: { children: ReactNode }) {
   const router = useRouter();
   const [user, setUser] = useState<AuthUser | null>(null);
+  const [session, setSession] = useState<Session | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-    const storedUser = safeParseUser(localStorage.getItem(AUTH_STORAGE_KEY));
-    setUser(storedUser);
-    setIsLoading(false);
+    const supabase = createClient();
+
+    // Get initial session
+    supabase.auth.getSession().then(({ data: { session: s } }) => {
+      setSession(s);
+      setUser(s?.user ? userFromSupabase(s.user) : null);
+      setIsLoading(false);
+    });
+
+    // Listen for auth changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, s) => {
+      setSession(s);
+      setUser(s?.user ? userFromSupabase(s.user) : null);
+      setIsLoading(false);
+    });
+
+    return () => subscription.unsubscribe();
   }, []);
 
-  const login = useCallback((email: string, password: string) => {
-    if (typeof window === 'undefined') return false;
+  const signIn = useCallback(async (email: string, password: string) => {
+    const supabase = createClient();
+    const { error } = await supabase.auth.signInWithPassword({
+      email: email.trim().toLowerCase(),
+      password,
+    });
+    if (error) return { error: error.message };
+    router.refresh();
+    return { error: null };
+  }, [router]);
 
-    const normalizedEmail = normalizeEmail(email);
-    const isValidCredentials = password === DEMO_PASSWORD && isValidDemoEmail(normalizedEmail);
-
-    if (!isValidCredentials) {
-      return false;
-    }
-
-    const nextUser = createDemoUser(normalizedEmail);
-    localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(nextUser));
-    setUser(nextUser);
-    return true;
+  const signUp = useCallback(async (email: string, password: string, name?: string) => {
+    const supabase = createClient();
+    const { error } = await supabase.auth.signUp({
+      email: email.trim().toLowerCase(),
+      password,
+      options: {
+        data: { full_name: name },
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
+      },
+    });
+    if (error) return { error: error.message };
+    return { error: null };
   }, []);
 
-  const logout = useCallback(() => {
-    if (typeof window !== 'undefined') {
-      localStorage.removeItem(AUTH_STORAGE_KEY);
-    }
+  const signInWithMagicLink = useCallback(async (email: string) => {
+    const supabase = createClient();
+    const { error } = await supabase.auth.signInWithOtp({
+      email: email.trim().toLowerCase(),
+      options: {
+        emailRedirectTo: `${window.location.origin}/auth/callback`,
+      },
+    });
+    if (error) return { error: error.message };
+    return { error: null };
+  }, []);
+
+  const signOut = useCallback(async () => {
+    const supabase = createClient();
+    await supabase.auth.signOut();
     setUser(null);
+    setSession(null);
     router.replace('/login');
   }, [router]);
+
+  // Legacy compat
+  const login = useCallback((email: string, password: string) => {
+    signIn(email, password);
+    return true;
+  }, [signIn]);
+
+  const logout = useCallback(() => {
+    signOut();
+  }, [signOut]);
 
   const value = useMemo(
     () => ({
       user,
+      session,
       isLoggedIn: Boolean(user?.loggedIn),
       isLoading,
+      signIn,
+      signUp,
+      signInWithMagicLink,
+      signOut,
       login,
       logout,
     }),
-    [user, isLoading, login, logout],
+    [user, session, isLoading, signIn, signUp, signInWithMagicLink, signOut, login, logout],
   );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
@@ -131,4 +163,3 @@ export function useAuth() {
   }
   return context;
 }
-
