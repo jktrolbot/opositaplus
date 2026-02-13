@@ -1,5 +1,7 @@
 'use client';
 
+import { createClient } from '@/lib/supabase/client';
+
 export interface TestResult {
   id: string;
   date: string;
@@ -67,6 +69,28 @@ function buildKeys(oposicionSlug: string) {
   };
 }
 
+/**
+ * Fire-and-forget sync to Supabase. Does not block the UI.
+ */
+function syncToSupabase(action: 'test_result', payload: Record<string, unknown>) {
+  if (typeof window === 'undefined') return;
+  const supabase = createClient();
+  supabase.auth.getUser().then(({ data }) => {
+    const userId = data.user?.id;
+    if (!userId) return;
+    if (action === 'test_result') {
+      supabase.from('test_sessions').insert({
+        user_id: userId,
+        type: 'practice',
+        score: payload.score,
+        time_spent: payload.timeSpent,
+        questions: payload.wrongAnswers,
+        metadata: { topic: payload.topic, slug: payload.slug },
+      }).then(() => {});
+    }
+  });
+}
+
 function createScopedStorage(oposicionSlug: string) {
   const keys = buildKeys(oposicionSlug);
 
@@ -128,6 +152,15 @@ function createScopedStorage(oposicionSlug: string) {
       }
 
       this.setProgress(progress);
+
+      // Sync to Supabase in background
+      syncToSupabase('test_result', {
+        score: result.score,
+        timeSpent: result.timeSpent,
+        topic: result.topic,
+        slug: oposicionSlug,
+        wrongAnswers: result.wrongAnswers.map((w) => ({ question_text: w, correct: false })),
+      });
     },
 
     getWrongAnswers(): string[] {

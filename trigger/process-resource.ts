@@ -1,4 +1,12 @@
 import { task } from '@trigger.dev/sdk/v3';
+import OpenAI from 'openai';
+import { createClient } from '@supabase/supabase-js';
+
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+const supabase = createClient(
+  process.env.NEXT_PUBLIC_SUPABASE_URL!,
+  process.env.SUPABASE_SERVICE_ROLE_KEY!,
+);
 
 export const processResource = task({
   id: 'process-resource',
@@ -23,19 +31,44 @@ export const processResource = task({
     const pdfParseModule = await import('pdf-parse');
     const pdfParse = (pdfParseModule as any).default ?? pdfParseModule;
     const pdf = await pdfParse(buffer);
-    const text = pdf.text;
+    const text: string = pdf.text;
 
     // 3. Chunk text
     const chunks = chunkText(text, 1000, 200);
 
-    // 4. Generate embeddings and store
-    // TODO: Integrate with OpenAI embeddings + Supabase pgvector
-    // For now, store chunks as document_chunks
+    // 4. Generate embeddings and store in document_chunks
+    const batchSize = 20;
+    let stored = 0;
+
+    for (let i = 0; i < chunks.length; i += batchSize) {
+      const batch = chunks.slice(i, i + batchSize);
+
+      const embeddingResponse = await openai.embeddings.create({
+        model: 'text-embedding-3-small',
+        input: batch,
+      });
+
+      const rows = batch.map((content, idx) => ({
+        resource_id: resourceId,
+        organization_id: organizationId,
+        content,
+        embedding: JSON.stringify(embeddingResponse.data[idx].embedding),
+        metadata: { chunk_index: i + idx, total_chunks: chunks.length },
+      }));
+
+      const { error } = await supabase.from('document_chunks').insert(rows);
+      if (error) {
+        console.error('Error inserting chunks:', error);
+        throw new Error(`Failed to insert chunks: ${error.message}`);
+      }
+      stored += rows.length;
+    }
 
     return {
       status: 'completed',
       resourceId,
       chunks: chunks.length,
+      stored,
       textLength: text.length,
     };
   },
