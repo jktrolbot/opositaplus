@@ -81,6 +81,9 @@ importers:
       '@types/pdf-parse':
         specifier: ^1.1.5
         version: 1.1.5
+      '@types/pg':
+        specifier: ^8.16.0
+        version: 8.16.0
       '@types/react':
         specifier: ^19
         version: 19.2.14
@@ -2295,6 +2298,9 @@ packages:
 
   '@types/pg@8.15.6':
     resolution: {integrity: sha512-NoaMtzhxOrubeL/7UZuNTrejB4MPAJ0RpxZqXQf2qXuVlTPuG6Y8p4u9dKRaue4yjmC7ZhzVO2/Yyyn25znrPQ==}
+
+  '@types/pg@8.16.0':
+    resolution: {integrity: sha512-RmhMd/wD+CF8Dfo+cVIy3RR5cl8CyfXQ0tGgW6XBL8L4LM/UTEbNXYRbLwU6w+CgrKBNbrQWt4FUtTfaU5jSYQ==}
 
   '@types/phoenix@1.6.7':
     resolution: {integrity: sha512-oN9ive//QSBkf19rfDv45M7eZPi0eEXylht2OLEXicu5b4KoQ1OzXIw+xDSGWxSxe1JmepRR/ZH283vsu518/Q==}
@@ -7388,9 +7394,15 @@ snapshots:
 
   '@types/pg-pool@2.0.7':
     dependencies:
-      '@types/pg': 8.15.6
+      '@types/pg': 8.16.0
 
   '@types/pg@8.15.6':
+    dependencies:
+      '@types/node': 20.19.33
+      pg-protocol: 1.11.0
+      pg-types: 2.2.0
+
+  '@types/pg@8.16.0':
     dependencies:
       '@types/node': 20.19.33
       pg-protocol: 1.11.0
