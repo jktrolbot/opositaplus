@@ -16,8 +16,8 @@ const plans = [
       'Tests por oposición y temario',
       'Panel de progreso por convocatoria',
     ],
-    cta: 'Ver oposiciones',
-    href: '/oposiciones',
+    cta: 'Ver demo Knowledge Base',
+    href: '/demo',
     highlighted: false,
   },
   {
