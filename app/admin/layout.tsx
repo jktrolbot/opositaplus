@@ -3,7 +3,7 @@
 import { type ReactNode } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Building, CreditCard, LayoutDashboard, BookOpen, LogOut } from 'lucide-react';
+import { Building, CreditCard, LayoutDashboard, BookOpen, LogOut, Database } from 'lucide-react';
 import { AuthGuard } from '@/components/auth-guard';
 import { useAuth } from '@/lib/auth-context';
 import { Button } from '@/components/ui/button';
@@ -13,6 +13,7 @@ const navItems = [
   { href: '/admin/centros', label: 'Centros', icon: Building },
   { href: '/admin/liquidaciones', label: 'Liquidaciones', icon: CreditCard },
   { href: '/admin/oposiciones', label: 'Oposiciones', icon: BookOpen },
+  { href: '/admin/content', label: 'Onboarding IA', icon: Database },
 ];
 
 export default function AdminLayout({ children }: { children: ReactNode }) {
