@@ -12,6 +12,7 @@ const links = [
   { href: '/oposiciones', label: 'Oposiciones' },
   { href: '/centros', label: 'Centros' },
   { href: '/para-centros', label: 'Para centros' },
+  { href: '/demo', label: 'Demo KB' },
 ];
 
 export function SiteNav() {
