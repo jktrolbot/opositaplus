@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Calendar, Clock, MessageCircle, Repeat, ShieldCheck, Target, TrendingUp } from 'lucide-react';
+import { BookOpen, Calendar, Clock, Database, MessageCircle, Repeat, ShieldCheck, Target, TrendingUp } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -46,6 +46,14 @@ const tools = [
     Icon: TrendingUp,
   },
 ];
+
+const kbTool = {
+  href: '/demo',
+  title: 'Knowledge Base IA',
+  description: 'Explora todo el contenido procesado: 3,246 fragmentos, 4,926 preguntas y 2,538 flashcards con trazabilidad completa.',
+  Icon: Database,
+  external: true,
+};
 
 export default async function OposicionDetailPage({
   params,
@@ -152,6 +160,50 @@ export default async function OposicionDetailPage({
             })}
           </div>
         </section>
+
+        {oposicion.slug === 'tecnicos-hacienda' && (
+          <Card className="mb-6 mt-6 border-emerald-200 bg-gradient-to-r from-emerald-50 to-blue-50">
+            <CardHeader>
+              <div className="flex items-center gap-2">
+                <div className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-600 text-white">
+                  <Database className="h-5 w-5" />
+                </div>
+                <div>
+                  <CardTitle className="text-lg text-emerald-900">Knowledge Base IA — Demo en vivo</CardTitle>
+                  <CardDescription>
+                    Contenido real de CIP Formación procesado automáticamente por Oposita+
+                  </CardDescription>
+                </div>
+              </div>
+            </CardHeader>
+            <CardContent>
+              <div className="mb-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
+                <div className="rounded-lg bg-white/80 p-3 text-center">
+                  <p className="text-2xl font-bold text-slate-900">62</p>
+                  <p className="text-xs text-slate-500">Archivos fuente</p>
+                </div>
+                <div className="rounded-lg bg-white/80 p-3 text-center">
+                  <p className="text-2xl font-bold text-slate-900">3,246</p>
+                  <p className="text-xs text-slate-500">Fragmentos</p>
+                </div>
+                <div className="rounded-lg bg-white/80 p-3 text-center">
+                  <p className="text-2xl font-bold text-slate-900">4,926</p>
+                  <p className="text-xs text-slate-500">Preguntas</p>
+                </div>
+                <div className="rounded-lg bg-white/80 p-3 text-center">
+                  <p className="text-2xl font-bold text-slate-900">2,538</p>
+                  <p className="text-xs text-slate-500">Flashcards</p>
+                </div>
+              </div>
+              <Link href="/demo">
+                <Button className="w-full bg-emerald-600 text-white hover:bg-emerald-700">
+                  <BookOpen className="mr-2 h-4 w-4" />
+                  Explorar Knowledge Base completa
+                </Button>
+              </Link>
+            </CardContent>
+          </Card>
+        )}
 
         <DemoSeedActions slug={oposicion.slug} />
       </section>
