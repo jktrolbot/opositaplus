@@ -12,18 +12,30 @@ import {
 } from 'react';
 import type { User, Session } from '@supabase/supabase-js';
 import { createClient } from '@/lib/supabase/client';
+import {
+  canAccess as canRoleAccess,
+  getUserRole,
+  isAdmin as hasAdminRole,
+  type AppRole,
+  type AuthAction,
+  type AuthResource,
+} from '@/lib/auth/roles';
 
 export interface AuthUser {
   id: string;
   email: string;
   name: string;
   avatar: string;
+  role: AppRole | null;
   loggedIn: boolean;
 }
 
 interface AuthContextValue {
   user: AuthUser | null;
   session: Session | null;
+  role: AppRole | null;
+  isAdmin: boolean;
+  canAccess: (resource: AuthResource, action?: AuthAction) => boolean;
   isLoggedIn: boolean;
   isLoading: boolean;
   signIn: (email: string, password: string) => Promise<{ error: string | null }>;
@@ -38,7 +50,7 @@ interface AuthContextValue {
 
 const AuthContext = createContext<AuthContextValue | undefined>(undefined);
 
-function userFromSupabase(user: User): AuthUser {
+async function userFromSupabase(user: User): Promise<AuthUser> {
   const email = user.email ?? '';
   const name = user.user_metadata?.full_name ?? user.user_metadata?.name ?? email.split('@')[0] ?? '';
   const initials = name
@@ -47,11 +59,14 @@ function userFromSupabase(user: User): AuthUser {
     .join('')
     .toUpperCase()
     .slice(0, 2) || 'U';
+  const supabase = createClient();
+  const role = await getUserRole(supabase, user.id);
   return {
     id: user.id,
     email,
     name,
     avatar: initials,
+    role,
     loggedIn: true,
   };
 }
@@ -64,22 +79,38 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const supabase = createClient();
+    let isMounted = true;
+
+    const syncSession = async (nextSession: Session | null) => {
+      if (!isMounted) return;
+      setSession(nextSession);
+
+      if (!nextSession?.user) {
+        setUser(null);
+        setIsLoading(false);
+        return;
+      }
+
+      const normalizedUser = await userFromSupabase(nextSession.user);
+      if (!isMounted) return;
+      setUser(normalizedUser);
+      setIsLoading(false);
+    };
 
     // Get initial session
     supabase.auth.getSession().then(({ data: { session: s } }) => {
-      setSession(s);
-      setUser(s?.user ? userFromSupabase(s.user) : null);
-      setIsLoading(false);
+      void syncSession(s);
     });
 
     // Listen for auth changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, s) => {
-      setSession(s);
-      setUser(s?.user ? userFromSupabase(s.user) : null);
-      setIsLoading(false);
+      void syncSession(s);
     });
 
-    return () => subscription.unsubscribe();
+    return () => {
+      isMounted = false;
+      subscription.unsubscribe();
+    };
   }, []);
 
   const signIn = useCallback(async (email: string, password: string) => {
@@ -141,6 +172,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     () => ({
       user,
       session,
+      role: user?.role ?? null,
+      isAdmin: hasAdminRole(user?.role),
+      canAccess: (resource: AuthResource, action: AuthAction = 'read') =>
+        canRoleAccess(resource, action, user?.role),
       isLoggedIn: Boolean(user?.loggedIn),
       isLoading,
       signIn,

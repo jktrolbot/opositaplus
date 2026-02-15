@@ -3,7 +3,7 @@ import type { Organization, Plan, Subscription, UserRole } from '@/lib/types';
 
 describe('Domain Types', () => {
   it('should define valid user roles', () => {
-    const roles: UserRole[] = ['super_admin', 'center_admin', 'teacher', 'student'];
+    const roles: UserRole[] = ['super_admin', 'centro_admin', 'profesor', 'alumno'];
     expect(roles).toHaveLength(4);
   });
 

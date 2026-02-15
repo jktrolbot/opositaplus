@@ -1,6 +1,8 @@
 // Domain types for Oposita+ B2B
 
-export type UserRole = 'super_admin' | 'center_admin' | 'teacher' | 'student';
+export type PlatformRole = 'super_admin' | 'centro_admin' | 'profesor' | 'alumno';
+export type LegacyUserRole = 'center_admin' | 'teacher' | 'student';
+export type UserRole = PlatformRole | LegacyUserRole;
 export type OrgStatus = 'pending' | 'active' | 'suspended';
 export type SubscriptionStatus = 'active' | 'past_due' | 'canceled' | 'trialing' | 'incomplete';
 export type PaymentStatus = 'succeeded' | 'pending' | 'failed' | 'refunded';
@@ -40,10 +42,10 @@ export interface OrganizationMember {
 
 export interface UserProfile {
   id: string;
-  user_id: string;
   full_name: string | null;
   avatar_url: string | null;
   phone: string | null;
+  role: PlatformRole;
   is_super_admin: boolean;
   metadata: Record<string, unknown>;
   created_at: string;
