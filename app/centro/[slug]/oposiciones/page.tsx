@@ -60,7 +60,7 @@ export default function OposicionesPage() {
               <CardContent>
                 <p className="text-sm text-slate-500">{o.oppositions.description ?? 'Sin descripción'}</p>
                 <div className="mt-3 flex flex-wrap gap-1.5">
-                  {['Test', 'Tutor IA', 'Planificador', 'Simulacro', 'Repaso'].map((tool) => (
+                  {['Contenido', 'Preguntas', 'Flashcards', 'Tests', 'Dashboard', 'Alumnos'].map((tool) => (
                     <span key={tool} className="rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600">{tool}</span>
                   ))}
                 </div>

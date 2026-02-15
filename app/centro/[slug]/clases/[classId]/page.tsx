@@ -26,7 +26,7 @@ export default function ClassDetailPage({
   params: Promise<{ slug: string; classId: string }>;
 }) {
   const { slug, classId } = use(params);
-  const { organization, isLoading: orgLoading } = useOrganization();
+  const { isLoading: orgLoading } = useOrganization();
   const [cls, setCls] = useState<ClassDetail | null>(null);
   const [loading, setLoading] = useState(true);
 

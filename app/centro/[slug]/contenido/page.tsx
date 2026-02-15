@@ -5,6 +5,7 @@ import { BookOpen, FileText, Loader2, Plus, Upload } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useOrganization } from '@/lib/hooks/use-organization';
+import { normalizeRole } from '@/lib/auth/roles';
 import { getTopics, getResources } from '@/lib/actions/content';
 
 interface TopicRow {
@@ -26,6 +27,7 @@ interface ResourceRow {
 
 export default function ContenidoPage() {
   const { organization, userRole, isLoading: orgLoading } = useOrganization();
+  const normalizedRole = normalizeRole(userRole);
   const [topics, setTopics] = useState<TopicRow[]>([]);
   const [resources, setResources] = useState<ResourceRow[]>([]);
   const [loading, setLoading] = useState(true);
@@ -51,7 +53,8 @@ export default function ContenidoPage() {
     );
   }
 
-  const canEdit = userRole === 'center_admin' || userRole === 'super_admin' || userRole === 'teacher';
+  const canEdit =
+    normalizedRole === 'centro_admin' || normalizedRole === 'super_admin' || normalizedRole === 'profesor';
 
   return (
     <div className="space-y-6">

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ChevronDown, LogOut, Menu, X } from 'lucide-react';
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/lib/auth-context';
 
@@ -27,11 +27,6 @@ export function SiteNav() {
     if (pathname.startsWith('/centros')) return '/centros';
     if (pathname.startsWith('/para-centros')) return '/para-centros';
     return '/';
-  }, [pathname]);
-
-  useEffect(() => {
-    setOpen(false);
-    setUserMenuOpen(false);
   }, [pathname]);
 
   return (

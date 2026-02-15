@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { Organization, Plan, Subscription, UserRole } from '@/lib/types';
+import type { Organization, Plan, UserRole } from '@/lib/types';
 
 describe('Domain Types', () => {
   it('should define valid user roles', () => {

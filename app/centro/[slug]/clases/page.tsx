@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useOrganization } from '@/lib/hooks/use-organization';
+import { normalizeRole } from '@/lib/auth/roles';
 import { createClient } from '@/lib/supabase/client';
 
 interface ClassRow {
@@ -19,6 +20,7 @@ interface ClassRow {
 
 export default function ClasesPage() {
   const { organization, userRole, isLoading: orgLoading } = useOrganization();
+  const normalizedRole = normalizeRole(userRole);
   const [classes, setClasses] = useState<ClassRow[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -45,7 +47,8 @@ export default function ClasesPage() {
   }
 
   const slug = organization?.slug ?? '';
-  const canCreate = userRole === 'center_admin' || userRole === 'teacher' || userRole === 'super_admin';
+  const canCreate =
+    normalizedRole === 'centro_admin' || normalizedRole === 'profesor' || normalizedRole === 'super_admin';
 
   const statusLabels: Record<string, string> = {
     scheduled: '📅 Programada',

@@ -8,9 +8,9 @@ import { centros } from '@/data/oposiciones';
 
 const plans = [
   {
-    name: 'Demo CIP',
+    name: 'Starter Opositor',
     price: '0 EUR',
-    period: 'acceso de demostración',
+    period: 'plan gratuito',
     features: [
       'Catálogo de oposiciones por categoría',
       'Tests por oposición y temario',

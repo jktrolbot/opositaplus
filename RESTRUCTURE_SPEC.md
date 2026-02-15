@@ -232,4 +232,4 @@ Examples:
 - Keep existing test/tutor/planner logic, just scope it
 - OpenAI API for tutor/planner (env var already set)
 
-MAKE THIS IMPRESSIVE FOR CIP FORMACIÓN DEMO.
+MAKE THIS IMPRESSIVE FOR CIP FORMACIÓN.

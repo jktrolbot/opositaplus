@@ -1,7 +1,7 @@
 'use client';
 
 import { use, useEffect, useState } from 'react';
-import { ArrowLeft, BookOpen, Loader2, MapPin, Star } from 'lucide-react';
+import { ArrowLeft, Loader2, MapPin, Star } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';

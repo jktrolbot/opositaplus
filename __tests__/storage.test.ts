@@ -11,7 +11,6 @@ const mockLocalStorage = {
   key: (i: number) => Object.keys(localStore)[i] ?? null,
 };
 
-// @ts-expect-error - mock
 globalThis.localStorage = mockLocalStorage;
 
 // Mock supabase client to avoid actual imports

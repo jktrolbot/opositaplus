@@ -21,7 +21,7 @@ export function CenterHeader({ slug }: { slug: string }) {
         >
           {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
-        <Link href="/" className="text-lg font-bold text-[#1B3A5C]">
+        <Link href={`/centro/${slug}`} className="text-lg font-bold text-[#1B3A5C]">
           Oposita+
         </Link>
         {organization && (

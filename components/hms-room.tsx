@@ -1,7 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import { Loader2, Video } from 'lucide-react';
+import { Video } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
 interface HmsRoomProps {
@@ -10,36 +9,17 @@ interface HmsRoomProps {
 }
 
 export default function HmsRoom({ roomId, authToken }: HmsRoomProps) {
-  const [error, setError] = useState<string | null>(null);
-  const [loaded, setLoaded] = useState(false);
+  const hasAuthToken = Boolean(authToken);
 
-  useEffect(() => {
-    if (!authToken) {
-      setError('No se pudo obtener el token de autenticación para la sala.');
-      return;
-    }
-    // Mark as loaded — in production, you'd initialize the HMS SDK here
-    setLoaded(true);
-  }, [authToken]);
-
-  if (error) {
+  if (!hasAuthToken) {
     return (
       <Card className="border-slate-700 bg-slate-800">
         <CardContent className="py-10 text-center">
           <Video className="mx-auto h-16 w-16 text-red-400" />
           <p className="mt-4 text-lg font-medium text-white">Error</p>
-          <p className="mt-2 text-sm text-red-300">{error}</p>
+          <p className="mt-2 text-sm text-red-300">No se pudo obtener el token de autenticación para la sala.</p>
         </CardContent>
       </Card>
-    );
-  }
-
-  if (!loaded) {
-    return (
-      <div className="flex items-center justify-center py-20">
-        <Loader2 className="h-8 w-8 animate-spin text-white" />
-        <span className="ml-2 text-white">Conectando a la sala...</span>
-      </div>
     );
   }
 

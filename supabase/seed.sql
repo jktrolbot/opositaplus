@@ -56,10 +56,10 @@ INSERT INTO topics (id, organization_id, opposition_id, title, description, sort
   ('e0000000-0000-0000-0000-000000000005', 'c0000000-0000-0000-0000-000000000001', 'b0000000-0000-0000-0000-000000000001', 'Administración de las CCAA', 'Organización y funcionamiento de las administraciones autonómicas', 5);
 
 -- ============================================
--- DEMO USERS
+-- TEST USERS
 -- ============================================
--- DEMO USERS (create via Supabase Auth dashboard or API):
--- alumno@demo.com / demo1234 (role: student, org: CIP Formacion)
--- centro@demo.com / demo1234 (role: center_admin, org: CIP Formacion)
--- profesor@demo.com / demo1234 (role: teacher, org: CIP Formacion)
--- admin@demo.com / demo1234 (role: super_admin)
+-- Test users (create via Supabase Auth dashboard or API):
+-- alumno@example.com / test1234 (role: student, org: CIP Formacion)
+-- centro@example.com / test1234 (role: center_admin, org: CIP Formacion)
+-- profesor@example.com / test1234 (role: teacher, org: CIP Formacion)
+-- admin@example.com / test1234 (role: super_admin)
