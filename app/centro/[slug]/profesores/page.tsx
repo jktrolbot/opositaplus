@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useOrganization } from '@/lib/hooks/use-organization';
+import { normalizeRole } from '@/lib/auth/roles';
 import { getTeachers } from '@/lib/actions/content';
 
 interface TeacherRow {
@@ -18,6 +19,7 @@ interface TeacherRow {
 
 export default function ProfesoresPage() {
   const { organization, userRole, isLoading: orgLoading } = useOrganization();
+  const normalizedRole = normalizeRole(userRole);
   const [teachers, setTeachers] = useState<TeacherRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
@@ -37,7 +39,7 @@ export default function ProfesoresPage() {
     );
   }
 
-  if (userRole !== 'center_admin' && userRole !== 'super_admin') {
+  if (normalizedRole !== 'centro_admin' && normalizedRole !== 'super_admin') {
     return <p className="text-slate-500">No tienes acceso a esta sección.</p>;
   }
 

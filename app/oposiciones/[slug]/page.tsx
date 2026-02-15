@@ -4,7 +4,6 @@ import { Calendar, Clock, MessageCircle, Repeat, ShieldCheck, Target, TrendingUp
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { DemoSeedActions } from '@/components/oposiciones/demo-seed-actions';
 import { getOposicionBySlug } from '@/data/oposiciones';
 import { difficultyBadgeClass, difficultyLabel } from '@/lib/oposicion-ui';
 
@@ -152,8 +151,6 @@ export default async function OposicionDetailPage({
             })}
           </div>
         </section>
-
-        <DemoSeedActions slug={oposicion.slug} />
       </section>
     </main>
   );

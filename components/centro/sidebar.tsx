@@ -14,38 +14,40 @@ import {
   UserCheck,
   Brain,
 } from 'lucide-react';
+import type { ElementType } from 'react';
+import { normalizeRole, type AppRole } from '@/lib/auth/roles';
 import { useOrganization } from '@/lib/hooks/use-organization';
-import type { UserRole } from '@/lib/types';
 
 interface NavItem {
   href: string;
   label: string;
-  icon: React.ElementType;
-  roles: UserRole[];
+  icon: ElementType;
+  roles: AppRole[];
 }
 
 function getNavItems(slug: string): NavItem[] {
   const base = `/centro/${slug}`;
   return [
-    { href: base, label: 'Dashboard', icon: LayoutDashboard, roles: ['super_admin', 'center_admin', 'teacher', 'student'] },
-    { href: `${base}/alumnos`, label: 'Alumnos', icon: Users, roles: ['super_admin', 'center_admin', 'teacher'] },
-    { href: `${base}/profesores`, label: 'Profesores', icon: UserCheck, roles: ['super_admin', 'center_admin'] },
-    { href: `${base}/contenido`, label: 'Contenido', icon: FileText, roles: ['super_admin', 'center_admin', 'teacher'] },
-    { href: `${base}/clases`, label: 'Clases', icon: Calendar, roles: ['super_admin', 'center_admin', 'teacher', 'student'] },
-    { href: `${base}/oposiciones`, label: 'Oposiciones', icon: BookOpen, roles: ['super_admin', 'center_admin', 'teacher', 'student'] },
-    { href: `${base}/herramientas-ia`, label: 'IA Tools', icon: Brain, roles: ['super_admin', 'center_admin', 'teacher', 'student'] },
-    { href: `${base}/planes`, label: 'Planes y Pagos', icon: CreditCard, roles: ['super_admin', 'center_admin'] },
-    { href: `${base}/examenes`, label: 'Exámenes', icon: GraduationCap, roles: ['super_admin', 'center_admin', 'teacher', 'student'] },
-    { href: `${base}/ajustes`, label: 'Ajustes', icon: Settings, roles: ['super_admin', 'center_admin'] },
+    { href: base, label: 'Dashboard', icon: LayoutDashboard, roles: ['super_admin', 'centro_admin', 'profesor', 'alumno'] },
+    { href: `${base}/alumnos`, label: 'Alumnos', icon: Users, roles: ['super_admin', 'centro_admin', 'profesor'] },
+    { href: `${base}/profesores`, label: 'Profesores', icon: UserCheck, roles: ['super_admin', 'centro_admin'] },
+    { href: `${base}/contenido`, label: 'Contenido', icon: FileText, roles: ['super_admin', 'centro_admin', 'profesor'] },
+    { href: `${base}/clases`, label: 'Clases', icon: Calendar, roles: ['super_admin', 'centro_admin', 'profesor', 'alumno'] },
+    { href: `${base}/oposiciones`, label: 'Oposiciones', icon: BookOpen, roles: ['super_admin', 'centro_admin', 'profesor', 'alumno'] },
+    { href: `${base}/herramientas-ia`, label: 'IA Tools', icon: Brain, roles: ['super_admin', 'centro_admin', 'profesor', 'alumno'] },
+    { href: `${base}/planes`, label: 'Planes y Pagos', icon: CreditCard, roles: ['super_admin', 'centro_admin'] },
+    { href: `${base}/examenes`, label: 'Exámenes', icon: GraduationCap, roles: ['super_admin', 'centro_admin', 'profesor', 'alumno'] },
+    { href: `${base}/ajustes`, label: 'Ajustes', icon: Settings, roles: ['super_admin', 'centro_admin'] },
   ];
 }
 
 export function CentroSidebar({ slug }: { slug: string }) {
   const pathname = usePathname();
   const { organization, userRole } = useOrganization();
+  const normalizedRole = normalizeRole(userRole);
 
   const navItems = getNavItems(slug).filter(
-    (item) => userRole && item.roles.includes(userRole)
+    (item) => normalizedRole && item.roles.includes(normalizedRole)
   );
 
   return (
@@ -55,9 +57,15 @@ export function CentroSidebar({ slug }: { slug: string }) {
         <h2 className="truncate text-lg font-bold text-[#1B3A5C]">
           {organization?.name ?? 'Centro'}
         </h2>
-        {userRole && (
+        {normalizedRole && (
           <span className="mt-1 inline-block rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600">
-            {userRole === 'center_admin' ? 'Admin' : userRole === 'teacher' ? 'Profesor' : userRole === 'student' ? 'Alumno' : 'Super Admin'}
+            {normalizedRole === 'centro_admin'
+              ? 'Admin'
+              : normalizedRole === 'profesor'
+                ? 'Profesor'
+                : normalizedRole === 'alumno'
+                  ? 'Alumno'
+                  : 'Super Admin'}
           </span>
         )}
       </div>

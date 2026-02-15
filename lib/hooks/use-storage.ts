@@ -12,7 +12,6 @@ export function useStorage(oppositionSlug: string) {
 
   useEffect(() => {
     let cancelled = false;
-    setLoading(true);
 
     Promise.all([
       store.getProgress(),

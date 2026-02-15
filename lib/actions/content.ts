@@ -8,7 +8,7 @@ export async function getTeachers(organizationId: string) {
     .from('organization_members')
     .select('*, user_profiles(full_name, avatar_url, phone)')
     .eq('organization_id', organizationId)
-    .eq('role', 'teacher')
+    .in('role', ['teacher', 'profesor'])
     .order('joined_at', { ascending: false });
 
   if (error) throw new Error(error.message);
@@ -19,7 +19,7 @@ export async function addTeacher(organizationId: string, userId: string) {
   const supabase = await createClient();
   const { error } = await supabase
     .from('organization_members')
-    .insert({ organization_id: organizationId, user_id: userId, role: 'teacher' });
+    .insert({ organization_id: organizationId, user_id: userId, role: 'profesor' });
 
   if (error) throw new Error(error.message);
   return { success: true };
@@ -32,7 +32,7 @@ export async function removeTeacher(organizationId: string, userId: string) {
     .delete()
     .eq('organization_id', organizationId)
     .eq('user_id', userId)
-    .eq('role', 'teacher');
+    .in('role', ['teacher', 'profesor']);
 
   if (error) throw new Error(error.message);
   return { success: true };

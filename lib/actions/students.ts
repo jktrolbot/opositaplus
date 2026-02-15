@@ -8,7 +8,7 @@ export async function getStudents(organizationId: string) {
     .from('organization_members')
     .select('*, user_profiles(full_name, avatar_url, phone)')
     .eq('organization_id', organizationId)
-    .eq('role', 'student')
+    .in('role', ['student', 'alumno'])
     .order('joined_at', { ascending: false });
 
   if (error) throw new Error(error.message);
@@ -58,7 +58,7 @@ export async function removeStudent(organizationId: string, userId: string) {
     .delete()
     .eq('organization_id', organizationId)
     .eq('user_id', userId)
-    .eq('role', 'student');
+    .in('role', ['student', 'alumno']);
 
   if (error) throw new Error(error.message);
   return { success: true };

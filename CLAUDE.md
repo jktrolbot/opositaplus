@@ -49,7 +49,7 @@
 │   ├── email/              # Email templates
 │   ├── utils.ts            # cn() helper
 │   ├── auth-context.tsx    # Auth context provider
-│   ├── demo-data.ts        # Seed/demo data
+│   ├── knowledge/          # Knowledge processing helpers
 │   └── types/              # TypeScript types
 ├── trigger/                # Trigger.dev jobs
 │   ├── process-resource.ts

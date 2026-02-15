@@ -29,8 +29,12 @@ export const processResource = task({
 
     // 2. Extract text
     const pdfParseModule = await import('pdf-parse');
-    const pdfParse = (pdfParseModule as any).default ?? pdfParseModule;
-    const pdf = await pdfParse(buffer);
+    const maybeDefault = (pdfParseModule as { default?: unknown }).default;
+    const pdfParseCandidate = maybeDefault ?? pdfParseModule;
+    if (typeof pdfParseCandidate !== 'function') {
+      throw new Error('Invalid pdf parser module');
+    }
+    const pdf = await (pdfParseCandidate as (input: Buffer) => Promise<{ text: string }>)(buffer);
     const text: string = pdf.text;
 
     // 3. Chunk text

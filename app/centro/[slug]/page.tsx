@@ -3,10 +3,12 @@
 import { BookOpen, Calendar, GraduationCap, Users } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useOrganization } from '@/lib/hooks/use-organization';
+import { normalizeRole } from '@/lib/auth/roles';
 import { Loader2 } from 'lucide-react';
 
 export default function CentroDashboard() {
   const { organization, userRole, isLoading, error } = useOrganization();
+  const normalizedRole = normalizeRole(userRole);
 
   if (isLoading) {
     return (
@@ -37,7 +39,16 @@ export default function CentroDashboard() {
         <h1 className="text-2xl font-bold text-[#1B3A5C]">Dashboard</h1>
         <p className="text-sm text-slate-500">
           Bienvenido a {organization.name}
-          {userRole && ` · ${userRole === 'center_admin' ? 'Administrador' : userRole === 'teacher' ? 'Profesor' : userRole === 'student' ? 'Alumno' : 'Super Admin'}`}
+          {normalizedRole &&
+            ` · ${
+              normalizedRole === 'centro_admin'
+                ? 'Administrador'
+                : normalizedRole === 'profesor'
+                  ? 'Profesor'
+                  : normalizedRole === 'alumno'
+                    ? 'Alumno'
+                    : 'Super Admin'
+            }`}
         </p>
       </div>
 

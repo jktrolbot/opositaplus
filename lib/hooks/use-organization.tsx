@@ -2,6 +2,7 @@
 
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import { createClient } from '@/lib/supabase/client';
+import { normalizeRole } from '@/lib/auth/roles';
 import type { Organization, UserRole } from '@/lib/types';
 
 interface OrganizationContextValue {
@@ -61,7 +62,8 @@ export function OrganizationProvider({
             .single();
 
           if (member) {
-            setUserRole(member.role as UserRole);
+            const normalized = normalizeRole(member.role);
+            setUserRole((normalized ?? member.role) as UserRole);
           }
 
           // Check super_admin

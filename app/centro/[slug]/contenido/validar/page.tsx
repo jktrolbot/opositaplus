@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { Loader2 } from 'lucide-react';
 import { useOrganization } from '@/lib/hooks/use-organization';
+import { normalizeRole } from '@/lib/auth/roles';
 import { QuestionEditor } from '@/components/centro/question-editor';
 import { getUnvalidatedQuestions, validateQuestion, updateQuestion, deleteQuestion } from '@/lib/actions/questions';
 
@@ -17,6 +18,7 @@ interface QuestionRow {
 
 export default function ValidarPage() {
   const { organization, userRole, isLoading: orgLoading } = useOrganization();
+  const normalizedRole = normalizeRole(userRole);
   const [questions, setQuestions] = useState<QuestionRow[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -35,7 +37,7 @@ export default function ValidarPage() {
     );
   }
 
-  if (userRole !== 'center_admin' && userRole !== 'teacher' && userRole !== 'super_admin') {
+  if (normalizedRole !== 'centro_admin' && normalizedRole !== 'profesor' && normalizedRole !== 'super_admin') {
     return <p className="text-slate-500">No tienes acceso a esta sección.</p>;
   }
 
