@@ -20,6 +20,7 @@ import {
   type AuthAction,
   type AuthResource,
 } from '@/lib/auth/roles';
+import { analytics } from '@/lib/analytics';
 
 export interface AuthUser {
   id: string;
@@ -115,18 +116,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const signIn = useCallback(async (email: string, password: string) => {
     const supabase = createClient();
-    const { error } = await supabase.auth.signInWithPassword({
+    const { data, error } = await supabase.auth.signInWithPassword({
       email: email.trim().toLowerCase(),
       password,
     });
     if (error) return { error: error.message };
+    
+    // Identify user in PostHog
+    if (data.user) {
+      analytics.identify(data.user.id, {
+        email: data.user.email,
+        name: data.user.user_metadata?.full_name,
+      });
+    }
+    
     router.refresh();
     return { error: null };
   }, [router]);
 
   const signUp = useCallback(async (email: string, password: string, name?: string) => {
     const supabase = createClient();
-    const { error } = await supabase.auth.signUp({
+    const { data, error } = await supabase.auth.signUp({
       email: email.trim().toLowerCase(),
       password,
       options: {
@@ -135,6 +145,16 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       },
     });
     if (error) return { error: error.message };
+    
+    // Track signup event
+    if (data.user) {
+      analytics.userSignup({
+        userId: data.user.id,
+        email: data.user.email || email,
+        provider: 'email',
+      });
+    }
+    
     return { error: null };
   }, []);
 
@@ -153,6 +173,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const signOut = useCallback(async () => {
     const supabase = createClient();
     await supabase.auth.signOut();
+    analytics.reset(); // Reset PostHog on logout
     setUser(null);
     setSession(null);
     router.replace('/login');

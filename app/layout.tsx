@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { SiteNav } from '@/components/site-nav';
 import { AuthProvider } from '@/lib/auth-context';
+import { PostHogProvider } from '@/lib/posthog-provider';
 
 export const metadata: Metadata = {
   title: 'Oposita+ | Preparación por oposiciones',
@@ -17,10 +18,12 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className="min-h-screen bg-[#F8FAFC] text-slate-900 antialiased">
-        <AuthProvider>
-          <SiteNav />
-          {children}
-        </AuthProvider>
+        <PostHogProvider>
+          <AuthProvider>
+            <SiteNav />
+            {children}
+          </AuthProvider>
+        </PostHogProvider>
       </body>
     </html>
   );

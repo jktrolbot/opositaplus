@@ -11,6 +11,9 @@ import { oposiciones } from '@/data/oposiciones';
 import { OposicionNotFound } from '@/components/oposiciones/not-found';
 import { OposicionPageHeader } from '@/components/oposiciones/page-header';
 import { AuthGuard } from '@/components/auth-guard';
+import { useAuth } from '@/lib/auth-context';
+import { analytics } from '@/lib/analytics';
+import { storage } from '@/lib/storage';
 
 type Message = {
   role: 'user' | 'assistant';
@@ -21,6 +24,7 @@ export default function OposicionTutorPage() {
   const params = useParams<{ slug: string }>();
   const slug = typeof params?.slug === 'string' ? params.slug : '';
   const oposicion = useMemo(() => oposiciones.find((item) => item.slug === slug), [slug]);
+  const { user } = useAuth();
 
   const [messages, setMessages] = useState<Message[]>([
     {
@@ -54,6 +58,25 @@ export default function OposicionTutorPage() {
     setMessages((prev) => [...prev, userMessage]);
     setInput('');
     setLoading(true);
+    
+    // Track tutor interaction
+    if (user?.id && oposicion) {
+      const interactionType = input.toLowerCase().includes('?') ? 'question' : 'explanation';
+      analytics.tutorInteraction({
+        userId: user.id,
+        interactionType,
+        topic: oposicion.shortName,
+      });
+      
+      // Track first tutor use milestone
+      const previousMessages = messages.filter(m => m.role === 'user').length;
+      if (previousMessages === 0) {
+        analytics.activationMilestone({
+          userId: user.id,
+          milestone: 'first_tutor_use',
+        });
+      }
+    }
 
     try {
       const response = await fetch('/api/tutor', {

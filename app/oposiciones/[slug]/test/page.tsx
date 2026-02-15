@@ -16,6 +16,8 @@ import { storage } from '@/lib/storage';
 import { OposicionNotFound } from '@/components/oposiciones/not-found';
 import { OposicionPageHeader } from '@/components/oposiciones/page-header';
 import { AuthGuard } from '@/components/auth-guard';
+import { useAuth } from '@/lib/auth-context';
+import { analytics } from '@/lib/analytics';
 
 const questionImporters: Record<string, () => Promise<Question[]>> = {
   'xunta-a1': () => import('@/data/questions/xunta-a1.json').then((module) => module.default as Question[]),
@@ -38,6 +40,7 @@ async function loadQuestionsBySlug(slug: string): Promise<Question[]> {
 export default function OposicionTestPage() {
   const params = useParams<{ slug: string }>();
   const slug = typeof params?.slug === 'string' ? params.slug : '';
+  const { user } = useAuth();
 
   const oposicion = useMemo(() => oposiciones.find((item) => item.slug === slug), [slug]);
   const [allQuestions, setAllQuestions] = useState<Question[]>([]);
@@ -110,6 +113,26 @@ export default function OposicionTestPage() {
       setTestComplete(false);
       setStartTime(Date.now());
       setLoading(false);
+      
+      // Track test started
+      if (user?.id) {
+        const testId = `${oposicion.slug}-${topicId}-${Date.now()}`;
+        analytics.testStarted({
+          userId: user.id,
+          testId,
+          testType: 'practice',
+          subject: topicId === 'general' ? 'General' : topicMap[topicId] || topicId,
+        });
+        
+        // Track first test milestone
+        const testHistory = storage.forOposicion(oposicion.slug).getTestHistory();
+        if (testHistory.length === 0) {
+          analytics.activationMilestone({
+            userId: user.id,
+            milestone: 'first_test',
+          });
+        }
+      }
     }
   };
 
@@ -131,6 +154,7 @@ export default function OposicionTestPage() {
     const wrongAnswers = userAnswers.filter((answer) => !answer.correct).map((answer) => answer.questionId);
 
     const topicLabel = selectedTopic && selectedTopic !== 'general' ? (topicMap[selectedTopic] ?? selectedTopic) : 'General';
+    const testId = `${oposicion.slug}-${selectedTopic}-${startTime}`;
 
     storage.forOposicion(oposicion.slug).addTestResult({
       id: `test-${Date.now()}`,
@@ -141,6 +165,19 @@ export default function OposicionTestPage() {
       timeSpent,
       wrongAnswers,
     });
+
+    // Track test completed
+    if (user?.id) {
+      analytics.testCompleted({
+        userId: user.id,
+        testId,
+        testType: 'practice',
+        subject: topicLabel,
+        score: correctCount,
+        totalQuestions,
+        timeSpentSeconds: timeSpent,
+      });
+    }
 
     setTestComplete(true);
   };
