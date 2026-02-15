@@ -1,5 +1,5 @@
 // Auto-generated-style types for Supabase database
-// Based on migrations 00001-00003
+// Based on migrations 00001-00009
 
 export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[];
 
@@ -30,6 +30,7 @@ export interface Database {
           organization_id: string;
           user_id: string;
           role: string;
+          status: string;
           joined_at: string;
         };
         Insert: { organization_id: string; user_id: string; role: string };
@@ -38,15 +39,15 @@ export interface Database {
       user_profiles: {
         Row: {
           id: string;
-          user_id: string;
           full_name: string | null;
           avatar_url: string | null;
           phone: string | null;
+          role: string;
           is_super_admin: boolean;
           metadata: Json;
           created_at: string;
         };
-        Insert: { user_id: string } & Partial<Omit<Database['public']['Tables']['user_profiles']['Row'], 'id' | 'user_id'>>;
+        Insert: { id: string } & Partial<Omit<Database['public']['Tables']['user_profiles']['Row'], 'id'>>;
         Update: Partial<Database['public']['Tables']['user_profiles']['Row']>;
       };
       opposition_categories: {
@@ -302,6 +303,8 @@ export interface Database {
     Functions: {
       get_user_org_ids: { Args: Record<string, never>; Returns: string[] };
       get_user_roles: { Args: { org_id: string }; Returns: string[] };
+      get_user_role: { Args: { target_user_id?: string }; Returns: string };
+      is_admin: { Args: { target_user_id?: string }; Returns: boolean };
       is_super_admin: { Args: Record<string, never>; Returns: boolean };
     };
     Enums: Record<string, never>;

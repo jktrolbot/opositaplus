@@ -28,7 +28,7 @@ export async function getStudentProfile(organizationId: string, userId: string) 
     supabase
       .from('user_profiles')
       .select('*')
-      .eq('user_id', userId)
+      .eq('id', userId)
       .single(),
     supabase
       .from('study_progress')
@@ -45,8 +45,6 @@ export async function getStudentProfile(organizationId: string, userId: string) 
 }
 
 export async function inviteStudent(organizationId: string, email: string) {
-  const supabase = await createClient();
-
   // Check if user exists
   // Note: in production, you'd use admin API or send invitation email
   // For now, create a placeholder membership once user registers
